@@ -1,8 +1,15 @@
 <!doctype html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
     <style>
+
+      header {
+        margin-top: 15px;
+        margin-bottom: 45px;
+        text-align: center;
+      }
 
       #brand {
         background-color: #ddd;
@@ -15,16 +22,24 @@
 
       body {
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 50%;
-        transform: translateX(-50%) translateY(-40%);
+        transform: translateX(-50%) translateY(-50%);
         font-size: 18pt;
         font-family: Verdana;
       }
 
-      header {
+      @media (max-width: 700px) {
+        body {
+          top: 0%;
+          left: 0%;
+          transform: none;
+          margin: 5%;
+        }
+        header { 
+        }
       }
-      
+
       #mc_embed_signup {
         background: #fff;
         clear: left;
@@ -36,7 +51,6 @@
         height: 200px;
       }
 
-
       #mce-response {
         padding: 0;
         width: 100%;
@@ -44,21 +58,23 @@
 
     </style>
   </head>
+
   <body>
+
     <section>
-    <header>
-      <span id="brand">DocNow</span>
-    </header>
+
+      <header>
+        <span id="brand">DocNow</span>
+      </header>
 
       <p>
-      DocNow will be an open-source web application for archiving 
+      DocNow will be an cloud ready, open-source web application for archiving
       and studying web content using social media streams.
       </p>
 
       <p>
       We're just getting started, but if you would like to hear more 
-      as the work gets underway please sign up for our newsletter to get 
-      project updates.
+      as the work gets underway please sign up for our newsletter.
       </p>
 
       <p>
