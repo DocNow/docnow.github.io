@@ -5,6 +5,19 @@
     <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
     <style>
 
+      body {
+        display: flex;
+        align-items: center;
+        min-height: 24em;
+        justify-content: center;
+        font-size: 18pt;
+        font-family: Verdana;
+      }
+
+      section {
+        max-width: 50%;
+      }
+
       header {
         margin-top: 15px;
         margin-bottom: 45px;
@@ -12,12 +25,12 @@
       }
 
       footer {
-        margin-top: 5px;
+        margin-top: 30px;
         text-align: center;
       }
 
       footer img {
-        width: 30px;
+        width: 60px;
       }
 
       a {
@@ -29,30 +42,13 @@
         padding: 3px 10px 3px 10px;
         color: #444;
         font-weight: bold;
-        font-size: 40pt;
+        font-size: 80pt;
         border: 7px solid #444;
       }
-
-      body {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        font-size: 14pt;
-        font-family: Verdana;
-      }
-
+      
       @media (max-width: 700px) {
         #brand {
-          font-size: 40pt;
-        }
-        body {
-          top: 0%;
-          left: 0%;
-          transform: none;
-          margin: 5%;
-        }
-        header { 
+          font-size: 20pt;
         }
       }
 
@@ -60,11 +56,11 @@
         background: #fff;
         clear: left;
         background: #ddd;
-        font-size: 12pt;
+        font-size: 16pt;
       }
 
       input {
-        font-size: 12pt;
+        font-size: 14pt;
       }
 
       #mc-embedded-subscribe {
