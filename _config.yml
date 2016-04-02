@@ -1,0 +1,8 @@
+title: Documenting the Now
+email: info@docnow.io
+description: > # this means to ignore newlines until "baseurl:"
+  Documenting the Now is a Mellon funded project to provide tools and 
+  communities of practice around social media archiving.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.docnow.io" # the base hostname & protocol for your site
+markdown: kramdown
