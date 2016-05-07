@@ -16,6 +16,10 @@ header {
   text-align: center;
 }
 
+header img {
+  width: 100%;
+}
+
 footer {
   margin-top: 30px;
   text-align: center;
