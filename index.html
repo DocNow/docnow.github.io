@@ -1,84 +1,393 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>DocNow</title>
     <meta charset="utf-8">
-    <meta property="og:locale" content="en-US">
-    <meta property="og:title" content="DocNow">
-    <meta property="og:image" content="http://www.docnow.io/images/docnow.png">
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="DocNow"/>
-    <meta property="og:url" content="http://www.docnow.io/" />
-    <meta property="og:description" content="DocNow will be an open-source web application for analyzing and archiving web content using social media streams.">
-    <meta name="author" content="Ed Summers">
-    <meta name="keywords" content="archiving,content,socialmedia,twitter,streams">
-    <meta name="description" content="DocNow will be an open-source web application for analyzing and archiving web content using social media streams.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <title>DocNow</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Slick slider css -->
+    <link href="css/skdslider.css" rel="stylesheet">
+    <!-- Font awesome css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- smooth animate css file -->
+    <link rel="stylesheet" href="css/animate.css"> 
+    <!-- Main style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>     
+   
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
 
   <body>
+  <!-- BEGAIN PRELOADER -->
+ <!-- <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div> -->
+  <!-- END PRELOADER -->
 
-    <section>
-
-      <header>
-        <a href="/"><img alt="DocNow" src="images/logo.png"></img></a>
-      </header>
-
-      <p>
-      DocNow <em>will be</em> an open-source web application for 
-      analyzing and archiving web content using social media streams.
-      </p>
-
-      <p>
-      We're <a href="http://library.wustl.edu/8497-2/">just</a> <a href="http://ucrtoday.ucr.edu/34255">getting</a> <a href="https://www.arhu.umd.edu/news/documenting-now-archiving-social-media-generations-come">started</a>, but if you would like to hear more please join us in <a href="https://docs.google.com/forms/d/1Wk0JdF2Cty2VHMqpf_QlJXVKQdUtfeeFhaYRben3qaM/viewform">Slack</a>, follow our <a href="https://news.docnow.io/">blog</a>, or sign up for our newsletter.
-      </p>
-
-      <p>
-      <div id="mc_embed_signup">
-      <form action="//inkdroid.us7.list-manage.com/subscribe/post?u=aa957f199d8ddd438cfce75a4&amp;id=0a5b6f7d12" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div id="mc_embed_signup_scroll">
-        <h2>Sign up for our newsletter</h2>
-      <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-      <div class="mc-field-group">
-        <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-      </label>
-        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-      </div>
-      <div class="mc-field-group">
-        <label for="mce-FNAME">First Name </label>
-        <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-      </div>
-      <div class="mc-field-group">
-        <label for="mce-LNAME">Last Name </label>
-        <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-      </div>
-      <div class="mc-field-group input-group">
-          <strong>Email Format </strong>
-          <ul><li><input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0"><label for="mce-EMAILTYPE-0">html</label></li>
-      <li><input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1"><label for="mce-EMAILTYPE-1">text</label></li>
-      </ul>
-      </div>
-        <div id="mce-responses" class="clear">
-          <div class="response" id="mce-error-response" style="display:none"></div>
-          <div class="response" id="mce-success-response" style="display:none"></div>
-        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_aa957f199d8ddd438cfce75a4_0a5b6f7d12" tabindex="-1" value=""></div>
-          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+  <!-- START HEADER SECTION -->
+  <header id="headerArea">
+    <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="slider_area">           
+          <div class="menuarea"> 
+            <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <!-- For Text Logo -->
+                 <a class="navbar-brand logo" href="#">DOCNOW</a>
+                 <!-- For Img Logo -->
+                  <!--  <a class="navbar-brand logo" href="#"><img src="img/logo.png" alt="logo"></a> -->
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right custom_nav mobnav" id="top-menu">
+                    <li><a href="#featuresSection">ABOUT</a></li>
+                    <li><a href="#theteam">THE TEAM</a></li>
+                    <li><a href="#advisoryboard">ADVISORY BOARD</a></li>
+                    <li><a href="#getinvolved">GET INVOLVED</a></li>
+                    <li><a href="#press">PRESS</a></li>
+                    <li><a href="#videoSection">WORKING WITH TWITTER</a></li>
+                  </ul>
+                </div><!--/.nav-collapse -->
+              </div>
+            </div>
           </div>
-      </form>
+          <ul id="demo1" class="slides">
+            <li>
+              <img src="img/slider/fergusonprotest.jpg" />
+              <!--Slider Description example-->
+              <div class="slide-desc">
+                <br><br><br><br><br>
+                <div class="slide_descleft">
+                  <br><br><br><br><br>
+                  <img src="img/Docnow_logo.png" alt="logo">
+                  <h4 style="color:white">DocNow is a tool and a community developed around supporting the ethical collection, use, and preservation of social media content.</h4>
+                </div>
+                <div class="slide_descright">
+                 <!--  <div class="header_btnarea">
+                    <a href="#featuresSection" class="learnmore_btn">Learn More</a>
+                    <a href="#" class="download_btn">Download</a> -->
+                </div>
+              </div>
+              </div>
+            </li>
+          </ul>           
+        </div>
+      </div>  
+    </div>      
+  </header>
+  <!-- END HEADER SECTION -->
+
+  <!-- START ABOUT SECTION -->
+  <section id="featuresSection">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="features_ara">
+            <h1>About</h1>
+            <p>DocNow responds to the public’s use of social media for chronicling historically significant events as well as demand from scholars, students, and archivists, among others, seeking a user-friendly means of collecting and preserving this type of digital content. DocNow has a strong commitment to prioritizing ethical practices when working with social media content, especially in terms of collection and long-term preservation. The project is a collaborative effort between the University of Maryland, University of California at Riverside, and Washington University in St. Louis. We are extremely grateful for funding from the Andrew W. Mellon Foundation.</p>
+            <div class="features_responsive">
+              <div class="row">
+                <div class="col-lg-3 col-md-6">
+                   <img src="img/ucr.jpg" alt="ucr" width="50%"/>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                   <img src="img/umd.jpg" alt="umd" width="50%"/>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                   <img src="img/wustl.jpg" alt="wustl" width="50%"/>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                   <img src="img/mellon.jpg" alt="mellon" width="50%"/>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div> 
+    </div>  
+  </section>
+      <!-- ARROWS UP AND DOWN -->
+    <div class="features_productarea sample_appparea">
+      <div class="direction_icon">
+        <a id="secondTop" class="dirc_up" href="#">
+          <i class="fa fa-chevron-up"></i>
+        </a>
+        <a id="secondBottom" class="dirc_down" href="#theteam">
+          <i class="fa fa-chevron-down"></i>
+        </a>
       </div>
-    </p>
 
-    <footer>
-      <a href="https://twitter.com/documentnow"><img src="images/twitter.png"></a>
-    </footer>
+   <!-- START TEAM AREA -->
+   <section id="theteam">
+   <div class="col-lg-12 col-md-12">
+          <div class="features_ara">
+            <h1>The Team</h1>   
+   <div class="features_responsive">
+              <div class="row">
+                <div class="col-lg-4 col-md-4">
+                  <div class="single_features_responsive wow fadeInUp">
+                    <img src="img/ChrisFreeland.jpeg" alt="Chris Freeland" />
+                    <h2>Chris Freeland</h2>
+                    <p>Administrative Lead<br>Associate University Librarian at Washington University, St. Louis</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <div class="single_features_responsive wow fadeInUp">
+                    <img src="img/BergisJules.jpeg" alt="Bergis Jules" />
+                    <h2>Bergis Jules</h2>
+                    <p>Community Lead<br>University and Political Papers Archivist at University of California, Riverside</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <div class="single_features_responsive wow fadeInUp">
+                    <img src="img/EdSummers.jpeg" alt="Ed Summers" />
+                    <h2>Ed Summers</h2>
+                    <p>Technical Lead<br>Lead Developer at Maryland Institute for Technology in the Humanities</p>
+                  </div>
+                </div>
+              </div>
+          <br><br>
+          </div>
+              <div class="row">
+                <div class="features_ara">
+                <div class="col-lg-3 col-md-6">
+                  <div class="single_features_responsive wow fadeInUp">
+                    <img src="img/DanChudnov.jpeg" alt="Dan Chudnov" />
+                    <h2>Dan Chudnov</h2>
+                    <p>Developer</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="single_features_responsive wow fadeInUp">
+                    <img src="img/ADM.jpeg" alt="Alexandra Dolan-Mescal" />
+                    <h2>Alexandra Dolan-Mescal</h2>
+                    <p>UX Designer</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="single_features_responsive wow fadeInUp">
+                    <img src="img/DesireeJonesSmith.jpeg" alt="Desiree Jones-Smith" />
+                    <h2>Desiree Jones-Smith</h2>
+                    <p>Project Manager</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="single_features_responsive wow fadeInUp">
+                    <img src="img/FrancisKayiwa.jpeg" alt="Francis Kayiwa" />
+                    <h2>Francis Kayiwa</h2>
+                    <p>Dev Ops Developer</p>
+                  </div>
+                </div>
+              </div>
+              </div>  
+</section>
+   <!-- ARROWS UP AND DOWN-->
+   
+    <div class="features_productarea sample_appparea">
+      <div class="direction_icon">
+        <a id="secondTop" class="dirc_up" href="#">
+          <i class="fa fa-chevron-up"></i>
+        </a>
+        <a id="secondBottom" class="dirc_down" href="#">
+          <i class="fa fa-chevron-down"></i>
+        </a>
+   </div>
 
+<!-- ADVSIORY BOARD SECTION -->   
+ <section id="advisoryboard">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="features_ara">
+            <h1>Advisory Board</h1>
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                   <strong>Natalie Baur</strong><br>Archivist, University of Miami</br>
+                   <strong>Meredith Clark</strong><br>Assistant Professor of Journalism, University of North Texas</br>
+                  <strong>Tressie McMillan Cottom</strong><br>Assistant Professor of Sociology, Virginia Commonwealth University<br>
+                  <strong>Brian Dietz</strong><br>Digital Program Librarian, North Carolina Statue University<br>
+                  <strong>Jarrett Drake</strong><br>Digital Archivist, Princeton University<br>
+                  <strong>Meredith Evans</strong><br>Director, Jimmy Carter Presidential Library and Museum<br>
+                  <strong>Jonathan Fenderson</strong><br>Assistant Professor of African & American Studies, Washington University St. Louis<br>
+                  <strong>Deen Freelon</strong><br>Assistant Professor of Communication, American University</br>
+                  <strong>Jessica Johnson</strong><br>Assistant Professor of History, Michigan State University<br>
+                  <strong>Robin Katz</strong><br>Public Services Librarian, University of California at Riverside
+             
+                </div>
+                <div class="col-lg-6 col-md-6">
+                        <strong>David Kim</strong><br>Mellon Postdoctoral Fellow, Occidental College<br>
+                    <strong>Mark Anthony Neal</strong><br>Professor of African American Studies, Duke University<br>
+                    <strong>Michael Nelson</strong><br>Professor of Computer Science, Old Dominion University<br>
+                    <strong>Yvonne Ng</strong><br>Senior Archivist, WITNESS<br>
+                    <strong>Matt Phillips</strong><br>Lead Developer, Library Innovation Lab at Harvard University<br>
+                    <strong>Rashawn Ray</strong><br>Assistant Professor of Sociology, University of Maryland<br>
+                    <strong>Nicholas Taylor</strong><br>Web Archiving Service Manager, Stanford University<br>
+                    <strong>Dexter Thomas</strong><br>Writer, Los Angeles Times<br>
+                    <strong>Stacie Williams</strong><br>Learning Lab Manager, University of Kentucky<br>
+                    <strong>Micah Zeller</strong><br>Copyright and Digital Access Librarian, Washington University St Louis
+              </div>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- ARROWS UP AND DOWN -->
+    <div class="features_productarea sample_appparea">
+      <div class="direction_icon">
+        <a id="secondTop" class="dirc_up" href="#">
+          <i class="fa fa-chevron-up"></i>
+        </a>
+        <a id="secondBottom" class="dirc_down" href="#">
+          <i class="fa fa-chevron-down"></i>
+        </a>
+      </div>
+
+<!-- GET INVOLVED SECTION -->   
+ <section id="getinvolved">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="features_ara">
+            <h1>Get Involved</h1>
+            <div class="features_responsive">
+              <div class="row">
+                <div class="col-lg-3 col-md-3">
+                   <a href="http://twitter.com/documentnow"><img src="img/twitter.png" alt="twitter" width="50%"/>
+                   <p>twitter.com/documentnow</p></a>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                   <a href="http://github.com/docnow"><img src="img/github.png" alt="github" width="50%"/>
+                   <p>github.com/docnow</p></a>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                   <a href="http://news.docnow.io"><img src="img/medium.png" alt="medium" width="50%"/>
+                   <p>news.docnow.io</p></a>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                   <a href="http://docnowteam.slack.com"><img src="img/slack.png" alt="slack" width="50%"/>
+                   <p>docnowteam.slack.com</p></a>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div>
+    </section>
+
+          <!-- ARROWS UP AND DOWN -->
+    <div class="features_productarea sample_appparea">
+      <div class="direction_icon">
+        <a id="secondTop" class="dirc_up" href="#">
+          <i class="fa fa-chevron-up"></i>
+        </a>
+        <a id="secondBottom" class="dirc_down" href="#">
+          <i class="fa fa-chevron-down"></i>
+        </a>
+      </div>
+
+  <!-- START ABOUT SECTION -->
+  <section id="press">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="features_ara">
+            <h1>Press</h1>
+          </div>
+              <div class="row">
+        <div class="col-lg-12 col-md-12">
+            <ul>
+            <li>May 11, 2016 <a href="https://www.diglib.org/archives/11840/">NDSA’s Digital Preservation 2016 keynoter is Bergis Jules!</a>, Digital Libraries Federation</li>
+            <li>May 02, 2016 <a href="http://lj.libraryjournal.com/2016/05/digital-content/documenting-the-now-builds-social-media-archive">Documenting the Now Builds Social Media Archive</a>, Library Journal</li>
+            <li>Feb 16, 2016 <a href="http://mith.umd.edu/introducing-documenting-the-now/">Introducing Documenting the Now</a>, Maryland Institute for Technology in the Humanities</li>
+            <li>Jan 26, 2016 <a href="http://www.highlandernews.org/22196/ucr-receives-517000-to-collaborate-on-social-media-archiving-project/">UCR receives $517,000 to collaborate on social media archiving project</a>, The Highlander</li>
+            <li>Jan 20, 2016 <a href="http://library.wustl.edu/8497-2/">Documenting the Now: Archiving Social Media for Generations to Come</a>, WUSTL University Libraries</li>
+            <li>Sep 01, 2015 <a href="https://lab.witness.org/community-based-approaches-to-archives-from-the-black-lives-matter-movement/">Community-Based Approaches to Archives From the Black Lives Matter Movement</a>, WITNESS</li>
+             <li>Aug 30, 2015 <a href="http://www.studlife.com/news/2015/08/30/olin-library-displays-archive-of-ferguson-documents-images/">Olin Library displays archive of Ferguson documents, images</a>, StudentLife, WUSTL</li>
+            <li>Aug 15, 2015 <a href="http://www.processhistory.org/documenting-ferguson/">Documenting Ferguson – Process</a>, PROCESS</li>
+            <li>Sep 02, 2014 <a href="http://digitalhumanitiesnow.org/2014/09/editors-choice-on-archiving-tweets/">Editors’ Choice: On Archiving Tweets</a>, Digital Humanities Now</li>
+          </ul>
+           </div>
+        </div> 
+      </div>
+    </div>  
   </section>
 
-  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-  <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+          <!-- ARROWS UP AND DOWN -->
+    <div class="features_productarea sample_appparea">
+      <div class="direction_icon">
+        <a id="secondTop" class="dirc_up" href="#">
+          <i class="fa fa-chevron-up"></i>
+        </a>
+        <a id="secondBottom" class="dirc_down" href="#">
+          <i class="fa fa-chevron-down"></i>
+        </a>
+      </div>
+
+  <!-- START VIDEO SECTION -->
+  <section id="videoSection">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="video_area">
+            <h1>Working with Twitter's Terms of Service</h1>
+            <p>Lorem ipsum dolor sit amet. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming.</p>
+           
+          </div>
+        </div>
+      </div>
+    </div>      
+  </section>
+  <!-- END VIDEO SECTION -->
+  
+  <!-- START FOOTER SECTION -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="footer_area">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END FOOTER SECTION -->
+
+  <!-- JQuery Files -->
+
+  <!-- Initialize jQuery Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- Google map -->
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src="js/jquery.ui.map.js"></script>  
+  <!-- Skds slider -->
+  <script src="js/skdslider.min.js"></script>
+  <!-- Bootstrap js  -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- For smooth animatin  -->
+  <script src="js/wow.min.js"></script> 
+
+  <!-- Custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
 
   </body>
 </html>
