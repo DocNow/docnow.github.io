@@ -355,8 +355,8 @@ img{border: none;}
   border-top: 1px solid #DCDCDC;
   display: inline;
   float: left;
-  margin-top: 155px;
-  padding-top: 142px;
+  margin-top: 100px;
+  padding-top: 100px;
   position: relative;
   width: 100%;
 }
@@ -1135,10 +1135,11 @@ img{border: none;}
 /*--------------------*/
 
 #footer{
+  background-color: #F8F8F8;
   float: left;
   display: inline;
   width: 100%;
-  background-color: #fff;
+ 
   padding: 25px 0px
 }
 .footer_area{
