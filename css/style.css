@@ -355,8 +355,8 @@ img{border: none;}
   border-top: 1px solid #DCDCDC;
   display: inline;
   float: left;
-  margin-top: 155px;
-  padding-top: 142px;
+  margin-top: 100px;
+  padding-top: 100px;
   position: relative;
   width: 100%;
 }
@@ -1135,10 +1135,11 @@ img{border: none;}
 /*--------------------*/
 
 #footer{
+  background-color: #F8F8F8;
   float: left;
   display: inline;
   width: 100%;
-  background-color: #fff;
+ 
   padding: 25px 0px
 }
 .footer_area{
@@ -1198,7 +1199,7 @@ img{border: none;}
   .scrollToTop{ right: 5px;}
   .slider_content > p {color: #909090;font-family: 'Roboto-Light';font-size: 18px;padding: 0 53px;}
   .navbar-header {text-align: center;width: 100%;}
-  .navbar-brand {float: none;margin: 11px padding-bottom: 20px; 20px auto 0 !important;width: 230px;}
+  .navbar-brand {float: none;margin: 11px auto 0 !important;width: 230px;}
   .direction_icon {left: 39%;}
   .slide_descright h1 {font-size: 20px;margin-bottom: 18px;}
   .skdslider .slide-desc{top: 25%;}
