@@ -287,44 +287,41 @@ img{border: none;}
   width: 100%;
   margin-top: 50px;
 }
-.features_ara{
+.center_area{
   float: left;
   display: inline;
   width: 100%;
   text-align: center;
 }
-
+.center_area h1 {
+  color: #55acee; 
+  font-size: 47px;
+  margin-bottom: 15px;
+}
+.center_area p {
+  color: #606060;
+  font-size: 18px;
+  line-height: 28px;
+}
 .news_area{
   float: left;
-  margin-left: 100px;
+  margin-left: 60px;
   display: inline;
   width: 100%;
-
-
 }
+
 .news_area p {
   color: #606060;
   font-size: 18px;
   line-height: 28px;
 }
 
-.features_ara h1 {
-  color: #55acee; 
-  font-size: 47px;
-  margin-bottom: 15px;
-}
-.features_ara p {
-  color: #606060;
-  font-size: 18px;
-  line-height: 28px;
-}
 .features_responsive {
   display: inline;
   float: left;
   margin-top: 67px;
   width: 100%;
 }
-
 .single_features_responsive {
   border: 1px solid #DCDCDC;
   display: inline;
@@ -366,7 +363,7 @@ img{border: none;}
   text-align: justify;
 }
 
-.features_productarea {
+.features_divider_arrows {
   border-top: 1px solid #DCDCDC;
   display: inline;
   float: left;
@@ -894,83 +891,7 @@ img{border: none;}
   background-color: #55ACEE;
 }
 
-/*--------------------*/
-/* CLIENTS */
-/*--------------------*/
-
-#clients {
-  display: inline;
-  float: left;
-  padding: 100px 0;
-  width: 100%;
-}
-.clients_area{
-  float: left;
-  display: inline;
-  width:100%;
-  text-align: center;
-}
-.clients_area p {
-  font-size: 18px;
-  color: #606060;
-}
-.client_slider {
-  display: inline;
-  float: left;
-  margin-top: 106px;
-  position: relative;
-  width: 100%;
-}
-.client_slider ul{
-  margin: 0;
-  padding: 0;
-}
-.client_slider li {
-  float: left;
-  list-style: none outside none;
-  margin-right: 80px;
-}
-.client_slider li:last-child{
-  margin-left: 70px;
-}
-.client_slider li a {
-  display: block;
-  float: left;
-  height: 100%;
-  width: 100%;
-}
-.clientSlider_left {
-  border: 1px solid #DDDDDD;
-  border-radius: 100%;
-  color: #DCDCDC;
-  display: inline-block;
-  font-size: 27px;
-  height: 42px;
-  position: absolute;
-  right: 120px;
-  top: -200px;
-  width: 42px;
-}
-.clientSlider_right{
-  border: 1px solid #DDDDDD;
-  border-radius: 100%;
-  color: #DCDCDC;
-  display: inline-block;
-  font-size: 27px;
-  height: 42px;
-  position: absolute;
-  right: 60px;
-  top: -200px;
-  width: 42px;
-}
-.clientSlider_left:hover,.clientSlider_left:focus,.clientSlider_right:hover,.clientSlider_right:focus{
-  background-color: #55ACEE;
-  color: #fff;
-  text-decoration: none;
-  outline: none;
-  border: 1px solid #55ACEE;
-}
-
+/
 /*--------------------*/
 /* CONTACT */
 /*--------------------*/
