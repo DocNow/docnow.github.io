@@ -293,6 +293,21 @@ img{border: none;}
   width: 100%;
   text-align: center;
 }
+
+.news_area{
+  float: left;
+  margin-left: 100px;
+  display: inline;
+  width: 100%;
+
+
+}
+.news_area p {
+  color: #606060;
+  font-size: 18px;
+  line-height: 28px;
+}
+
 .features_ara h1 {
   color: #55acee; 
   font-size: 47px;
