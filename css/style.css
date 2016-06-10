@@ -14,11 +14,9 @@ Tags: light, white, App landing page,landing page,single page,Bootstrap,responsi
   #BASIC TYPOGRAPHY
   #HEADER
   #FEATURE SECTION
-  #VIDEO SECTION
   #FOOTER
   #RESPONSIVE CSS 
 */
-
 
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
@@ -26,24 +24,25 @@ Tags: light, white, App landing page,landing page,single page,Bootstrap,responsi
 
 body{
   overflow-x: hidden !important; 
-  
 }
+
 h1,h2,h3,h4,h5,h6{
   font-family: 'Roboto', sans-serif;
   color: #55acee;
 }
+
  h1 {
   color: #55acee  
   font-size: 47px;
   margin-bottom: 15px;
   margin-top: 0;
-
-  
 }
+
 a:hover,a:focus{
   text-decoration: none;
   outline: none;
 }
+
 img{border: none;}
 .container{
   -webkit-transition: all 0.5s;
@@ -52,6 +51,7 @@ img{border: none;}
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
+
 /* Preloader */
 #preloader {
   position: fixed;
@@ -325,24 +325,7 @@ img{border: none;}
   width: 100%;  
   margin-left:0px;
 }
-.desktop_icon{
-  color: #55ACEE;
-  display: inline-block;
-  font-size: 48px !important;
-  margin-top: 70px;
-}
-.font_icon {
-  color: #55ACEE;
-  display: inline-block;
-  font-size: 48px !important;
-  margin-top: 70px;
-}
-.html_icon{
-  color: #55ACEE;
-  display: inline-block;
-  font-size: 48px !important;
-  margin-top: 70px;
-}
+
 .single_features_responsive img{
   margin-top: 70px;
 }
@@ -368,36 +351,10 @@ img{border: none;}
   width: 100%;
 }
 
-.featprodcs_img{
-  float: left;
-  display: inline;
-  width: 95%;
-  text-align: center;
-  margin-top: 7px;
-}
-
-.featprodcs_content {
-  display: inline;
-  float: left;
-  text-align: left;
-  width: 100%;
-  margin-left: 0px;
-}
 .features_widget{
   margin-top: 35px;
 }
-.featprodcs_content h1{
-  text-align: left;
-  color: #55ACEE;  
-  font-size: 47px;
-  margin-bottom: 30px;
-  margin-top: 0px;  
-}
-.featprodcs_content p{
-  text-align: left;
-  color: #606060;
-  font-size: 17px;  
-}
+
 .img-responsive {
   display: inline-block;
   height: auto;
@@ -559,39 +516,6 @@ img{border: none;}
 
 
 /*--------------------*/
-/* VIDEO SECTION */
-/*--------------------*/
-
-#videoSection {
-  background-color: #F8F8F8;
-  display: inline;
-  float: left;
-  min-height: 500px;
-  padding: 100px 0;
-  text-align: center;
-  width: 100%;
-}
-.video_area{
-  float: left;
-  display: inline;
-  width: 100%;
-}
-.video_area> p {
-  color: #606060;  
-  font-size: 20px;
-  margin-top: 25px;
-}
-.featured_video {
-  display: inline;
-  float: left;
-  height: 540px;
-  margin-top: 50px;
-  padding: 0 6%;
-  width: 100%;
-}
-
-/
-/*--------------------*/
 /* FOOTER */
 /*--------------------*/
 
@@ -630,7 +554,6 @@ img{border: none;}
 
 
 @media(max-width:1199px){
-  .featprodcs_content h1 { font-size: 40px;}
   .single_pricelist {margin-bottom: 150px;}
   .client_slider li {margin-right: 46px;}
   .client_slider li:last-child { margin-left: 0;}
@@ -646,7 +569,6 @@ img{border: none;}
   .custom_nav {margin-top: 0;margin-bottom: 10px;}
   .custom_nav li a { font-size: 14px;margin-left: 2px;margin-right: 2px;}
   .single_features_responsive {margin-bottom: 75px;}
-  .featprodcs_content {margin-top: 75px;}
   .secondfeatures_prodsarea { margin-top: 75px;}
   .appdownload_area { margin-top: 50px;}
   .app_area { padding-bottom: 50px;}
@@ -684,7 +606,6 @@ img{border: none;}
   .header_content p {font-size: 18px;margin-top: 25px;}
   .download_btn{margin-top:35px;}
   .single_features_responsive {margin-bottom: 75px;}
-  .featprodcs_content {margin-top: 75px;}
   .secondfeatures_prodsarea { margin-top: 75px;}
   .direction_icon { left: 30%;width: 170px;}
   .newsletter_right form { background: none repeat scroll 0 0 rgba(0, 0, 0, 0);margin: 35px auto;width: 100%;}
@@ -708,7 +629,6 @@ img{border: none;}
   .skdslider .slide-desc > h1 {font-size: 18px;margin-bottom: 0;margin-top: 91px;}
   .skdslider .slide-desc > p {font-size: 15px;line-height: 16px;margin-top: 0;padding: 8px;}
   .header_btnarea {margin-top: 10px;}
-  .featured_video{height: auto;}
   .features_responsive {padding: 0 5%;}
   .single_features_responsive {margin-left: 0px;}
   .direction_icon {left: 27%;}
