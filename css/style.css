@@ -574,7 +574,7 @@ img{border: none;}
   .direction_icon {left: 41%;}
   .dirc_up{margin-left: 0px;}
   .slide_descright{margin-top: 12%;}
-  .slide_descright1 {margin-top: 12%;}
+ 
 }
 
 
@@ -607,6 +607,7 @@ img{border: none;}
   .skdslider .slide-desc > h1 {font-size: 35px;  margin-bottom: 0px;  margin-top: 106px;}
   .skdslider .slide-desc > p {color: #FFFFFF;font-family: 'Roboto-Thin';font-size: 19px;line-height: 18px;margin-top:5px;padding: 8px;}
   .skdslider {height: 500px;}   
+   .slide_descright1 {margin-top: 12%;}
 }
 
 @media(max-width:767px){
