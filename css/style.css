@@ -253,12 +253,12 @@ img{border: none;}
 .slide_descleft{
   float: left;
   display: inline;
-  width: 40%;
+  width: 35%;
 }
 .slide_descright{
   float: right;
   display: inline;
-  width: 58%;
+  width: 50%;
   margin-top: 15%;
 }
 .slide_descright h1 { 
@@ -270,6 +270,18 @@ img{border: none;}
   font-size: 16px;
 }
 
+.slide_descright1 {
+  float: right;
+  display: inline;
+  width: 25%;
+  margin-top: 30%;
+}
+
+.slide_descright1 p {
+ text-align: right;
+  color: #fff;
+
+} 
 /*--------------------*/
 /* FEATURE SECTION */
 /*--------------------*/
@@ -562,6 +574,7 @@ img{border: none;}
   .direction_icon {left: 41%;}
   .dirc_up{margin-left: 0px;}
   .slide_descright{margin-top: 12%;}
+  .slide_descright1 {margin-top: 12%;}
 }
 
 
@@ -635,6 +648,8 @@ img{border: none;}
   .navbar-nav.navbar-right:last-child {margin-right: -16px;}
   .slide_descleft {display: none;}/* when mobile device found slide descleft mobile app img will be hidden*/
   .slide_descright{width: 100%;padding: 0 2%;}
+  .slide_descright1 {width: 60%; padding: 20 20%;}
+  .slide_descright1 p {color:black;}
   .container > .navbar-header, .container > .navbar-collapse {margin-left: 0px; margin-right: 0px;}
   .navbar-toggle{margin-right: 0px;}
 
