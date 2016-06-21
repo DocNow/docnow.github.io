@@ -156,12 +156,13 @@
   /*  6. GOOGLE MAP
   /* ----------------------------------------------------------- */
 
-  var zoom= $('#map_canvas').gmap('option', 'zoom');
+  /* var zoom= $('#map_canvas').gmap('option', 'zoom');
     
   $('#map_canvas').gmap().bind('init', function(ev, map) {
     $('#map_canvas').gmap('addMarker', {'position': '57.7973433,12.0502107', 'bounds': true});
     $('#map_canvas').gmap('option', 'zoom', 13);
   });
+ */ 
 
  
   /* ----------------------------------------------------------- */
