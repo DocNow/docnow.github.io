@@ -135,11 +135,12 @@ img{border: none;}
 .logo {
   color: #55acee !important;
   display: block; 
-  font-size: 30px !important;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  padding: 14px 10px;
+  font-size: 20px !important;
   text-align: center;  
+}
+
+.logo img {
+    width: 30px;
 }
 
 .logo a:hover{
@@ -154,9 +155,6 @@ img{border: none;}
 	display: inline;
 	width: 100%;
 }
-.custom_nav {
-  margin-top: 19px;
-}
 #navbar{overflow-x: hidden;}
 .navbar-nav.navbar-right:last-child {
   margin-right: -18px;
@@ -167,8 +165,6 @@ img{border: none;}
   font-size: 15px;
   margin-left: 5px;
   margin-right: 5px;
-  padding-bottom: 15px;
-  padding-top: 12px;
   text-transform: uppercase; 
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
