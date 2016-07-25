@@ -1,68 +1,77 @@
+html,
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18pt;
-  font-family: Verdana;
+    height: 100%;
+    font-size: 16pt;
 }
 
-section {
-  max-width: 50%;
+.carousel,
+.item,
+.active {
+    height: 100%;
 }
 
-header {
-  margin-top: 15px;
-  margin-bottom: 45px;
-  text-align: center;
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 footer {
-  margin-top: 30px;
-  text-align: center;
+    margin: 50px 0;
+    font-size: 12pt;
 }
 
-footer img {
-  width: 60px;
+.desc {
+    position: fixed;
+    left: 150px;
+    top: 300px;
+    width: 250px;
+    font-size: 14pt;
 }
 
-a {
-  text-decoration: none;
+.desc img {
+    height: 100px;
 }
 
-#brand {
-  background-color: #ddd;
-  padding: 3px 10px 3px 10px;
-  color: #444;
-  font-weight: bold;
-  font-size: 80pt;
-  border: 7px solid #444;
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
 }
 
-#mc_embed_signup {
-  background: #fff;
-  clear: left;
-  font-size: 14pt;
-  border: 2px solid #ddd;
+.navbar-brand img {
+    height: 40px;
 }
 
-input {
-  font-size: 14pt;
+.navbar-nav li a {
+    line-height: 40px;
+    font-size: 12pt;
+    font-weight: bold;
 }
 
-#mc-embedded-subscribe {
-  height: 200px;
+h1 {
+    color: #55acee;
+    text-align: center;
 }
 
-#mce-response {
-  padding: 0;
-  width: 100%;
+.person {
+    outline: thin solid #ccc;
+    margin: 20px;
+    padding: 20px;
 }
 
-@media (max-width: 700px) {
-  #brand {
-    font-size: 40pt;
-  }
-  section {
-    max-width: 85%;
-  }
+.advisors {
+    font-size: 14pt;
+}
+
+.news-items {
+    font-size: 14pt;
 }
