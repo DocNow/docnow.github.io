@@ -1,50 +1,7 @@
 html,
 body {
-    height: 100%;
     font-size: 16pt;
-}
-
-.carousel,
-.item,
-.active {
-    height: 100%;
-}
-
-.carousel-inner {
-    height: 100%;
-}
-
-.fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-footer {
-    margin: 50px 0;
-    font-size: 12pt;
-}
-
-.desc {
-    position: fixed;
-    left: 150px;
-    top: 300px;
-    width: 250px;
-    font-size: 14pt;
-}
-
-.desc img {
-    height: 100px;
-}
-
-.navbar {
-    background-color: transparent;
-    background: transparent;
-    border-color: transparent;
+    margin-top: 35px;
 }
 
 .navbar-brand img {
@@ -62,28 +19,9 @@ h1 {
     text-align: center;
 }
 
-.person {
-    outline: thin solid #ccc;
-    margin: 20px;
-    padding: 20px;
+footer {
+    margin: 50px 0;
+    font-size: 12pt;
 }
 
-.advisors {
-    font-size: 14pt;
-}
 
-.news-items {
-    font-size: 14pt;
-}
-
-@media (max-width: 1199px) {
-    .desc {
-        display: none;
-    }
-}
-
-@media (min-width: 1200px) {
-    .desc {
-        display: block;
-    }
-}
