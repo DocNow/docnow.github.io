@@ -75,3 +75,15 @@ h1 {
 .news-items {
     font-size: 14pt;
 }
+
+@media (max-width: 1199px) {
+    .desc {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .desc {
+        display: block;
+    }
+}
