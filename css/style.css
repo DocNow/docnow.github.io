@@ -8,10 +8,15 @@ body {
     height: 40px;
 }
 
-.navbar-nav li a {
+.navbar-inverse .navbar-nav li a {
     line-height: 40px;
     font-size: 12pt;
     font-weight: bold;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    color: #55acee;
 }
 
 h1 {
