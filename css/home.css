@@ -1,0 +1,65 @@
+html,
+body {
+    height: 100%;
+    margin-top: 0px;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.desc {
+    position: fixed;
+    left: 150px;
+    top: 300px;
+    width: 250px;
+}
+
+.desc img {
+    height: 100px;
+}
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.person {
+    outline: thin solid #ccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .desc {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .desc {
+        display: block;
+    }
+}
+
+#get-involved a:hover {
+    text-decoration: none;
+}
+

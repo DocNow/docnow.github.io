@@ -1,0 +1,43 @@
+  <head>
+    <meta charset="utf-8">
+    <!--
+
+     _____          ___           ___           ___           ___           ___              
+    /  /::\        /  /\         /  /\         /__/\         /  /\         /__/\             
+   /  /:/\:\      /  /::\       /  /:/         \  \:\       /  /::\       _\_ \:\            
+  /  /:/  \:\    /  /:/\:\     /  /:/           \  \:\     /  /:/\:\     /__/\ \:\           
+ /__/:/ \__\:|  /  /:/  \:\   /  /:/  ___   _____\__\:\   /  /:/  \:\   _\_ \:\ \:\          
+ \  \:\ /  /:/ /__/:/ \__\:\ /__/:/  /  /\ /__/::::::::\ /__/:/ \__\:\ /__/\ \:\ \:\         
+  \  \:\  /:/  \  \:\ /  /:/ \  \:\ /  /:/ \  \:\~~\~~\/ \  \:\ /  /:/ \  \:\ \:\/:/         
+   \  \:\/:/    \  \:\  /:/   \  \:\  /:/   \  \:\  ~~~   \  \:\  /:/   \  \:\ \::/          
+    \  \::/      \  \:\/:/     \  \:\/:/     \  \:\        \  \:\/:/     \  \:\/:/           
+     \__\/        \  \::/       \  \::/       \  \:\        \  \::/       \  \::/            
+                   \__\/         \__\/         \__\/         \__\/         \__\/ 
+
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta property="og:locale" content="en-US">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="DocNow"/>
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="http://www.docnow.io/img/Docnow_logo.png">
+    <meta name="keywords" content="archiving,content,socialmedia,streams">
+    <meta name="description" content="DocNow is a tool and a community developed around supporting the ethical collection, use, and preservation of social media content.">
+    <meta property="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+    <link href="{{ site.baseurl }}/img/favicon.png" type="image/png" rel="shortcut icon">
+    <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/css/style.css" rel="stylesheet">
+    {% for css_name in page.extra_css %}<link href="{{ site.baseurl }}/css/{{ css_name }}" rel="stylesheet">{% endfor %}
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
