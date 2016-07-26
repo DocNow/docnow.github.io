@@ -29,7 +29,6 @@ body {
     left: 150px;
     top: 300px;
     width: 250px;
-    font-size: 14pt;
 }
 
 .desc img {
@@ -48,14 +47,6 @@ body {
     padding: 20px;
 }
 
-.advisors {
-    font-size: 14pt;
-}
-
-.news-items {
-    font-size: 14pt;
-}
-
 @media (max-width: 768px) {
     .desc {
         display: none;
@@ -67,3 +58,8 @@ body {
         display: block;
     }
 }
+
+#get-involved a:hover {
+    text-decoration: none;
+}
+
