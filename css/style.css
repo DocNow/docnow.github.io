@@ -1,6 +1,6 @@
 html,
 body {
-    font-size: 14pt;
+    font-size: 12pt;
     margin-top: 35px;
 }
 
@@ -16,13 +16,14 @@ body {
 }
 
 .navbar-inverse .navbar-nav li a:hover {
-    color: #55acee;
+    color: #5fa9dd;
 }
 
-h1 {
-    color: #55acee;
+h2 {
+    color: #5fa9dd;
     text-align: center;
     font-weight: normal;
+    padding-bottom: 20px;
 }
 
 footer {
