@@ -29,7 +29,7 @@ body {
     left: 150px;
     top: 150px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     width: 250px;
     background: rgb(25, 25, 25); /* Fall-back for browsers that don't
                                     support rgba */
@@ -55,6 +55,9 @@ body {
 @media (max-width: 768px) {
     .desc {
         display: none;
+    }
+    .row img {
+        width:100px;
     }
 }
 
