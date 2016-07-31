@@ -4,8 +4,9 @@ for development purposes you'll need to:
 * install [Ruby]
 * install [rvm]
 * `rvm gemset create docnow`
-* bundle install
-* jekyll serve
+* `gem install bundler`
+* `bundle install`
+* `jekyll serve`
 * open http://120.0.0.1:4000 in your browser
 
 [Jekyll]: https://jekyllrb.com/
