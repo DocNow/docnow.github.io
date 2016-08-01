@@ -3,6 +3,7 @@ for development purposes you'll need to:
 
 * install [Ruby]
 * install [rvm]
+* install [Jekyll]
 * `rvm gemset create docnow`
 * `gem install bundler`
 * `bundle install`

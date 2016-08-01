@@ -27,8 +27,13 @@ body {
 .desc {
     position: fixed;
     left: 150px;
-    top: 300px;
+    top: 150px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     width: 250px;
+    background: rgb(25, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(25, 25, 25, .5);
 }
 
 .desc img {
@@ -51,12 +56,23 @@ body {
     .desc {
         display: none;
     }
+    .row img {
+        width:100px;
+    }
 }
 
 @media (min-width: 769px) {
     .desc {
         display: block;
     }
+}
+
+#get-involved {
+    font-size: 10pt;
+}
+
+#get-involved img {
+    padding-bottom: 10px;
 }
 
 #get-involved a:hover {
