@@ -18,7 +18,7 @@ body {
     .navbar-header {
         height: 60px;
     }
-
+}
 .navbar-inverse .navbar-nav li a:hover {
     color: #5fa9dd;
 }
