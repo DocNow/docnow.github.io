@@ -31,13 +31,3 @@ $(function() {
     history.pushState("", document.title, loc.pathname + loc.search);
   }
 });
-
-$(function() {
-  $.ajax("https://news.docnow.io/feed/")
-    .done(function() {
-      console.log("success");
-    })
-    .fail(function() {
-      console.log("fail");
-    })
-})
