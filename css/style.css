@@ -4,6 +4,11 @@ body {
     margin-top: 35px;
 }
 
+@media all and (max-width: 960px) {
+  body {
+  margin-left: 10px;
+}
+}
 .navbar-brand img {
     height: 40px;
 }
@@ -37,20 +42,24 @@ footer {
     padding: 10px;
 }
 
-.youtube-container { 
-  position: relative; 
+.youtube-container {
+  position: relative;
   padding-bottom: 56.25%;
-  height: 0; 
+  height: 0;
   overflow: hidden;
   max-width: 100%;
   margin-bottom: 25px;
-} 
+}
 
 .youtube-container iframe, .youtube-container object, .youtube-container embed {
-  position: absolute; 
+  position: absolute;
   top: 0;
-  left: 0; 
+  left: 0;
   width: 100%;
   height: 100%;
   margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
 }
