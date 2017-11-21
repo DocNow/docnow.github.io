@@ -23,10 +23,10 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="DocNow"/>
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:image" content="http://www.docnow.io/img/Docnow_logo.png">
+    <meta property="og:image" content="{% if page.image %}{{ page.image }}{%
+    else %}http://www.docnow.io/img/Docnow_logo.png{% endif %}">
     <meta name="keywords" content="archiving,content,socialmedia,streams">
-    <meta name="description" content="DocNow is a tool and a community developed around supporting the ethical collection, use, and preservation of social media content.">
-    <meta property="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
     <link href="{{ site.baseurl }}/img/favicon.png" type="image/png" rel="shortcut icon">
     <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
