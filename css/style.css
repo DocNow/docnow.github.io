@@ -12,6 +12,7 @@ html, body {
   font-size: 12pt;
   font-weight: bold;
   color: white;
+  text-transform: uppercase;
 }
 
 .navbar-inverse .navbar-nav li a:hover {
@@ -19,11 +20,35 @@ html, body {
 }
 
 h2 {
-  color: #5fa9dd;
+  font-size: 14pt;
+  color: white;
+  background-color: black;
   text-align: center;
-  font-weight: normal;
-  padding-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 250px;
 }
+
+h4 {
+  font-size: 12pt;
+  color: black;
+  border: solid black 1px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+small a {
+    color: black;
+    background-color: yellow;
+  }
+
+
+a:hover {
+    text-decoration: none;
+  }
 
 footer {
   margin-top: 30px;
@@ -79,6 +104,10 @@ figcaption {
   color: white;
   opacity: .8;
   border-radius: 3px;
+}
+
+figcaption a {
+  color: yellow;
 }
 
 @media all and (max-width: 960px) {

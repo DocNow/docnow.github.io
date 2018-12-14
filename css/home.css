@@ -47,7 +47,7 @@ body {
 }
 
 .person {
-    outline: thin solid #ccc;
+    outline: thin solid black;
     margin: 20px;
     padding: 20px;
 }
@@ -70,9 +70,7 @@ body {
     }
 }
 
-#get-involved {
-    font-size: 10pt;
-}
+
 
 #get-involved img {
     padding-bottom: 10px;
@@ -82,3 +80,30 @@ body {
     text-decoration: none;
 }
 
+#get-involved a {
+  color: black;
+}
+
+#about a {
+  color: black;
+  background-color: yellow;
+}
+
+#the-team a {
+  color: black;
+  background-color: yellow;
+}
+
+ #meetings a {
+   color: black;
+   background-color: yellow;
+ }
+
+  #advisory-board a {
+    color: black;
+    background-color: yellow;
+  }
+  #news a {
+    color: black;
+    background-color: yellow;
+  }
