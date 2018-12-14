@@ -40,6 +40,12 @@ h4 {
   padding-bottom: 5px;
 }
 
+h4:hover {
+  color: white;
+  background-color:black;
+  border: solid black 1px;
+
+}
 small a {
     color: black;
     background-color: yellow;
