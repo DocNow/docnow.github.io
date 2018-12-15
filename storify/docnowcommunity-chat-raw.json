@@ -1,0 +1,1874 @@
+{
+  "content": {
+    "sid": "57894421a5d1f4423f3cc612",
+    "title": "DocNowCommunity Chat (RAW)",
+    "slug": "docnowcommunity-chat-raw",
+    "status": "published",
+    "template": null,
+    "version": 5,
+    "permalink": "https://storify.com/docnow/docnowcommunity-chat-raw",
+    "description": "These are tweets that were sent as part of the Documenting the Now Community chat on July 16th, 2016. This tweet collection is the raw chronlogical feed of tweets. For a more curated view that groups questions/answers & conversation threads see https://storify.com/docnow/docnowcommunity-chat",
+    "thumbnail": "https://storify.com/services/proxy/2/AR_7oV-ERf3Jq2plbKDZRw/https/pbs.twimg.com/media/CnVIraKUIAABTs5.jpg:large",
+    "date": {
+      "created": "2016-07-15T20:14:25.273Z",
+      "modified": "2017-12-13T14:09:22.635Z",
+      "published": "2016-07-15T20:24:08.497Z"
+    },
+    "private": false,
+    "not_indexed": false,
+    "is_spam": false,
+    "topics": [],
+    "siteposts": [],
+    "meta": {
+      "quoted": [
+        {
+          "username": "BergisJules",
+          "name": "Bergis Jules",
+          "userid": "1012488631",
+          "avatar": "https://twitter.com/BergisJules/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "documentnow",
+          "name": "DocumentingTheNow",
+          "userid": "3436812551",
+          "avatar": "https://twitter.com/documentnow/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "amdial",
+          "name": "Debbie Richards",
+          "userid": "169245726",
+          "avatar": "https://twitter.com/amdial/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "anna_kijas",
+          "name": "Anna Kijas",
+          "userid": "877755836",
+          "avatar": "https://twitter.com/anna_kijas/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "aavigorito",
+          "name": "aavigorito",
+          "userid": "229464356",
+          "avatar": "https://twitter.com/aavigorito/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "stephestellar",
+          "name": "Stephanie Bennett",
+          "userid": "103920297",
+          "avatar": "https://twitter.com/stephestellar/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "C_Fryer",
+          "name": "Chris Fryer",
+          "userid": "411403932",
+          "avatar": "https://twitter.com/C_Fryer/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "anarchivist",
+          "name": "Mx A. Matienzo",
+          "userid": "8729782",
+          "avatar": "https://twitter.com/anarchivist/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "yo_bj",
+          "name": "Becky Yoose",
+          "userid": "15822246",
+          "avatar": "https://twitter.com/yo_bj/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "amelish",
+          "name": "amelish",
+          "userid": "42409346",
+          "avatar": "https://twitter.com/amelish/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "melissa_hubbard",
+          "name": "Melissa Hubbard",
+          "userid": "164796788",
+          "avatar": "https://twitter.com/melissa_hubbard/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "sabramse",
+          "name": "Samantha Abrams",
+          "userid": "255170949",
+          "avatar": "https://twitter.com/sabramse/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "fromADMwithlove",
+          "name": "Alexandra DM",
+          "userid": "198925162",
+          "avatar": "https://twitter.com/fromADMwithlove/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "Joseph_Koivisto",
+          "name": "Joseph Koivisto",
+          "userid": "1224804428",
+          "avatar": "https://twitter.com/Joseph_Koivisto/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "nataliembaur",
+          "name": "natalie baur",
+          "userid": "242950665",
+          "avatar": "https://twitter.com/nataliembaur/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "michael_connor",
+          "name": "Michael Connor",
+          "userid": "16609885",
+          "avatar": "https://twitter.com/michael_connor/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "kcrowe",
+          "name": "Kate Crowe",
+          "userid": "7322852",
+          "avatar": "https://twitter.com/kcrowe/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "theucrlibrarian",
+          "name": "Steven M-G",
+          "userid": "2343738692",
+          "avatar": "https://twitter.com/theucrlibrarian/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "save4use",
+          "name": "Christie Peterson",
+          "userid": "22779978",
+          "avatar": "https://twitter.com/save4use/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "liblaura",
+          "name": "Laura Wrubel",
+          "userid": "35063411",
+          "avatar": "https://twitter.com/liblaura/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "justin_littman",
+          "name": "Justin Littman",
+          "userid": "481186914",
+          "avatar": "https://twitter.com/justin_littman/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "Sam_Winn",
+          "name": "Sam Winn",
+          "userid": "179614978",
+          "avatar": "https://twitter.com/Sam_Winn/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "bertramlyons",
+          "name": "Bertram Lyons",
+          "userid": "18485152",
+          "avatar": "https://twitter.com/bertramlyons/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "captain_maybe",
+          "name": "rachel mattson",
+          "userid": "16057909",
+          "avatar": "https://twitter.com/captain_maybe/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "clancynewyork",
+          "name": "Eileen Clancy",
+          "userid": "1711281463",
+          "avatar": "https://twitter.com/clancynewyork/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "J_IreneTieman",
+          "name": "Jessica Tieman",
+          "userid": "381480281",
+          "avatar": "https://twitter.com/J_IreneTieman/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "destreservation",
+          "name": "jess",
+          "userid": "3135405165",
+          "avatar": "https://twitter.com/destreservation/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "TTMobile_us",
+          "name": "TT Mobile US",
+          "userid": "2645428670",
+          "avatar": "https://twitter.com/TTMobile_us/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "staceyerdman",
+          "name": "stacey",
+          "userid": "1617833695",
+          "avatar": "https://twitter.com/staceyerdman/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "ArchivesSarah",
+          "name": "Sarah Romkey",
+          "userid": "599663002",
+          "avatar": "https://twitter.com/ArchivesSarah/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "bookishdan",
+          "name": "Daniel",
+          "userid": "22291457",
+          "avatar": "https://twitter.com/bookishdan/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "dpjones1983",
+          "name": "Desiree P. Jones",
+          "userid": "80706273",
+          "avatar": "https://twitter.com/dpjones1983/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "MegDaLibrarian",
+          "name": "Meg Hixon",
+          "userid": "17915537",
+          "avatar": "https://twitter.com/MegDaLibrarian/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "Wribrarian",
+          "name": "Raspberry Baeret",
+          "userid": "76212796",
+          "avatar": "https://twitter.com/Wribrarian/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "edsu",
+          "name": "Ed Summers",
+          "userid": "14331818",
+          "avatar": "https://twitter.com/edsu/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "joecar25",
+          "name": "Joe Carrano",
+          "userid": "1918835226",
+          "avatar": "https://twitter.com/joecar25/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "despens",
+          "name": "Dragan Espenschied",
+          "userid": "29070395",
+          "avatar": "https://twitter.com/despens/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "tropical_ana",
+          "name": "tatiene",
+          "userid": "2198380069",
+          "avatar": "https://twitter.com/tropical_ana/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "fulsa015",
+          "name": "강남풀사롱01021543560",
+          "userid": "750288181015130112",
+          "avatar": "https://twitter.com/fulsa015/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "artsynihon",
+          "name": "Japan Art & Design",
+          "userid": "3346256472",
+          "avatar": "https://twitter.com/artsynihon/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "ng_yvonne",
+          "name": "Yvonne Ng",
+          "userid": "49653585",
+          "avatar": "https://twitter.com/ng_yvonne/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "arsnotariae",
+          "name": "Vicenç Ruiz Gómez",
+          "userid": "2462985018",
+          "avatar": "https://twitter.com/arsnotariae/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "Mikeissatyson1",
+          "name": "Mikeissatyson",
+          "userid": "3580573901",
+          "avatar": "https://twitter.com/Mikeissatyson1/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "jpcostume",
+          "name": "J Fashion & Cosplay",
+          "userid": "3337473912",
+          "avatar": "https://twitter.com/jpcostume/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "KAdnoub",
+          "name": "Karim ☯ Adnoub ☮",
+          "userid": "4531076896",
+          "avatar": "https://twitter.com/KAdnoub/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "real_water_buff",
+          "name": "Water Buffalo",
+          "userid": "3929014492",
+          "avatar": "https://twitter.com/real_water_buff/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "NirtonBradley",
+          "name": "Bradley Nirton",
+          "userid": "749232225363890176",
+          "avatar": "https://twitter.com/NirtonBradley/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "FlerDavid",
+          "name": "David Fler",
+          "userid": "748608682456403968",
+          "avatar": "https://twitter.com/FlerDavid/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "nian1978",
+          "name": "Jason",
+          "userid": "744896858028277760",
+          "avatar": "https://twitter.com/nian1978/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "IrenAdash",
+          "name": "Iren Adash",
+          "userid": "748603189012869120",
+          "avatar": "https://twitter.com/IrenAdash/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "mosslim3",
+          "name": "بيتي صاحبه ∞لمشعكة∞",
+          "userid": "957208159",
+          "avatar": "https://twitter.com/mosslim3/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "EricaFl07017336",
+          "name": "Erica Floyd",
+          "userid": "749725617134956544",
+          "avatar": "https://twitter.com/EricaFl07017336/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "TravisRuger",
+          "name": "Travis Ruger",
+          "userid": "711012849212981248",
+          "avatar": "https://twitter.com/TravisRuger/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "GamingDude39",
+          "name": "GamingDudeYt",
+          "userid": "752909473652568064",
+          "avatar": "https://twitter.com/GamingDude39/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "fulsa017",
+          "name": "선릉풀싸롱01021543560",
+          "userid": "750303435669381121",
+          "avatar": "https://twitter.com/fulsa017/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "mmt55945",
+          "name": "♡قوطي~سنتوب♡",
+          "userid": "752740047082885120",
+          "avatar": "https://twitter.com/mmt55945/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "archivesopen",
+          "name": "Archives*Open",
+          "userid": "17030267",
+          "avatar": "https://twitter.com/archivesopen/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "Sr9222",
+          "name": "Sharon",
+          "userid": "744134074164445184",
+          "avatar": "https://twitter.com/Sr9222/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "febbyansapw7",
+          "name": "Febbyansa P.Wiranata",
+          "userid": "724181514720661504",
+          "avatar": "https://twitter.com/febbyansapw7/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "MoraCarlos16",
+          "name": "Carlos Manuel",
+          "userid": "750447684348182533",
+          "avatar": "https://twitter.com/MoraCarlos16/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "alejandro_rndn",
+          "name": "payaso",
+          "userid": "281694744",
+          "avatar": "https://twitter.com/alejandro_rndn/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "Wilmur_",
+          "name": "Myles",
+          "userid": "753794667699994624",
+          "avatar": "https://twitter.com/Wilmur_/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "eddy_deluna",
+          "name": "eddy de luna",
+          "userid": "104902037",
+          "avatar": "https://twitter.com/eddy_deluna/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "amosashola5",
+          "name": "Amosa Shola Mubaraq",
+          "userid": "753606115221442560",
+          "avatar": "https://twitter.com/amosashola5/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "Ramee_Bahrain",
+          "name": "RameeBahrain",
+          "userid": "4313029032",
+          "avatar": "https://twitter.com/Ramee_Bahrain/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "Im_Tribhuwan",
+          "name": "Tribhuwan Joshi",
+          "userid": "3382785364",
+          "avatar": "https://twitter.com/Im_Tribhuwan/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "fundhero1",
+          "name": "LOVE TWEETS",
+          "userid": "3443892323",
+          "avatar": "https://twitter.com/fundhero1/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "Abnormal_Dammy",
+          "name": "Delux #August 25th",
+          "userid": "1482795044",
+          "avatar": "https://twitter.com/Abnormal_Dammy/profile_image?size=bigger",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "UMD_MITH",
+          "name": "UMD_MITH",
+          "userid": "14086852",
+          "avatar": "http://pbs.twimg.com/profile_images/3212790480/8b9ee639b90ef6ade68aa6244179d983_normal.png",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "cwru",
+          "name": "Case Western Reserve",
+          "userid": "16290017",
+          "avatar": "http://pbs.twimg.com/profile_images/530023249371881472/jjFZ3vX5_normal.jpeg",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "dpla",
+          "name": "DPLA",
+          "userid": "365017572",
+          "avatar": "http://pbs.twimg.com/profile_images/1561009466/web_white_-square-no-words_normal.png",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "ucrlibraries",
+          "name": "UCR Library",
+          "userid": "40421358",
+          "avatar": "http://pbs.twimg.com/profile_images/604070318085308416/cQO3M1jY_normal.png",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "rhizome",
+          "name": "Rhizome",
+          "userid": "5281191",
+          "avatar": "http://pbs.twimg.com/profile_images/663759042729259008/T5uaPBDi_normal.png",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "webrecorder_io",
+          "name": "Webrecorder.io",
+          "userid": "2536466947",
+          "avatar": "http://pbs.twimg.com/profile_images/552304462606237696/8q6cJZHd_normal.jpeg",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "UKParlArchives",
+          "name": "Parliament Archives",
+          "userid": "347146152",
+          "avatar": "http://pbs.twimg.com/profile_images/1474106861/_DSC1592_normal.jpg",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "megan_ohern",
+          "name": "Megan O'Hern",
+          "userid": "2596862791",
+          "avatar": "http://pbs.twimg.com/profile_images/692152607507357696/WgAv3ogq_normal.jpg",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "SocialFeedMgr",
+          "name": "Social Feed Manager",
+          "userid": "713856598079316000",
+          "avatar": "http://pbs.twimg.com/profile_images/715244604061261824/s8B16sza_normal.jpg",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "AVPreserve",
+          "name": "AVPreserve",
+          "userid": "49113051",
+          "avatar": "http://pbs.twimg.com/profile_images/730793019687981056/F3hNXNi2_normal.jpg",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "UWMadArchives",
+          "name": "UW-Madison Archives",
+          "userid": "252144530",
+          "avatar": "http://pbs.twimg.com/profile_images/378800000614996718/fa72cf78a507582f982f47fda8996a95_normal.png",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "LaMaMaETC",
+          "name": "La MaMa E.T.C.",
+          "userid": "50550768",
+          "avatar": "http://pbs.twimg.com/profile_images/742487079309828096/lo98zanA_normal.jpg",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "Librarians2Pal",
+          "name": "Librarians2Palestine",
+          "userid": "1040478062",
+          "avatar": "http://pbs.twimg.com/profile_images/3033617737/34a9c45733386dee9dbc63bf9062d479_normal.jpeg",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "XFR_collective",
+          "name": "XFR_C",
+          "userid": "3072115476",
+          "avatar": "http://pbs.twimg.com/profile_images/575474240129925121/vD3aQQ0z_normal.jpeg",
+          "source": "twitter",
+          "notified_at": null
+        },
+        {
+          "username": "tjowens",
+          "name": "Trevor Owens",
+          "userid": "10034972",
+          "avatar": "http://pbs.twimg.com/profile_images/731643908439019521/7NsqVsMR_normal.jpg",
+          "source": "twitter",
+          "notified_at": null
+        }
+      ],
+      "hashtags": [
+        "#docnowcommunity",
+        "#therealuw",
+        "#archives",
+        "#laurenpics",
+        "#pokemonabook",
+        "#blacklivesmatter",
+        "#archivists",
+        "#rncincle",
+        "#강남풀싸롱01021543560",
+        "#girlstalkboystonight",
+        "#sharkawarenessday",
+        "#weirdwaystocatchpokemon",
+        "#musicmeetsfilms",
+        "#accyber",
+        "#saa16",
+        "#community",
+        "#reclaimharvardlaw",
+        "#twitter",
+        "#강남풀살롱01021543560",
+        "#강남풀사롱01021543560",
+        "#강남풀싸롱",
+        "#강남풀살롱",
+        "#강남풀사롱",
+        "#thursdaythoughts",
+        "#emmys",
+        "#weaponsoftheweak",
+        "#hiddentranscripts",
+        "#ideaworld",
+        "#nn16",
+        "#pac12mediadays",
+        "#lemonade",
+        "#dotnetfringe",
+        "#raphaeljabbour",
+        "#ourrevolution",
+        "#singlebecause",
+        "#thefive",
+        "#secflix",
+        "#dontcallme",
+        "#선릉야구장01021543560",
+        "#친구들",
+        "#선릉풀싸롱01021543560",
+        "#선릉야구장",
+        "#선릉풀싸롱",
+        "#victoroladipo",
+        "#ufcsiouxfalls",
+        "#otherespyawards",
+        "#potustownhall",
+        "#karenbradley",
+        "#haydnporteous",
+        "#thirstythursday",
+        "#cabinet",
+        "#itmaybeascamif",
+        "#conte",
+        "#theopen",
+        "#teachersated",
+        "#attackinnice",
+        "#justinthomas",
+        "#randyfoye",
+        "#anthonybennett",
+        "#longlostfamily",
+        "#askyoandri",
+        "#richrod",
+        "#anthonyanderson",
+        "#dariosaric",
+        "#musicbank",
+        "#august"
+      ],
+      "created_with": {
+        "href": "http://storify.com",
+        "appname": "storify",
+        "name": "storify"
+      }
+    },
+    "stats": {
+      "popularity": 0,
+      "views": 5,
+      "likes": 0,
+      "comments": 0,
+      "elementComments": 0,
+      "embeds": [
+        {
+          "domain": "storify.com",
+          "href": "https://storify.com/docnow/docnowcommunity-chat-raw",
+          "views": 5,
+          "clicks": 0
+        }
+      ],
+      "elements": {
+        "text": 0,
+        "quote": 316,
+        "image": 3,
+        "video": 0,
+        "link": 0,
+        "other": 0
+      },
+      "clicks": 0
+    },
+    "modified": true,
+    "deleted": false,
+    "canEdit": false,
+    "author": {
+      "_id": "5787dfed687814241923e2e6",
+      "username": "docnow",
+      "_access": 0,
+      "name": "DocumentingTheNow",
+      "bio": "tools + community for documenting the now / banner image: Haaaaands Up! Dooooon't Shoot! by Jamelle Bouie https://t.co/94MSbm0gVs…",
+      "location": "in the network",
+      "website": "https://t.co/s643ifXmdI",
+      "avatar": "https://storify.com/services/proxy/2/Q3QIZYOKTEp5IV_zZ0Cmsg/http/pbs.twimg.com/profile_images/728713121884311552/Yjoenpxp_bigger.png",
+      "permalink": "https://storify.com/docnow",
+      "settings": {
+        "comments": "facebook",
+        "facebook_autoshare": true,
+        "facebook_quoteimg": true,
+        "facebook_post": true,
+        "twitter_post": true,
+        "ban_notify": false,
+        "options": {
+          "infinite_scroll": false,
+          "hide_stats": false,
+          "allow_embedding": true,
+          "comments": true,
+          "related_stories": true,
+          "ga": false,
+          "fb_page": false
+        },
+        "notifications": {
+          "newsletter": true,
+          "digest": true,
+          "likes": true,
+          "comments": true,
+          "follower": true,
+          "quoted": true,
+          "friend_quoted": true,
+          "autoshare": true,
+          "element_comment": true,
+          "element_like": true,
+          "story_comment": true,
+          "story_like": true
+        },
+        "style": {
+          "fonts": {
+            "title": "Georgia, Times",
+            "body": "Helvetica, Arial"
+          },
+          "colors": {
+            "text": "#666",
+            "link": "#3676c4",
+            "background": "#fff"
+          },
+          "typekit": {
+            "fonts": []
+          }
+        },
+        "style_backup": {},
+        "fb_page_id": null,
+        "fb_page_link": null,
+        "fb_page_name": null,
+        "fb_page": {}
+      },
+      "lang": "en",
+      "stats": {
+        "stories": 4,
+        "views": 0,
+        "embeds": 0,
+        "subscriptions": 1,
+        "subscribers": 0
+      },
+      "date": {
+        "last_seen": "2017-12-13T13:57:19.438Z",
+        "featured": null,
+        "last_email": "2017-10-24T01:17:51.971Z",
+        "last_story": "2017-03-15T18:55:13.102Z",
+        "trial_start": null,
+        "trial_end": null,
+        "spammed": null,
+        "suspended": null,
+        "muted": null,
+        "upgraded": null,
+        "updated": "2017-12-13T13:59:09.944Z",
+        "created": "2016-07-14T18:54:37.563Z"
+      },
+      "coverPhoto": {
+        "url": "https://storify.com/public/img/cover.jpg",
+        "width": 958,
+        "height": 200
+      },
+      "canFeatureStories": false,
+      "featuredStories": [],
+      "paid_plan": "free",
+      "email_verified": false,
+      "features_enabled": {
+        "custom_embed_style": false,
+        "private_stories": false,
+        "html_for_seo": false,
+        "no_advertising": false,
+        "business_options": false,
+        "headerless_embed": false,
+        "pdf": true,
+        "twitter_gnip": false,
+        "realtime_updates": false,
+        "maxEditors": 0
+      },
+      "agency": {
+        "isAgency": false,
+        "agencyInfo": {
+          "maxCustomersNum": 0,
+          "customers": []
+        },
+        "isCustomer": false,
+        "customerInfo": {
+          "approved": false,
+          "removalApproved": false,
+          "agencyId": null,
+          "agencyUsername": null,
+          "approved_at": null,
+          "paid_plan": null,
+          "keys": {
+            "approve": null,
+            "remove": null
+          }
+        }
+      },
+      "is_spam": false,
+      "photo_tos": false,
+      "canEdit": false
+    },
+    "comments": [],
+    "page": 1,
+    "per_page": 20,
+    "totalElements": 319,
+    "elements": [
+      {
+        "id": "57894520a5d1f4423f3cc731",
+        "eid": "d63811622c7f6d32922ae4dc",
+        "type": "link",
+        "permalink": "https://twitter.com/BergisJules/status/752584251644604416",
+        "posted_at": "2016-07-11T19:24:02.000Z",
+        "added_at": "2016-07-15T20:18:40.615Z",
+        "data": {
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/n-4EEFLS1c3cUIVvpW7_gQ/https/twitter.com/BergisJules/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          },
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/n-4EEFLS1c3cUIVvpW7_gQ/https/twitter.com/BergisJules/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/BergisJules/status/752584251644604416"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "BergisJules",
+          "userid": "1012488631"
+        },
+        "attribution": {
+          "location": "California, USA",
+          "bio": "archivist at @ucrlibraries | doctoral student at @ucriverside history | doer of things | http://www.docnow.io",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/n-4EEFLS1c3cUIVvpW7_gQ/https/twitter.com/BergisJules/profile_image?size=bigger",
+          "href": "https://twitter.com/BergisJules",
+          "username": "BergisJules",
+          "name": "Bergis Jules"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc732",
+        "eid": "4e7dec2b80000c31fbd8bb5d",
+        "type": "link",
+        "permalink": "https://twitter.com/documentnow/status/752584251648774144",
+        "posted_at": "2016-07-11T19:24:02.000Z",
+        "added_at": "2016-07-15T20:18:40.620Z",
+        "data": {
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          },
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/documentnow/status/752584251648774144"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "documentnow",
+          "userid": "3436812551"
+        },
+        "attribution": {
+          "location": "in the network",
+          "bio": "tools + community for documenting the now / banner image: Haaaaands Up! Dooooon't Shoot! by Jamelle Bouie http://flickr.com/photos/jbouie/…",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+          "href": "https://twitter.com/documentnow",
+          "username": "documentnow",
+          "name": "DocumentingTheNow"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc733",
+        "eid": "7e04ff28bf66e30b71cfefb2",
+        "type": "link",
+        "permalink": "https://twitter.com/amdial/status/752713514394025984",
+        "posted_at": "2016-07-12T03:57:41.000Z",
+        "added_at": "2016-07-15T20:18:40.637Z",
+        "data": {
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/hh4I9MRduBxWfwl2jaIxsA/https/twitter.com/amdial/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          },
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/hh4I9MRduBxWfwl2jaIxsA/https/twitter.com/amdial/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/amdial/status/752713514394025984"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "amdial",
+          "userid": "169245726"
+        },
+        "attribution": {
+          "location": "the library",
+          "bio": "LGBTQ history, women's history, books, archives, libraries, liberation, burritos. Butch. Lesbian. Feminist. Always reading. #BlackLivesMatter #KnightsofSappho",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/hh4I9MRduBxWfwl2jaIxsA/https/twitter.com/amdial/profile_image?size=bigger",
+          "href": "https://twitter.com/amdial",
+          "username": "amdial",
+          "name": "Debbie Richards"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc734",
+        "eid": "567c22cc8968af4e7d5e4d81",
+        "type": "link",
+        "permalink": "https://twitter.com/amdial/status/752713910747295744",
+        "posted_at": "2016-07-12T03:59:15.000Z",
+        "added_at": "2016-07-15T20:18:40.644Z",
+        "data": {
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/hh4I9MRduBxWfwl2jaIxsA/https/twitter.com/amdial/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          },
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/hh4I9MRduBxWfwl2jaIxsA/https/twitter.com/amdial/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/amdial/status/752713910747295744"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "amdial",
+          "userid": "169245726"
+        },
+        "attribution": {
+          "location": "the library",
+          "bio": "LGBTQ history, women's history, books, archives, libraries, liberation, burritos. Butch. Lesbian. Feminist. Always reading. #BlackLivesMatter #KnightsofSappho",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/hh4I9MRduBxWfwl2jaIxsA/https/twitter.com/amdial/profile_image?size=bigger",
+          "href": "https://twitter.com/amdial",
+          "username": "amdial",
+          "name": "Debbie Richards"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc735",
+        "eid": "2d9a8e629ae7976866015fd8",
+        "type": "link",
+        "permalink": "https://twitter.com/anna_kijas/status/753103653800640512",
+        "posted_at": "2016-07-13T05:47:57.000Z",
+        "added_at": "2016-07-15T20:18:40.649Z",
+        "data": {
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/XlyZw0sCiDYW28QMqdkyag/https/twitter.com/anna_kijas/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          },
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/XlyZw0sCiDYW28QMqdkyag/https/twitter.com/anna_kijas/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/anna_kijas/status/753103653800640512"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "anna_kijas",
+          "userid": "877755836"
+        },
+        "attribution": {
+          "location": "Massachusetts",
+          "bio": "Digital Scholarship Librarian (Boston College) and Music Historian. Views are my own.",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/XlyZw0sCiDYW28QMqdkyag/https/twitter.com/anna_kijas/profile_image?size=bigger",
+          "href": "https://twitter.com/anna_kijas",
+          "username": "anna_kijas",
+          "name": "Anna Kijas"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc736",
+        "eid": "995e4ead139d32691fe9868f",
+        "type": "link",
+        "permalink": "https://twitter.com/aavigorito/status/753309805557743617",
+        "posted_at": "2016-07-13T19:27:08.000Z",
+        "added_at": "2016-07-15T20:18:40.655Z",
+        "data": {
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/Gp7YGtnQnPj6CWTLMnCDTg/https/twitter.com/aavigorito/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          },
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/Gp7YGtnQnPj6CWTLMnCDTg/https/twitter.com/aavigorito/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/aavigorito/status/753309805557743617"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "aavigorito",
+          "userid": "229464356"
+        },
+        "attribution": {
+          "bio": "Old Books, New Books, Cookbooks & eBooks.                              Libraries, Archives and Technology too.",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/Gp7YGtnQnPj6CWTLMnCDTg/https/twitter.com/aavigorito/profile_image?size=bigger",
+          "href": "https://twitter.com/aavigorito",
+          "username": "aavigorito",
+          "name": "aavigorito"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc737",
+        "eid": "fb1f4d3de26063baf912ee35",
+        "type": "image",
+        "permalink": "https://twitter.com/documentnow/status/753588434774532098",
+        "posted_at": "2016-07-14T13:54:18.000Z",
+        "added_at": "2016-07-15T20:18:40.662Z",
+        "data": {
+          "image": {
+            "thumbnail_height": 200,
+            "thumbnail_width": 400,
+            "thumbnail": "https://storify.com/services/proxy/2/LbFPjaKbFfZruvc4A9Pktw/https/pbs.twimg.com/media/CnVIraKUIAABTs5.jpg:small",
+            "href": "http://twitter.com/documentnow/status/753588434774532098/photo/1",
+            "height": 200,
+            "width": 400,
+            "caption": "Twitter",
+            "src": "https://storify.com/services/proxy/2/AR_7oV-ERf3Jq2plbKDZRw/https/pbs.twimg.com/media/CnVIraKUIAABTs5.jpg:large"
+          },
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/documentnow/status/753588434774532098"
+          },
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "documentnow",
+          "userid": "3436812551"
+        },
+        "attribution": {
+          "location": "in the network",
+          "bio": "tools + community for documenting the now / banner image: Haaaaands Up! Dooooon't Shoot! by Jamelle Bouie http://flickr.com/photos/jbouie/…",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+          "href": "https://twitter.com/documentnow",
+          "username": "documentnow",
+          "name": "DocumentingTheNow"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc738",
+        "eid": "86b844e2d062f4823a69d22b",
+        "type": "link",
+        "permalink": "https://twitter.com/stephestellar/status/753591709787942912",
+        "posted_at": "2016-07-14T14:07:19.000Z",
+        "added_at": "2016-07-15T20:18:40.667Z",
+        "data": {
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/dXqY93CQ9AxhYOLrDakL1A/https/twitter.com/stephestellar/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          },
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/dXqY93CQ9AxhYOLrDakL1A/https/twitter.com/stephestellar/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/stephestellar/status/753591709787942912"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "stephestellar",
+          "userid": "103920297"
+        },
+        "attribution": {
+          "location": "WSNC ",
+          "bio": "Redhead. Nomad. Gin punch drinker. @WakeForest + @SimmonsSLIS alum. Collections Archivist for Mother So Dear. May I leave it better than I found it.",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/dXqY93CQ9AxhYOLrDakL1A/https/twitter.com/stephestellar/profile_image?size=bigger",
+          "href": "https://twitter.com/stephestellar",
+          "username": "stephestellar",
+          "name": "Stephanie Bennett"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc739",
+        "eid": "66ee324003f5fe4980191576",
+        "type": "link",
+        "permalink": "https://twitter.com/C_Fryer/status/753633486876139521",
+        "posted_at": "2016-07-14T16:53:19.000Z",
+        "added_at": "2016-07-15T20:18:40.672Z",
+        "data": {
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/RoxdO5p2tcdkQfzwdTxTAw/https/twitter.com/C_Fryer/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          },
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/RoxdO5p2tcdkQfzwdTxTAw/https/twitter.com/C_Fryer/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/C_Fryer/status/753633486876139521"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "C_Fryer",
+          "userid": "411403932"
+        },
+        "attribution": {
+          "location": "London",
+          "bio": "Senior Digital Archivist at Houses of Parliament (@UKParlArchives).",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/RoxdO5p2tcdkQfzwdTxTAw/https/twitter.com/C_Fryer/profile_image?size=bigger",
+          "href": "https://twitter.com/C_Fryer",
+          "username": "C_Fryer",
+          "name": "Chris Fryer"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc73a",
+        "eid": "f36b083ae3f78a44ceb13b6c",
+        "type": "link",
+        "permalink": "https://twitter.com/anarchivist/status/753638755827933184",
+        "posted_at": "2016-07-14T17:14:15.000Z",
+        "added_at": "2016-07-15T20:18:40.677Z",
+        "data": {
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/bvvgZ5rQvrn_gP3-cJqw6g/https/twitter.com/anarchivist/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          },
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/bvvgZ5rQvrn_gP3-cJqw6g/https/twitter.com/anarchivist/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/anarchivist/status/753638755827933184"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "anarchivist",
+          "userid": "8729782"
+        },
+        "attribution": {
+          "location": "Brooklyn, NY",
+          "bio": "Free variable. Director of Technology @DPLA / Project Manager @hydrainabox. they/them/theirs; latinx; fat, boring anarchist (✿˘‿˘ )",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/bvvgZ5rQvrn_gP3-cJqw6g/https/twitter.com/anarchivist/profile_image?size=bigger",
+          "href": "https://twitter.com/anarchivist",
+          "username": "anarchivist",
+          "name": "Mx A. Matienzo"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc73b",
+        "eid": "042b8cc69fe90b29d7f6e0a1",
+        "type": "link",
+        "permalink": "https://twitter.com/yo_bj/status/753638894667649024",
+        "posted_at": "2016-07-14T17:14:49.000Z",
+        "added_at": "2016-07-15T20:18:40.683Z",
+        "data": {
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/EP5tl-gE--yd3na3FoiYAg/https/twitter.com/yo_bj/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          },
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/EP5tl-gE--yd3na3FoiYAg/https/twitter.com/yo_bj/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/yo_bj/status/753638894667649024"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "yo_bj",
+          "userid": "15822246"
+        },
+        "attribution": {
+          "location": "Seattle, WA",
+          "bio": "Library Applications & Systems Manager doing systems things. Plays a cataloger on Twitter. Conqueror of worlds, cat slave.",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/EP5tl-gE--yd3na3FoiYAg/https/twitter.com/yo_bj/profile_image?size=bigger",
+          "href": "https://twitter.com/yo_bj",
+          "username": "yo_bj",
+          "name": "Becky Yoose"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc73c",
+        "eid": "8c6453c2d76b1c4478537dc8",
+        "type": "link",
+        "permalink": "https://twitter.com/amelish/status/753664630287917056",
+        "posted_at": "2016-07-14T18:57:04.000Z",
+        "added_at": "2016-07-15T20:18:40.689Z",
+        "data": {
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/NNfQt5vTSddQ2FPgF-wDQg/https/twitter.com/amelish/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/amelish/status/753664630287917056"
+          },
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/NNfQt5vTSddQ2FPgF-wDQg/https/twitter.com/amelish/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "amelish",
+          "userid": "42409346"
+        },
+        "attribution": {
+          "location": "maryland",
+          "bio": "mighty underdog.  旅は道連れ世は情け。",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/NNfQt5vTSddQ2FPgF-wDQg/https/twitter.com/amelish/profile_image?size=bigger",
+          "href": "https://twitter.com/amelish",
+          "username": "amelish",
+          "name": "amelish"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc73d",
+        "eid": "53977026a09dca9f7753a674",
+        "type": "link",
+        "permalink": "https://twitter.com/BergisJules/status/753664664970539008",
+        "posted_at": "2016-07-14T18:57:13.000Z",
+        "added_at": "2016-07-15T20:18:40.695Z",
+        "data": {
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/n-4EEFLS1c3cUIVvpW7_gQ/https/twitter.com/BergisJules/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/BergisJules/status/753664664970539008"
+          },
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/n-4EEFLS1c3cUIVvpW7_gQ/https/twitter.com/BergisJules/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "BergisJules",
+          "userid": "1012488631"
+        },
+        "attribution": {
+          "location": "California, USA",
+          "bio": "archivist at @ucrlibraries | doctoral student at @ucriverside history | doer of things | http://www.docnow.io",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/n-4EEFLS1c3cUIVvpW7_gQ/https/twitter.com/BergisJules/profile_image?size=bigger",
+          "href": "https://twitter.com/BergisJules",
+          "username": "BergisJules",
+          "name": "Bergis Jules"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc73e",
+        "eid": "2ae2d0e77b528ff639651be3",
+        "type": "link",
+        "permalink": "https://twitter.com/melissa_hubbard/status/753664856117637121",
+        "posted_at": "2016-07-14T18:57:58.000Z",
+        "added_at": "2016-07-15T20:18:40.700Z",
+        "data": {
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/tRrT6QE3_iRIftHX3YmQyQ/https/twitter.com/melissa_hubbard/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/melissa_hubbard/status/753664856117637121"
+          },
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/tRrT6QE3_iRIftHX3YmQyQ/https/twitter.com/melissa_hubbard/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "melissa_hubbard",
+          "userid": "164796788"
+        },
+        "attribution": {
+          "location": "Cleveland, OH",
+          "bio": "Head of Special Collections and Archives, @cwru | professional dilettante, nerd, feminist | opinions mine",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/tRrT6QE3_iRIftHX3YmQyQ/https/twitter.com/melissa_hubbard/profile_image?size=bigger",
+          "href": "https://twitter.com/melissa_hubbard",
+          "username": "melissa_hubbard",
+          "name": "Melissa Hubbard"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc73f",
+        "eid": "2378dd04c45d39a547b5a4d2",
+        "type": "link",
+        "permalink": "https://twitter.com/documentnow/status/753665054050885632",
+        "posted_at": "2016-07-14T18:58:45.000Z",
+        "added_at": "2016-07-15T20:18:40.705Z",
+        "data": {
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/documentnow/status/753665054050885632"
+          },
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "documentnow",
+          "userid": "3436812551"
+        },
+        "attribution": {
+          "location": "in the network",
+          "bio": "tools + community for documenting the now / banner image: Haaaaands Up! Dooooon't Shoot! by Jamelle Bouie http://flickr.com/photos/jbouie/…",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+          "href": "https://twitter.com/documentnow",
+          "username": "documentnow",
+          "name": "DocumentingTheNow"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc740",
+        "eid": "3913e101cff82b72f50fb327",
+        "type": "link",
+        "permalink": "https://twitter.com/documentnow/status/753665254568005632",
+        "posted_at": "2016-07-14T18:59:33.000Z",
+        "added_at": "2016-07-15T20:18:40.710Z",
+        "data": {
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/documentnow/status/753665254568005632"
+          },
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "documentnow",
+          "userid": "3436812551"
+        },
+        "attribution": {
+          "location": "in the network",
+          "bio": "tools + community for documenting the now / banner image: Haaaaands Up! Dooooon't Shoot! by Jamelle Bouie http://flickr.com/photos/jbouie/…",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+          "href": "https://twitter.com/documentnow",
+          "username": "documentnow",
+          "name": "DocumentingTheNow"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc741",
+        "eid": "8c121d6d8dd7e78e55b9c921",
+        "type": "link",
+        "permalink": "https://twitter.com/documentnow/status/753665385065439234",
+        "posted_at": "2016-07-14T19:00:04.000Z",
+        "added_at": "2016-07-15T20:18:40.726Z",
+        "data": {
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/documentnow/status/753665385065439234"
+          },
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "documentnow",
+          "userid": "3436812551"
+        },
+        "attribution": {
+          "location": "in the network",
+          "bio": "tools + community for documenting the now / banner image: Haaaaands Up! Dooooon't Shoot! by Jamelle Bouie http://flickr.com/photos/jbouie/…",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+          "href": "https://twitter.com/documentnow",
+          "username": "documentnow",
+          "name": "DocumentingTheNow"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc742",
+        "eid": "1ccd86ab3f5adaf304b86719",
+        "type": "link",
+        "permalink": "https://twitter.com/sabramse/status/753665682345168898",
+        "posted_at": "2016-07-14T19:01:15.000Z",
+        "added_at": "2016-07-15T20:18:40.731Z",
+        "data": {
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/T-A5uEfrrSbBESx3YXSrVA/https/twitter.com/sabramse/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/sabramse/status/753665682345168898"
+          },
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/T-A5uEfrrSbBESx3YXSrVA/https/twitter.com/sabramse/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "sabramse",
+          "userid": "255170949"
+        },
+        "attribution": {
+          "location": "madison, wisconsin ",
+          "bio": "beginner archivist + human",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/T-A5uEfrrSbBESx3YXSrVA/https/twitter.com/sabramse/profile_image?size=bigger",
+          "href": "https://twitter.com/sabramse",
+          "username": "sabramse",
+          "name": "Samantha Abrams"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc743",
+        "eid": "28dc2cc684dd0fbe44ef0ef1",
+        "type": "link",
+        "permalink": "https://twitter.com/documentnow/status/753665765220376576",
+        "posted_at": "2016-07-14T19:01:35.000Z",
+        "added_at": "2016-07-15T20:18:40.737Z",
+        "data": {
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/documentnow/status/753665765220376576"
+          },
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "documentnow",
+          "userid": "3436812551"
+        },
+        "attribution": {
+          "location": "in the network",
+          "bio": "tools + community for documenting the now / banner image: Haaaaands Up! Dooooon't Shoot! by Jamelle Bouie http://flickr.com/photos/jbouie/…",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/UlBNQ5OEP7ulLeVF5Kv3XA/https/twitter.com/documentnow/profile_image?size=bigger",
+          "href": "https://twitter.com/documentnow",
+          "username": "documentnow",
+          "name": "DocumentingTheNow"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      },
+      {
+        "id": "57894520a5d1f4423f3cc744",
+        "eid": "814b2366d879559889590bcf",
+        "type": "link",
+        "permalink": "https://twitter.com/melissa_hubbard/status/753665774556852224",
+        "posted_at": "2016-07-14T19:01:37.000Z",
+        "added_at": "2016-07-15T20:18:40.742Z",
+        "data": {
+          "oembed": {
+            "type": "rich",
+            "html": "",
+            "thumbnail_url": "https://storify.com/services/proxy/2/tRrT6QE3_iRIftHX3YmQyQ/https/twitter.com/melissa_hubbard/profile_image?size=bigger",
+            "title": "Twitter / Twitter",
+            "provider_url": "https://twitter.com",
+            "provider_name": "Twitter",
+            "url": "https://twitter.com/melissa_hubbard/status/753665774556852224"
+          },
+          "link": {
+            "rest_api_url": "https://api.twitter.com/1.1/statuses/show.json?id=undefined",
+            "oembed_url": "https://api.twitter.com/1.1/statuses/oembed.json?id=undefined",
+            "thumbnail": "https://storify.com/services/proxy/2/tRrT6QE3_iRIftHX3YmQyQ/https/twitter.com/melissa_hubbard/profile_image?size=bigger",
+            "description": "Twitter / Twitter",
+            "title": "Twitter / Twitter"
+          }
+        },
+        "source": {
+          "tab": "search",
+          "href": "https://twitter.com",
+          "name": "twitter",
+          "username": "melissa_hubbard",
+          "userid": "164796788"
+        },
+        "attribution": {
+          "location": "Cleveland, OH",
+          "bio": "Head of Special Collections and Archives, @cwru | professional dilettante, nerd, feminist | opinions mine",
+          "verified": false,
+          "thumbnail": "https://storify.com/services/proxy/2/tRrT6QE3_iRIftHX3YmQyQ/https/twitter.com/melissa_hubbard/profile_image?size=bigger",
+          "href": "https://twitter.com/melissa_hubbard",
+          "username": "melissa_hubbard",
+          "name": "Melissa Hubbard"
+        },
+        "comments": [],
+        "stats": {
+          "likes": 0,
+          "comments": 0
+        }
+      }
+    ]
+  },
+  "code": 200
+}
