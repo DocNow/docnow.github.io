@@ -70,7 +70,24 @@ body {
     }
 }
 
+@media screen and (max-width: 740px) {
+    #tools div {
+      margin-bottom: 10px;
+      padding-bottom: 20px;
+    }
 
+    #get-involved div {
+     margin-bottom: 10px;
+     padding-bottom: 20px;
+    }
+  }
+
+@media screen and (max-width: 740px) {
+      #about img {
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+      }
+    }
 
 #get-involved img {
     padding-bottom: 10px;

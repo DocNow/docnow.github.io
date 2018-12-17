@@ -40,21 +40,27 @@ h4 {
   padding-bottom: 5px;
 }
 
+@media screen and (max-width: 740px) {
+  h4 {
+    border: none;
+  }
+}
+
 h4:hover {
   color: white;
   background-color:black;
   border: solid black 1px;
 
 }
+
 small a {
     color: black;
     background-color: yellow;
-  }
-
+}
 
 a:hover {
     text-decoration: none;
-  }
+}
 
 footer {
   margin-top: 30px;
