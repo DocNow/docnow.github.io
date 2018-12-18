@@ -8,6 +8,12 @@ baseurl: ""
 url: "http://www.docnow.io"
 markdown: kramdown
 
+include:
+  - .well-known
+
+ignore:
+  - Makefile
+
 keep_files:
   - .dat
   - dat.json
