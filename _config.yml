@@ -7,3 +7,8 @@ description: >
 baseurl: ""
 url: "http://www.docnow.io"
 markdown: kramdown
+
+keep_files:
+  - .dat
+  - dat.json
+  - videos  
