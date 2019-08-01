@@ -1,0 +1,45 @@
+---
+layout: default
+title: Social Control 2019 Zine
+---
+
+<style>
+</style>
+
+<div class="container">
+  <div class="row">
+    <h2>Social Control 2019 Zine</h2>
+    <h3>A guide to owning your social media content</h3>
+
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="{{ site.baseurl }}/img/zine/SC_1.png" style="width:100%">
+      <img class="mySlides" src="{{ site.baseurl }}/img/zine/SC_3.png" style="width:100%">
+      <img class="mySlides" src="{{ site.baseurl }}/img/zine/SC_Facebook.png" style="width:100%">
+      <img class="mySlides" src="{{ site.baseurl }}/img/zine/SC_Twitter.png" style="width:100%">
+      <img class="mySlides" src="{{ site.baseurl }}/img/zine/SC_Instagram.png" style="width:100%">
+      <img class="mySlides" src="{{ site.baseurl }}/img/zine/SC_Snapchat.png" style="width:100%">
+
+
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+    </script>
