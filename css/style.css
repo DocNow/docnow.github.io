@@ -19,6 +19,18 @@ html, body {
   color: #5fa9dd;
 }
 
+h1 {
+  font-size: 16pt;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 400px;
+}
+
 h2 {
   font-size: 14pt;
   color: white;
@@ -133,7 +145,7 @@ figcaption a {
 }
 
 #design-doc {
-  margin: 5% 10% 0% 10%;
+  margin-top: 5%
 }
 
 #design-doc h1 {

@@ -20,7 +20,7 @@ Please feel free to ask questions in the [Issue Tracker] for this website, in
 * 2019-05-21 [DocNow Conversation](2019-05-21-conversation)
 * 2019-01-23 [DocNow Deployment](2019-01-23-deployment)
 * 2019-01-23 [Mukurtu Ansible](2019-01-23-mukurtu-ansible)
-* 2018-12-06 [Static Archive Download](2018-12-06-static-archive)
+* 2018-12-06 [Static Archive](2018-12-06-static-archive)
 
 [Project Roadmap]: https://github.com/docnow/roadmap#readme
 [Issue Tracker]: https://github.com/docnow/docnow.github.io/issues
