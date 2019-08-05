@@ -6,11 +6,12 @@ title: Design Documents
 ## Design Documents
 
 In the second phase of the Documenting the Now project we started writing up
-brief design documents that help us organize work at a level of granularity
-somewhere between the global [Project Roadmap] and the granularity that GitHub,
-Trello and Asana tickets provide in individual sprints. These may get shared
-internally as Google Docs and the like, but eventually they make it here for
-feedback from a wider audience.
+brief design documents that help us organize our work at a level of granularity
+somewhere between the global [Project Roadmap] and what is provided by task
+management tools like GitHub, Trello and Asana during our sprints. The idea is
+for these documents to pitch and socialize a broad area of work before diving
+into the nuts and bolts of the work. They also serve as a record of the work we
+have focused on, and help us see how our ideas may have changed over time.
 
 Please feel free to ask questions in the [Issue Tracker] for this website, in
 [Slack], or to drop us an email at info@docnow.io.
