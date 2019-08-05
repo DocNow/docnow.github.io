@@ -1,9 +1,9 @@
 ---
 layout: design
-title: DocNow Conversation (Design)
+title: DocNow Conversation
+creator: Ed Summers
+created: 2019-05-21
 ---
-
-# DocNow Conversation (Design)
 
 ## Problem
 

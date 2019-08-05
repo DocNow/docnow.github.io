@@ -1,9 +1,9 @@
 ---
 layout: design
-title: Mukurtu-Ansible (Design)
+title: Mukurtu-Ansible
+creator: Francis Kayiwa
+created: 2019-01-23
 ---
-
-# Mukurtu-Ansible
 
 ## Problem
 

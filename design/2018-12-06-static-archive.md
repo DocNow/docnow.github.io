@@ -1,9 +1,9 @@
 ---
 layout: design
-title: Static Archive (Design)
+title: Static Archive
+created: 2018-12-06
+creator: Raff Viglianti
 ---
-
-# Static Archive
 
 ## Problem
 

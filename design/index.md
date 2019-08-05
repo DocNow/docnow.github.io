@@ -15,10 +15,10 @@ feedback from a wider audience.
 Please feel free to ask questions in the [Issue Tracker] for this website, in
 [Slack], or to drop us an email at info@docnow.io.
 
-* 2019-07-25 [Quotas](2019-07-25-quotas)
-* 2019-07-25 [New Collection Notifications](2019-07-25-notifications)
-* 2019-05-21 [Conversation](2019-05-21-conversation)
-* 2019-01-23 [Deployment](2019-01-23-deployment)
+* 2019-07-25 [DocNow Quotas](2019-07-25-quotas)
+* 2019-07-25 [DocNow Notifications](2019-07-25-notifications)
+* 2019-05-21 [DocNow Conversation](2019-05-21-conversation)
+* 2019-01-23 [DocNow Deployment](2019-01-23-deployment)
 * 2019-01-23 [Mukurtu Ansible](2019-01-23-mukurtu-ansible)
 * 2018-12-06 [Static Archive Download](2018-12-06-static-archive)
 

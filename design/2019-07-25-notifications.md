@@ -1,9 +1,9 @@
 ---
 layout: design
-title: DocNow Notifications (Design)
+title: DocNow Notifications
+creator: Ed Summers
+created: 2019-07-25
 ---
-
-# DocNow Notifications (Design)
 
 ## Problem
 

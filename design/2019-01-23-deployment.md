@@ -1,9 +1,9 @@
 ---
 layout: design
-title: Design
+title: DocNow Deployment
+creator: Francis Kayiwa
+created: 2019-01-23
 ---
-
-# DocNow Deployment
 
 ## Problem
 

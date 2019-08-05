@@ -136,6 +136,12 @@ figcaption a {
   margin: 5% 10% 0% 10%;
 }
 
+#design-doc h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
 @media all and (max-width: 960px) {
   body {
     margin-left: 10px;
