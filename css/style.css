@@ -63,9 +63,19 @@ a:hover {
   }
 
 footer {
-  margin-top: 30px;
-  font-size: 12pt;
-  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: smaller;
+  line-height: .9em;
+  color: white;
+  padding-top: 5px;
+  background-color: black;
+}
+
+footer a {
+  color: yellow;
 }
 
 .youtube-container {
@@ -122,6 +132,10 @@ figcaption a {
   color: yellow;
 }
 
+#design-doc {
+  margin: 5% 10% 0% 10%;
+}
+
 @media all and (max-width: 960px) {
   body {
     margin-left: 10px;
@@ -136,6 +150,13 @@ figcaption a {
 
   figcaption {
     display: none;
+  }
+
+  footer {
+    position: relative;
+    font-size: smaller;
+    text-align: center;
+    line-height: .9em;
   }
 
 }
