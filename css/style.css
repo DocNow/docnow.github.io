@@ -46,10 +46,13 @@ h2 {
 h4 {
   font-size: 12pt;
   color: black;
-  border: solid black 1px;
+  border-bottom: solid black 1px;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.noline {
+  border-bottom: none !important;
 }
 
 @media screen and (max-width: 740px) {
