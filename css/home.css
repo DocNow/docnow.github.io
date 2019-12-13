@@ -111,6 +111,11 @@ body {
   background-color: yellow;
 }
 
+#workshops a, #tools p a {
+  color: black;
+  background-color: yellow;
+}
+
  #meetings a {
    color: black;
    background-color: yellow;

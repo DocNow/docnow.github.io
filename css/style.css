@@ -46,10 +46,13 @@ h2 {
 h4 {
   font-size: 12pt;
   color: black;
-  border-bottom: solid black 1px;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+img a:hover {
+  color: rgba(96, 41, 169, 0.7);
 }
 .noline {
   border-bottom: none !important;
