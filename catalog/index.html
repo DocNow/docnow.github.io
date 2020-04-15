@@ -10,7 +10,7 @@ moved: https://catalog.docnow.io/
   }
 
   #moved {
-    margin-top: 40vh;
+    margin-top: 30vh;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -22,11 +22,14 @@ moved: https://catalog.docnow.io/
 
 <section id="container">
   <div id="moved">
-    The Documenting the Now Catalog has moved to a new location:<br><br><br>
+    The Documenting the Now Catalog has moved to a new location:
+    <br><br><br>
     <a href="http://catalog.docnow.io">https://catalog.docnow.io</a>
+    <br><br><br>
+    You should be automatically redirected in a few seconds.
   </div>
 </section>
 
 <script>
-  window.location = "https://catalog.docnow.io/"
+  setTimeout(function() {window.location = "https://catalog.docnow.io/"}, 3000)
 </script>
