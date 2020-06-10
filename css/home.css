@@ -110,10 +110,12 @@ body {
   color: black;
   background-color: yellow;
 }
-.link a {
+
+#workshops a, #tools p a {
   color: black;
   background-color: yellow;
 }
+
  #meetings a {
    color: black;
    background-color: yellow;

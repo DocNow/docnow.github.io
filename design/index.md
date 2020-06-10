@@ -16,6 +16,7 @@ have focused on, and help us see how our ideas may have changed over time.
 Please feel free to ask questions in the [Issue Tracker] for this website, in
 [Slack], or to drop us an email at info@docnow.io.
 
+* 2019-01-14 [DocNow Database Schema](2020-01-14-db)
 * 2019-10-11 [DocNow Backend](2019-10-11-backend)
 * 2019-07-25 [DocNow Quotas](2019-07-25-quotas)
 * 2019-07-25 [DocNow Notifications](2019-07-25-notifications)
