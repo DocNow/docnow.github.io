@@ -110,7 +110,10 @@ body {
   color: black;
   background-color: yellow;
 }
-
+.link a {
+  color: black;
+  background-color: yellow;
+}
  #meetings a {
    color: black;
    background-color: yellow;
