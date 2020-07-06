@@ -1,6 +1,6 @@
 ---
 layout: design
-title: Crowdfunded Docnow Website
+title: Crowdfunded DocNow Website
 creator: Francis Kayiwa
 created: 2020-07-06
 ---
