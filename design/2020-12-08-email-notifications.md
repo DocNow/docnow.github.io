@@ -11,10 +11,10 @@ The DocNow application requires user management, storage & Twitter API managemen
 
 ## Requirements
 
-In order to accomplish this we will need to have the following:)
+In order to accomplish this we will need to have the following:
 
-Ability for application to send emails
-Email field required upon initial sign up to application
+* Ability for application to send emails
+* Email field required upon initial sign up to application
 
 ## Proposal
 
