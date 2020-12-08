@@ -1,8 +1,8 @@
 ---
 layout: design
-title: Static Archive
-created: 2018-12-06
-creator: Raff Viglianti
+title: Email Notifications
+created: 2020-12-08
+creator: Alexandra Dolan-Mescal
 ---
 
 ## Problem
