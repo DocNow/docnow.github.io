@@ -2,6 +2,7 @@ html,
 body {
     height: 100%;
     margin-top: 0px;
+    font-size: 14pt;
 }
 
 .carousel,
@@ -29,13 +30,13 @@ body {
     position: fixed;
     left: 150px;
     font-size: 20pt;
-    font-weight: 400;
+    font-weight: 600;
     top: 150px;
     padding: 10px;
-    width: 350px;
+    width: 450px;
     text-shadow: 2px 2px #000000;
-}
 
+}
 .desc img {
     height: 100px;
     padding-bottom: 20px;
@@ -135,8 +136,8 @@ a:hover {
   font-weight: 600;
 }
 .btn:hover {
-  background-color: yellow;
-  color: #5FA8DC;
+  background-color: black;
+  color: yellow;
 }
 
 #the-team a {
