@@ -22,22 +22,23 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
 
 .desc {
     position: fixed;
     left: 150px;
+    font-size: 20pt;
+    font-weight: 400;
     top: 150px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    width: 250px;
-    background: rgb(25, 25, 25); /* Fall-back for browsers that don't
-                                    support rgba */
-    background: rgba(25, 25, 25, .5);
+    padding: 10px;
+    width: 350px;
+    text-shadow: 2px 2px #000000;
 }
 
 .desc img {
     height: 100px;
+    padding-bottom: 20px;
 }
 
 .navbar {
@@ -50,6 +51,7 @@ body {
     outline: thin solid black;
     margin: 20px;
     padding: 20px;
+    background-color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -101,9 +103,40 @@ body {
   color: black;
 }
 
+.bluesection {
+  background-color: #aeecfd;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+.graysection {
+  background-color: #efefef;
+  margin-left: auto;
+  margin-right: auto;
+    padding: 15px;
+
+}
+a:hover {
+  font-weight: 600;
+}
+
 #about a {
   color: black;
   background-color: yellow;
+}
+.btn {
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: yellow;
+  color: #5FA8DC;
 }
 
 #the-team a {
@@ -116,7 +149,7 @@ body {
   background-color: yellow;
 }
 
- #meetings a {
+ #community a {
    color: black;
    background-color: yellow;
  }
