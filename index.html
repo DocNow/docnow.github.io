@@ -10,17 +10,14 @@ extra_js:
     <header id="carousel" class="carousel slide">
         <div class="carousel-inner">
           <div class="item active">
-              <div class="fill" style="background-image:url('{{ site.baseurl }}/img/slider/workshop_collager.png');"></div>
+              <div class="fill" style="background-image:url('{{ site.baseurl }}/img/slider/workshop_collage.png');"></div>
               <div class="carousel-caption">
                   <div class="desc">
                     <img alt="DocNow" src="{{ site.baseurl }}/img/docnow.png">
                     <br>
-                    DocNow is a tool and a community developed around
-                    supporting the ethical collection, use, and preservation
-                    of social media content.
                   </div>
                   <figcaption>
-                    Photos of community spaces <i>Activist Workshop Series</i>
+                    Photos of community spaces from <i>Activist Workshop Series</i>
                   </figcaption>
               </div>
           </div>
@@ -30,10 +27,6 @@ extra_js:
                     <div class="desc">
                       <img alt="DocNow" src="{{ site.baseurl }}/img/docnow.png">
                       <br>
-                          Documenting the Now develops tools and builds
-                          community practices that support the ethical
-                          collection, use, and preservation of social media
-                          content.
                     </div>
                     <br>
                     <figcaption>
@@ -47,10 +40,6 @@ extra_js:
                   <div class="desc">
                     <img alt="DocNow" src="{{ site.baseurl }}/img/docnow.png">
                     <br>
-                        Documenting the Now develops tools and builds
-                        community practices that support the ethical
-                        collection, use, and preservation of social media
-                        content.
                   </div>
                   <br>
                     <figcaption>
@@ -65,9 +54,6 @@ extra_js:
                     <div class="desc" style="color: 666666;">
                       <img alt="DocNow" src="{{ site.baseurl }}/img/docnow.png">
                       <br>
-                      DocNow is a tool and a community developed around
-                      supporting the ethical collection, use, and preservation
-                      of social media content.
                     </div>
                     <figcaption>
                     <a href="http://www.stltoday.com/news/multimedia/special/ferguson-in-pictures/html_24b2b105-90e3-5ef0-9c65-769e848c0d31.html">Photo</a> by <a href="https://twitter.com/PDPJ">David Carson</a>
@@ -80,9 +66,6 @@ extra_js:
                     <div class="desc" style="color: ffd964;">
                       <img alt="DocNow" src="{{ site.baseurl }}/img/docnow.png">
                       <br>
-                      DocNow is a tool and a community developed around
-                      supporting the ethical collection, use, and preservation
-                      of social media content.
                     </div>
                     <figcaption>
                       <i>Don't Shoot Portland</i> Activist Workshop Group
@@ -102,10 +85,13 @@ extra_js:
           <br>
           <br>
 
-
+          <h2>About</h2>
+          <br>
           <div class="col-lg-10 text-left">
-              <h2>About</h2>
-              <br>
+            <p class="bigp">Documenting the Now develops tools and builds
+            community practices that support the ethical
+            collection, use, and preservation of social media
+            content.</p>
             <p>Documenting the Now responds to the public's use of social media for chronicling historically significant events as well as demand from scholars, students, and archivists, among others, seeking a user-friendly means of collecting and preserving this type of digital content. Documenting the Now has a strong commitment to prioritizing ethical practices when working with social media content, especially in terms of collection and long-term preservation. This commitment extends to Twitter's notion of <a href="https://developer.twitter.com/en/docs/twitter-api/enterprise/compliance-firehose-api/guides/honoring-user-intent" target="_blank">honoring user intent</a> and the rights of content creators. Shift Collective is the home base for Documenting the Now. We are extremely grateful for funding from the Andrew W. Mellon Foundation.</p>
           </div>
           <div class="col-lg-2">
@@ -124,10 +110,7 @@ extra_js:
         <h2>Tools</h2>
         <br>
         <div class="col-lg-12 text-left">
-          <p>We build tools to help archivists, activists and researchers work with social media data.
-              Reach out to us <a href="https://bit.ly/docnow-slack">on Slack</a>
-              if you are interested in using them, but not sure where to begin. We publish <a href="/design/">design documents</a>
-              guiding our development, and welcome your feedback.</p>
+          <p class="bigp">We build tools to help archivists, activists and researchers work with social media data. Please reach out with questions or feedback: <a href="mailto:info@docnow.io">info@docnow.io</a></p>
             <br>
         </div>
         <div class="row">
@@ -141,22 +124,25 @@ extra_js:
             We should write a few sentences here about how and why the tool was built, that we are still developing it,
             and a link to installation page.</p>
           </div>
-         <div>
-            <button class="btn">Try it!</button>
-          </div>
-        </div><hr>
+        </div>
+        <div>
+           <button class="btn">Try it!</button>
+         </div>
+        <hr>
         <div class="row">
           <div class="col-lg-3 col-md-3 col-sm-4">
             <a href="https://github.com/DocNow/twarc" target="_blank">
             <img src="{{ site.baseurl }}/img/twarc.png" alt="twarc" width="30%"/></a>
           </div>
           <div class="col-lg-9 col-md-9 col-sm-6 text-left">
-            <p><b>Twarc</b> is a community-developed command line program for collection Twitter JSON data.</p>
+            <p><b>Twarc</b> is a community-developed command line program for collection Twitter JSON data. Ask Ed to write another secntence, perhaps
+            about the new API, or thanking folks who have contributed. </p>
           </div>
-          <div>
+        </div>
+        <div>
             <button class="btn">Install</button>
-          </div>
-        </div><hr>
+        </div>
+        <hr>
         <div class="row">
           <div class="col-lg-3 col-md-3 col-sm-3">
             <a href="https://github.com/DocNow/hydrator" target="_blank">
@@ -166,10 +152,11 @@ extra_js:
             <p><b>Hydrator</b> is the desktop tool to use for taking Tweet IDs and rehydrating them into full tweets.
               This tool follows Twitter's privacy rules by only rehydrating tweets that are still published on Twitter.</p>
           </div>
-          <div>
-            <button class="btn">Download</button>
-          </div>
-        </div><hr>
+        </div>
+        <div>
+          <button class="btn">Download</button>
+        </div>
+        <hr>
         <div class="row">
           <div class="col-lg-3 col-md-3 col-sm-4">
             <a href="https://www.docnow.io/social-humans" target="_blank">
@@ -179,10 +166,11 @@ extra_js:
           <div class="col-lg-9 col-md-9 col-sm-6 text-left">
             <p><b>Social Humans</b> is a set of labels...</p>
           </div>
-          <div>
-            <button class="btn">Learn More</button>
-          </div>
-        </div><hr>
+        </div>
+        <div>
+          <button class="btn">Learn More</button>
+        </div>
+        <hr>
         <div class="row">
           <div class="col-lg-3 col-md-3 col-sm-4">
             <a href="http://catalog.docnow.io" target="_blank">
@@ -193,10 +181,11 @@ extra_js:
             <p><b>The Catalog</b> is a participatory, crowd-sourced set of records about social media collections.
             Someone who is not me should write this text. We can talk about how easy it is to share your own dataset!</p>
             </div>
-            <div>
-              <button class="btn">Visit</button>
-            </div><br><br>
         </div>
+        <div>
+          <button class="btn">Visit</button>
+        </div>
+        <br><br>
         </section>
         </div>
         <section id="community" class="row bluesection">
@@ -204,7 +193,7 @@ extra_js:
             <h2>Community</h2>
             <br>
               <div class="col-lg-12">
-                <p>Building and maintaining a community of practice is a core tenet of the Documenting the Now project. Our community engagement
+                <p class="bigp">Building and maintaining a community of practice is a core tenet of the Documenting the Now project. Our community engagement
                 includes activist workshops, symposia, online and in-person meetings, conferences, and Twitter chats.</p>
               </div>
             <br>
