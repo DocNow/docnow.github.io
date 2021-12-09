@@ -146,10 +146,15 @@ figcaption {
   padding: 10px;
   background-color: #111;
   color: white;
+  font-size: smaller;
 
   border-radius: 3px;
 }
 
+.icon-next, .icon-prev {
+  font-size: 50pt !important;
+  color: white;
+}
 figcaption a {
   color: yellow;
 }
