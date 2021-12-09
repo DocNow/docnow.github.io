@@ -1,0 +1,44 @@
+I"�<h2 id="problem">Problem</h2>
+
+<p>Collections created with DocNow can only be accessed online and cannot be downloaded to be archived or used outside of the DocNow app. This proposal is to build an “export” system that produces a static site of the archive of a collection based on the data stored in the DocNow database.</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>In order to accomplish this we will need to have the following (at a minimum)</p>
+
+<p>Routine for generating static site from a stored collection
+UI components for export</p>
+
+<h2 id="proposal">Proposal</h2>
+
+<p>Create a stand-alone static archive to work with.</p>
+
+<p><strong>Server side</strong></p>
+
+<ul>
+  <li>Create a static site template to be populated by the exporting routine
+    <ul>
+      <li>Investigate GatsbyJS as an option first</li>
+      <li>This could be jekyll, but perhaps a nodejs equivalent would be better given the current architecture.</li>
+    </ul>
+  </li>
+  <li>Archive to show tweets in single infinite scrolling page, or just embed the tweets?</li>
+  <li>Export routine to extract data from the database</li>
+  <li>Routine for generating static site based on extracted data and template</li>
+</ul>
+
+<p><strong>Client side:</strong></p>
+
+<ul>
+  <li>Create UI component to initiate export</li>
+  <li>Notify user of export completed and allow download</li>
+</ul>
+
+<h2 id="action-items">Action Items</h2>
+
+<ul>
+  <li>Raff will work on react app for displaying the archive</li>
+  <li>Ed will integrate into the docnow app</li>
+</ul>
+
+:ET

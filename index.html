@@ -98,143 +98,127 @@ extra_js:
         </a>
     </header>
     <div class="container">
-        <section id="about" class="row text-center">
+      <section id="about" class="row text-center">
           <br>
           <br>
           <br>
           <h2>About</h2>
           <br>
-
-          <div class="col-lg-12 text-left">
-            <p>Documenting the Now responds to the public's use of social media for chronicling historically significant events as well as demand from scholars, students, and archivists, among others, seeking a user-friendly means of collecting and preserving this type of digital content. Documenting the Now has a strong commitment to prioritizing ethical practices when working with social media content, especially in terms of collection and long-term preservation. This commitment extends to Twitter's notion of <a href="https://developer.twitter.com/en/docs/twitter-api/enterprise/compliance-firehose-api/guides/honoring-user-intent" target="_blank">honoring user intent</a> and the rights of content creators. The project is a collaborative effort between Shift Collective, the University of Maryland, and the University of Virginia. We are extremely grateful for funding from the Andrew W. Mellon Foundation.</p>
+          <div class="col-lg-10 text-left">
+            <p>Documenting the Now responds to the public's use of social media for chronicling historically significant events as well as demand from scholars, students, and archivists, among others, seeking a user-friendly means of collecting and preserving this type of digital content. Documenting the Now has a strong commitment to prioritizing ethical practices when working with social media content, especially in terms of collection and long-term preservation. This commitment extends to Twitter's notion of <a href="https://developer.twitter.com/en/docs/twitter-api/enterprise/compliance-firehose-api/guides/honoring-user-intent" target="_blank">honoring user intent</a> and the rights of content creators. Shift Collective is the home base for Documenting the Now. We are extremely grateful for funding from the Andrew W. Mellon Foundation.</p>
+          </div>
+          <div class="col-lg-2">
+            <div>
+              <img class="img-responsive" src="{{ site.baseurl }}/img/shiftcollective.png" alt="shift collective" width="70%" />
+            </div>
+            <div style="padding-top:5px">
+               <img class="img-responsive" style="border: thin solid #ddd" src="{{ site.baseurl }}/img/mellon.jpg" alt="mellon foundation" width="70%" />
+            </div>
+        </div>
+      </section>
+      <section id="tools" class="row text-center">
+        <br><br><br>
+        <h2>Tools</h2>
+        <br>
+        <div class="col-lg-12 text-left">
+          <p>We build tools to help archivists, activists and researchers work with social media data.
+              Reach out to us <a href="https://bit.ly/docnow-slack">on Slack</a>
+              if you are interested in using them, but not sure where to begin. We publish <a href="/design/">design documents</a>
+              guiding our development, and welcome your feedback.</p>
             <br>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <a href="https://github.com/DocNow/docnow" target="_blank">
+              <img src="{{ site.baseurl }}/img/DN320x460.png" alt="docnow app" width="40%"/><br><h4>DocNow</h4></a>
+              <br>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8 text-left">
+            <p><b>Docnow</b> is a tool for appraising, collecting, and gathering donor consent for Twitter data.
+            We should write a few sentences here about how and why the tool was built, that we are still developing it,
+            and a link to installation page.</p>
+          </div>
+         <div>
+            <button class="btn">Use DocNow</button>
+          </div>
+        </div><hr>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <a href="https://github.com/DocNow/twarc" target="_blank">
+            <img src="{{ site.baseurl }}/img/twarc.png" alt="twarc" width="30%"/><br><h4>Twarc</h4></a>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-6 text-left">
+            <p><b>Twarc</b> is a community-developed command line program for collection Twitter JSON data.</p>
+          </div>
+          <div>
+            <button class="btn">Install Twarc</button>
+          </div>
+        </div><hr>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <a href="https://github.com/DocNow/hydrator" target="_blank">
+            <img src="{{ site.baseurl }}/img/hydrator.png" alt="hydrator" width="30%"/><br><h4>Hydrator</h4></a>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-6 text-left">
+            <p><b>Hydrator</b> is the desktop tool to use for taking Tweet IDs and rehydrating them into full tweets.
+              This tool follows Twitter's privacy rules by only rehydrating tweets that are still published on Twitter.</p>
+          </div>
+          <div>
+            <button class="btn">Download the Hydrator</button>
+          </div>
+        </div><hr>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <a href="https://www.docnow.io/social-humans" target="_blank">
+            <img src="{{ site.baseurl }}/img/socialhumans_wlabel.png" alt="slack" width="30%"/><h4>Social Humans</h4></a>
             <br>
           </div>
-
-          <div class="col-sm-offset-2 col-sm-2">
-            <img class="img-responsive" src="{{ site.baseurl }}/img/umd.jpg" alt="umd" />
+          <div class="col-lg-9 col-md-9 col-sm-6 text-left">
+            <p><b>Social Humans</b> is a set of labels...</p>
           </div>
-          <div class="col-sm-2">
-            <img class="img-responsive" style="margin-top:15px;" src="{{ site.baseurl }}/img/shiftcollective.png" alt="ucr" />
+          <div>
+            <button class="btn">Social Humans Labels</button>
           </div>
-          <div class="col-sm-2">
-            <img class="img-responsive" style="border: thin solid #ddd;
-            padding-bottom: 30px;" src="{{ site.baseurl }}/img/uva.png" alt="UVA" />
+        </div><hr>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <a href="http://catalog.docnow.io" target="_blank">
+            <img src="{{ site.baseurl }}/img/cat.png" alt="catalog" width="30%"/><br><h4>The Catalog</h4></a>
+            <br>
           </div>
-          <div class="col-sm-2">
-             <img class="img-responsive" style="border: thin solid #ddd" src="{{ site.baseurl }}/img/mellon.jpg" alt="mellon" />
-          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8 text-left">
+            <p><b>The Catalog</b> is a participatory, crowd-sourced set of records about social media collections.
+            Someone who is not me should write this text. We can talk about how easy it is to share your own dataset!</p>
+            </div>
+            <div>
+              <button class="btn">Visit the Catalog</button>
+            </div>
+        </div><hr>
         </section>
-
-        <section id="tools" class="row text-center">
-            <br>
-            <br>
-            <br>
-            <h2>Tools</h2>
-            <br>
-              <div class="col-lg-12 text-left">
-              <p>
-              We are building a variety of tools to help archivists,
-              activists and researchers work with social media data.
-              Some of these require tech know-how to get running,
-              so please reach out to us <a href="https://bit.ly/docnow-slack">on Slack</a>
-              if you are interested in using them, but not sure where to
-              begin. We also publish <a href="/design/">Design Documents</a>
-              for guiding our development, and would welcome your feedback.
-              </p>
-              <br>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-offset-1 col-lg-3 col-md-offset-1 col-md-3 col-sm-3">
-                  <a href="https://github.com/DocNow/docnow" target="_blank">
-                      <img src="{{ site.baseurl }}/img/DN320x460.png" alt="docnow app" width="45%"/><br><h4>DocNow</h4></a>
-                      <small>Appraise Twitter for archival and research collections.</small>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                    <a href="http://catalog.docnow.io" target="_blank">
-                        <img src="{{ site.baseurl }}/img/catalog.png" alt="catalog" width="30%"/><br><h4>Tweet Catalog</h4></a>
-                        <small>A catalog of publicly shared tweet ID sets. <a href="https://github.com/DocNow/catalog">Add yours!</a></small>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                    <a href="https://github.com/DocNow/hydrator" target="_blank">
-                        <img src="{{ site.baseurl }}/img/hydrator.png" alt="hydrator" width="30%"/><br><h4>Hydrator</h4></a>
-                        <small>"Rehydrate" tweet ID sets into tweets with metadata.</small>
-                </div>
-            </div>
-              <br>
-              <br>
-            <div class="row">
-                <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3">
-                    <a href="https://www.docnow.io/social-humans" target="_blank">
-                        <img src="{{ site.baseurl }}/img/socialhumans_wlabel.png" alt="slack" width="30%"/><h4>Social Humans Labels</h4></a>
-                        <small>Labels for ethically describing and sharing social media data.</small>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                    <a href="https://github.com/DocNow/twarc" target="_blank">
-                      <img src="{{ site.baseurl }}/img/twarc.png" alt="twarc" width="30%"/><br><h4>Twarc</h4></a>
-                        <small>Archive Twitter JSON using this command line tool.</small>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                    <a href="https://github.com/DocNow/diffengine" target="_blank">
-                        <img src="{{ site.baseurl }}/img/diffengine_min.png" alt="slack" width="30%"/><h4>Diff Engine</h4></a>
-                        <small>Track changes in news articles through RSS feeds.</small>
-                </div>
-            </div>
-            <br>
-            <br>
-            <br><h2>Friends</h2>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-lg-offset-1 col-md-offset-1 col-lg-2 col-md-2 col-sm-2">
-                  <a href="https://archivesunleashed.org/" target="_blank">
-                      <img src="{{ site.baseurl }}/img/archivesunleashed.png" alt="web recorder" width="30%"/><br><h4 class="noline">Archives Unleashed</h4></a>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2">
-                    <a href="https://webrecorder.net" target="_blank">
-                        <img src="{{ site.baseurl }}/img/wr-logo.svg" alt="web recorder" width="30%"/><br><h4 class="noline">Webrecorder</h4></a>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2">
-                    <a href="https://gwu-libraries.github.io/sfm-ui/" target="_blank">
-                        <img src="{{ site.baseurl }}/img/sfm.jpg" alt="social feed manager" width="30%"/><br><h4 class="noline">SFM</h4></a>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2">
-                    <a href="https://open-archive.org/" target="_blank">
-                      <img src="{{ site.baseurl }}/img/openarchive.png" alt="open archives" width="30%"/><br><h4 class="noline">Open Archive</h4></a>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2">
-                    <a href="https://mukurtu.org/" target="_blank">
-                      <img src="{{ site.baseurl }}/img/mukurtu.png" alt="mukurtu" width="30%"/><br><h4 class="noline">Mukurtu</h4></a>
-                </div>
-            </div>
-        </section>
-
-        <section id="workshops" class="row">
-            <br>
-            <br>
-            <br>
-            <h2>Workshops</h2>
+        <section id="community" class="row">
+            <br><br><br>
+            <h2>Community</h2>
             <br>
                 <div class="col-lg-12">
-                    <p>As of 2019, Documenting the Now is partnering with activist groups across the United States to run co-learning
-                    workshops. Activists share their work, process, and archival needs, the DocNow Workshop Team shares tools and techniques,
-                  and together we imagine and build towards better activist community archives. <b>We will add more information on these workshops soon.</b></p>
+                    <p>Building and maintaining a community of practice is a core tenet of the Documenting the Now project. Our community engagement
+                    includes activist workshops, symposia, online and in-person meetings, conferences, and Twitter chats.</p>
                 </div>
             <br>
-            <div class="row">
-              <div class="col-lg-offset-1 col-lg-10 link">
-                <br>
+          <div class="row">
+            <div class="col-lg-offset-1 col-lg-10">
+              <br>
               <a href="https://twitter.com/BergisJules/status/1188094344143785984">October 26, 2019</a> Petty Propolis Workshop (Detroit, MI)<br>
               <a href="https://twitter.com/documentnow/status/1157674841195069440">August 3, 2019</a> Texas After Violence Workshop (Austin, TX)<br>
               <a href="https://twitter.com/BergisJules/status/1128309861412851713">May 11, 2019</a> Don't Shoot PDX Workshop (Portland, OR)<br>
               <a href="https://twitter.com/documentnow/status/1112049272000663552">March 30, 2019</a> Southern California Library Workshop (Los Angeles, CA)<br>
+              <a href="http://eaw.rhizome.org">March 22-24, 2018</a> Ethics in Archiving the Web Symposium (New York, NY)<br>
+              <a href="/meetings/stl-2017/">December 11-12, 2017</a> Digital Blackness in the Archive: A Documenting the Now Symposium (Ferguson/St. Louis, MO)<br>
+              <a href="https://wakelet.com/wake/cc199e4a-f872-43c2-865f-33d49f43eb4c">February 15, 2017</a> #DocNowCommunity and #SNAPRT Twitter Chat: Ethics and Archiving Social Media: Perspectives from Students and New Archives Professionals<br>
+              <a href="/meetings/stl-2016/">August 21-23, 2016</a> Advisory Board Meeting at Washington University in St. Louis, St. Louis, Missouri<br>
+              <a href="/storify/docnowcommunity-chat-2.html">August 11, 2016</a> #DocNowCommunity Twitter Chat 2: Social Media Research<br>
+              <a href="/storify/docnowcommunity-chat.html">July 14, 2016</a> #DocNowCommunity Twitter Chat 1: Project Introduction
             </div>
           </div>
-        <!--    <div class="row">
-              <div class="col-lg-6"> set workshop img slider here</div>
-              <div class="col-lg-6"> set description for each workshop here
-            </div> -->
         </section>
 
         <section id="get-involved" class="row text-center">
@@ -243,12 +227,12 @@ extra_js:
             <br>
             <h2>Get Involved</h2><br><br>
             <div class="row">
-                <div class="col-lg-2 col-md-2 col-sm-2">
-                    <a href="http://eepurl.com/bMNJsX" target="_blank">
-                        <img src="{{ site.baseurl }}/img/mailchimp.png" alt="mailchimp" width="50%"/><br>
-                        <h4>Mailchimp</h4></a>
-                        <small>Sign up for emails</small>
-                </div>
+              <div class="col-lg-2 col-md-2 col-sm-2">
+                  <a href="https://docs.google.com/forms/d/1Wk0JdF2Cty2VHMqpf_QlJXVKQdUtfeeFhaYRben3qaM/viewform" target="_blank">
+                      <img src="{{ site.baseurl }}/img/slack.png" alt="slack" width="50%"/><br>
+                      <h4>Slack</h4></a>
+                      <small>Join the conversation</small>
+              </div>
                 <div class="col-lg-2 col-md-2 col-sm-2">
                     <a href="http://twitter.com/documentnow" target="_blank">
                         <img src="{{ site.baseurl }}/img/twitter.png" alt="twitter" width="50%"/><br>
@@ -260,12 +244,6 @@ extra_js:
                       <img src="{{ site.baseurl }}/img/Medium_new.png" alt="medium" width="50%"/><br>
                         <h4>Blog</h4></a>
                         <small>Read and respond</small>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2">
-                    <a href="https://docs.google.com/forms/d/1Wk0JdF2Cty2VHMqpf_QlJXVKQdUtfeeFhaYRben3qaM/viewform" target="_blank">
-                        <img src="{{ site.baseurl }}/img/slack.png" alt="slack" width="50%"/><br>
-                        <h4>Slack</h4></a>
-                        <small>Join the conversation</small>
                 </div>
                 <div class="col-lg-2 col-md-2 col-sm-2">
                     <a href="http://github.com/docnow" target="_blank">
@@ -281,32 +259,29 @@ extra_js:
                 </div>
             </div>
         </section>
-
         <section id="the-team">
-            <br>
-            <br>
-            <br>
-            <h2>The Team</h2><br>
-            <div class="row text-center">
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                   <div class="person">
-                      <img class="img-responsive center-block" src="{{ site.baseurl }}/img/meredith.jpg" alt="Doctor Meredith Clark" /><br>
-                      <a href="mailto:mdc6j@virginia.edu">Dr. Meredith Clark</a><br>
-                      Academic Lead, Co-Principal Investigator
-                   </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="person">
-                       <img class="img-responsive center-block" src="{{ site.baseurl }}/img/bergis.jpg" alt="Bergis Jules" /><br>
-                       <a href="mailto:bergis.jules@shiftdesign.org">Bergis Jules</a><br>
-                       Project Director, Co-Principal Investigator
-                    </div>
-                </div>
+          <br><br><br>
+          <h2>The Team</h2><br>
+          <div class="row text-center">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+             <div class="person">
+              <img class="img-responsive center-block" src="{{ site.baseurl }}/img/meredith.jpg" alt="Doctor Meredith Clark" /><br>
+              <a href="mailto:mdc6j@virginia.edu">Dr. Meredith Clark</a><br>
+              Academic Lead, Co-Principal Investigator
+             </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="person">
+               <img class="img-responsive center-block" src="{{ site.baseurl }}/img/bergis.jpg" alt="Bergis Jules" /><br>
+               <a href="mailto:bergis.jules@shiftdesign.org">Bergis Jules</a><br>
+               Project Director, Co-Principal Investigator
+            </div>
+          </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="person">
-                       <img class="img-responsive center-block" src="{{ site.baseurl }}/img/trevor.jpg" alt="Trevor Munoz" /><br>
-                       <a href="mailto:tmunoz@umd.edu">Trevor Mu&#241;oz</a><br>
-                       Administrative Lead, Principal Investigator
+                       <img class="img-responsive center-block" src="{{ site.baseurl }}/img/ed.jpg" alt="Ed Summers" /><br>
+                       <a href="mailto:ehs@pobox.com">Dr. Ed Summers</a><br>
+                       Technical Lead, Co-Principal Investigator
                     </div>
                 </div>
             </div>
@@ -341,107 +316,17 @@ extra_js:
                         DevOps Engineer
                     </div>
                 </div>
-                  <div class="col-lg-4 col-md-4 col-sm-6">
-                      <div class="person">
-                          <img class="img-responsive center-block" src="{{ site.baseurl }}/img/jes.jpg" alt="Jes Neal" /><br>
-                          Jes Neal<br>
-                          Community Workshop Trainer
-                      </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-6">
-                      <div class="person">
-                         <img class="img-responsive center-block" src="{{ site.baseurl }}/img/ed.jpg" alt="Ed Summers" /><br>
-                         Ed Summers<br>
-                         Technical Lead
-                      </div>
-                  </div>
-              <div class="row text-center">
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="person">
-                        <img class="img-responsive center-block" height=200 src="{{ site.baseurl }}/img/raff.jpg" alt="Raffaele Viglianti" /><br>
-                        Raff Viglianti<br>
-                        Software Developer
+                        <img class="img-responsive center-block" src="{{ site.baseurl }}/img/jes.jpg" alt="Jes Neal" /><br>
+                        Jes Neal<br>
+                        Community Workshop Trainer
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="person">
-                        <img class="img-responsive center-block" height=200 src="{{ site.baseurl }}/img/susan.jpg" alt="Susan Wiesner" /><br>
-                        Susan Wiesner<br>
-                        Administrative Coordinator
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="person">
-                      <p> Thank you to our former team members:<br> <b>T'Sey-Haye Preaster</b> <br>(Project Manager 2018-2020)<br> <b>Vernon Mitchell</b> <br>(Administrative Lead 2017)<br> <b>Chris Freeland</b> <br>(Administrative Lead 2016)<br>
-                       <b>Timothy Cole</b> <br>(Project Manager 2017)<br> <b>Desiree Smith-Jones</b> <br>(Project Manager 2016)<br> <b>Dan Chudnov</b> <br>(Data Engineer 2016-2017)
-                    </div>
-                </div>
-              </div>
-            <!--  <div class="row">
-                  <div class="col-lg-12">
-                      <p>Advisory board members are active participants in the development of DocNow. Board members were carefully chosen because of their expertise as archivists, librarians, computer scientists, historians, software developers, librarians, sociologists, and journalists, and in many cases their work has directly influenced how the DocNow project was designed. We’re extremely thankful to this group and their continued support and active involvement in the project.</p>
-                  </div>
-              </div>
-              <br>
-              <div class="row advisors">
-                  <div class="col-lg-12 col-md-12">
-                      <a href="http://nataliembaur.com/" target="_blank">Natalie Baur</a>,
-                      <a href="https://tressiemc.com/" target="_blank">Tressie McMillan Cottom</a>,
-                      <a href="https://www.lib.ncsu.edu/staff/bjdietz" target="_blank">Brian Dietz</a>,
-                      <a href="https://library.princeton.edu/staff/jmdrake" target="_blank">Jarrett Drake</a>,
-                      <a href="https://www.linkedin.com/in/meredith-evans-ph-d-5731842" target="_blank">Meredith Evans</a>,
-                      <a href="https://afas.wustl.edu/people/jonathan-fenderson" target="_blank">Jonathan Fenderson</a>,
-                      <a href="http://dfreelon.org/" target="_blank">Deen Freelon</a>,
-                      <a href="http://jmjohnso.com/" target="_blank">Jessica Johnson</a>,
-                      <a href="http://www.robinmkatz.com/" target="_blank">Robin Katz</a>,
-                      <a href="http://coloredconventions.org/about-us">David Kim</a>,
-                      <a href="http://aaas.duke.edu/people?Gurl=%2Faas%2FAAAS&Uid=3851&subpage=profile" target="_blank">Mark Anthony Neal</a>,
-                      <a href="http://www.cs.odu.edu/~mln/" target="_blank">Michael Nelson</a>,
-                      <a href="https://witness.org/portfolio_page/yvonne-ng/" target="_blank">Yvonne Ng</a>,
-                      <a href="http://mattphillips.info/" target="_blank">Matt Phillips</a>, Lead Developer,
-                      <a href="https://socy.umd.edu/facultyprofile/Ray/Rashawn" target="_blank">Rashawn Ray</a>,
-                      <a href="https://swsblog.stanford.edu/users/nicholas-taylor" target="_blank">Nicholas Taylor</a>,
-                      <a href="http://www.latimes.com/la-bio-dexter-thomas-staff.html" target="_blank">Dexter Thomas</a>,
-                      <a href="https://staciemariwilliams.com/" target="_blank">Stacie Williams</a>,
-                      Micah Zeller
-                  </div>
-              </div> -->
           </div>
         </section>
-
-        <section id="meetings">
-          <br>
-          <br>
-          <br>
-          <h2>Meetings</h2><br>
-          <div class="row">
-          <div class="col-lg-12">
-            <p>Building a community of practice around social media and Web
-            archiving is one of the most significant aspects to the work we are
-            doing in the Documenting the Now project. Mellon has generously
-            funded us to hold two face-to-face meetings, one in 2016 and
-            another in 2017. These meetings allow us to bring our advisory
-            board together and incorporate live streaming to engage with a
-            larger audience.
-            </p>
-            </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-offset-1 col-lg-10 news-items">
-                  <a href="http://eaw.rhizome.org">March 22-24, 2018</a> Ethics in Archiving the Web Symposium (New York, NY)<br>
-                  <a href="/meetings/stl-2017/">December 11-12, 2017</a> Digital Blackness in the Archive: A Documenting the Now Symposium (Ferguson/St. Louis, MO)<br>
-                  <a href="https://wakelet.com/wake/cc199e4a-f872-43c2-865f-33d49f43eb4c">February 15, 2017</a> #DocNowCommunity and #SNAPRT Twitter Chat: Ethics and Archiving Social Media: Perspectives from Students and New Archives Professionals<br>
-                  <a href="/meetings/stl-2016/">August 21-23, 2016</a> Advisory Board Meeting at Washington University in St. Louis, St. Louis, Missouri<br>
-                  <a href="/storify/docnowcommunity-chat-2.html">August 11, 2016</a> #DocNowCommunity Twitter Chat 2: Social Media Research<br>
-                  <a href="/storify/docnowcommunity-chat.html">July 14, 2016</a> #DocNowCommunity Twitter Chat 1: Project Introduction
-                </div>
-            </div>
-        </section>
-
         <section id="news" class="row">
-            <br>
-            <br>
-            <br>
+            <br><br><br>
             <h2>News</h2>
             <br>
                 <div class="col-lg-offset-1 col-lg-10 news-items">

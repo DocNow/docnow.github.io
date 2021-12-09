@@ -1,0 +1,34 @@
+I"‡<h2 id="problem">Problem</h2>
+
+<p>The DocNow Project currently has a <a href="https://demo.docnow.io">demo application</a>. This demo application is used in active development of the application and thus the service is best considered volatile. Furthermore, the data collected on the application can and is deleted when met with our Elasticsearch storage constraints. Weâ€™ve had some users come into the application and start data collection for a trending (high-volume) hashtag, and then never turning it off. While we have addressed this in the application stack we do meet storage constraints occasionally.</p>
+
+<p>We are setting up a second instance which will be crowd funded by users of the application to allow for long term use of users. The value of this proposal is we will have active numbers to properly estimate what it costs to run and maintain the DocNow application.</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<p><strong>In Scope:</strong></p>
+
+<ul>
+  <li>a loadbalancing virtual machine</li>
+  <li>a virtual machine (that can scale elastically behind the loadbalancer)</li>
+</ul>
+
+<p><strong>Out of Scope</strong></p>
+
+<ul>
+  <li>how the money collected to fund will be administered</li>
+</ul>
+
+<h2 id="proposal">Proposal</h2>
+
+<p>The proposal to have a second more stable DocNow environment powered by Community Users will allow the project to properly account for the estimated costs of runnning a DocNow App instance for extended periods. We will be using the <a href="https://www.vultr.com/">vultr provider</a> and the <a href="https://github.com/docnow/docnow-ansible">docnow-ansible</a> role to install and manage the application.</p>
+
+<h2 id="action-items">Action Items</h2>
+
+<ul>
+  <li>register a new domain name (to be determined) and use the <a href="https://man.openbsd.org/relayd.8">relayd</a></li>
+  <li>create a vultr team account that allows external users to manage</li>
+  <li>add a new ansible role to <a href="https://github.com/docnow/docnow-ansible">docnow-ansible</a> for loadbalancing</li>
+  <li>add a new role to <a href="https://github.com/docnow/docnow-ansible">docnow-ansible</a>  that adds lets encrypt tls/ssl certificates</li>
+</ul>
+:ET

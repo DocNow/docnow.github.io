@@ -1,0 +1,82 @@
+I"Ï<h2 id="problem">Problem</h2>
+
+<p>It currently costs $250/month to run the demo.docnow.io instance of DocNow on
+Amazon Web Services using their Elastic Compute Cloud (EC2), ElasticCache
+(Redis) and ElasticSearch services. ElastiCache is running on a cache.m3.medium
+instance, and accounts for about 55% of the cost. The ElasticSearch instance is
+running one m4.large node and accounts for 45% of the cost. The DocNow app
+itself runs on a t2.micro instance and amounts for a little less than 5% of the
+cost.</p>
+
+<p>Even when you consider that this infrastructure can be brought up on demand
+using our Terraform deployment, it is still quite costly to use DocNow,
+especially if you want to do long term data collection. So far we have resisted
+positioning demo.docnow.io as a central service and instead have been
+encouraging people to install the application themselves. However the cost of a
+even modestly sized instance which can comfortably hold 3 million or so tweets
+is likely beyond the budgets of many small community archives that are have
+become our primary audience.</p>
+
+<p>Design of the DocNow application began in Phase 1 (2015) when we were focused on
+high volume, scalable data collection. ElasticSearch was selected as a the
+primary data store because it provides an architecture that can be scaled on
+demand to hold billions of documents by simply growing the number of nodes in
+the cluster. Redis was initially used as a pub/sub queue to coordinate work
+amongst multiple processes for streaming data from Twitter, and web crawling.
+However over time we started using it for other things too, like keeping track
+of what urls are found in tweets, and url unshortening, and web page metadata
+extraction.</p>
+
+<p>The problem is that both ElasticSearch and Redis are memory hungry, and are fast
+because they can store things in RAM, or can swap things into RAM quickly. They
+index everything and make it easy to develop an application without thinking
+about how to optimize a database schema. This is great if money is no object,
+but for the Documenting the Now project the cost increasingly matters. We want
+people in the community archives space to be able to easily run a modest size
+instance for collecting things that are relevant for them. But at the moment
+this is both technically and financially beyond their reach.</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>Ideally the DocNow application would be able to modest data collection for a
+small community using much less compute resources, such a single Amazon EC2
+micro instance ($15/month), or a desktop computer. Indeed it would be great if
+the app could be functional running on a RaspberryPi. For this to work the
+application would need to be much less memory hungry.</p>
+
+<h2 id="proposal">Proposal</h2>
+
+<p>We could try swapping out the ElasticSearch and Redis backend for a flexible
+relational database like PosgreSQL which should be more efficient when it comes
+to memory usage. Using a relational database will require us to define a
+database schema up front, however PostgreSQL also has support <a href="https://www.postgresql.org/docs/9.4/datatype-json.html">JSON</a> types which
+should allow us to store tweets as JSON blobs without indexing them every which
+way. Now that the dimensions of the DocNow app are largely known it ought be
+possible to decide what does need to be indexed.</p>
+
+<p>PostgreSQL also supports simple <a href="https://www.postgresql.org/docs/9.1/sql-notify.html">queue notifications</a> which should allow the
+DocNow app to signal when the stream-loader and url-loader processes need to
+start and stop work. There would be significant work in moving the counting that
+is happening in Redis over to PostgreSQL queries. But it ought to be possible,
+and perhaps if some metrics are too costly to calculate they can be cut from the
+application. The core functionality of the app should move from trying to
+provide detailed analytics of millions of tweets to helping archivists, and
+researchers engage in conversation with content creators.</p>
+
+<p>While PostgreSQL will use less resources (memory) for modest collecting it also
+should also in principle scale to larger data collection if needed using
+approaches like <a href="https://docs.citusdata.com/en/v8.3/">Citus</a> that allow
+PostgreSQL to work as a cluster.</p>
+
+<h2 id="action-items">Action Items</h2>
+
+<ul>
+  <li>Examine library options for Node/PostgreSQL db connections.</li>
+  <li>Examine existing application metrics to derive a base database schema.</li>
+  <li>Experiment with storing tweet using JSON Postgres data type.</li>
+  <li>Experiment with PostgreSQL queue notifications from Node.</li>
+  <li>Estimate effort involved in rewriting server/db.js and server/redis.js functions</li>
+  <li>Try running PostgreSQL on a RasPi.</li>
+</ul>
+
+:ET

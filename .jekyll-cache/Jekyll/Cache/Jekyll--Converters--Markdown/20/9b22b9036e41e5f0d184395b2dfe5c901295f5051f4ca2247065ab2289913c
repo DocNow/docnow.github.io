@@ -1,0 +1,58 @@
+I"M<h2 id="problem">Problem</h2>
+
+<p>The DocNow application requires user management, storage &amp; Twitter API management, and consent conversation management. Each of these activities should have email notifications to alert users of actions they need to take.</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>In order to accomplish this we will need to have the following:</p>
+
+<ul>
+  <li>Ability for application to send emails</li>
+  <li>Email field required upon initial sign up to application</li>
+</ul>
+
+<h2 id="proposal">Proposal</h2>
+
+<p>Create a set of standard email alerts that are triggered based on various conditions.</p>
+
+<p><strong>User management:</strong></p>
+
+<ul>
+  <li>Alert app administrator when a new user joins</li>
+  <li>Alert new user that their account must be activated by administrator</li>
+  <li>Alert new user when account has been activated, noting max-storage user limit</li>
+  <li>Alert administrator when user has deleted account</li>
+  <li>Alert user when administrator has de-activated account, with ability to reply to appeal de-activation
+*</li>
+</ul>
+
+<p><strong>Storage management:</strong></p>
+
+<ul>
+  <li>Alert user when storage limit has been reached and how to fix problem</li>
+  <li>Administrator recurring email of overall storage # and active users</li>
+  <li>Administrator email when going to next storage cluster size?</li>
+</ul>
+
+<p><strong>Twitter API management:</strong></p>
+
+<ul>
+  <li>Alert user when too many streams are on, need to turn one off to make other work</li>
+  <li>Alert user when a stream is rate-limited</li>
+</ul>
+
+<p><strong>Conversation management:</strong></p>
+
+<ul>
+  <li>Email collecting user when a content creator asks for: removal, specify consent with Social Humans label</li>
+  <li>Ability for app to create pop-up email form for content creator to email collecting user with specified tweets/user/collection/email account information</li>
+  <li>Dashboard of messages (to be designed by ADM)</li>
+</ul>
+
+<h2 id="action-items">Action Items</h2>
+
+<ul>
+  <li>Review this document with development team</li>
+  <li>Others TBD after review</li>
+</ul>
+:ET
