@@ -7,6 +7,7 @@ for development purposes you'll need to:
 * rvm install 2.7
 * rvm use 2.7
 * `rvm gemset create docnow`
+* rvm gemset use docnow
 * `gem install bundler`
 * `bundle install`
 * `jekyll serve`
