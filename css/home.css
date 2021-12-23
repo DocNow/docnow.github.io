@@ -92,18 +92,6 @@ body {
       }
     }
 
-#get-involved img {
-    padding-bottom: 10px;
-}
-
-#get-involved a:hover {
-    text-decoration: none;
-}
-
-#get-involved a {
-  color: black;
-}
-
 .bluesection {
   background-color: #aeecfd;
   padding-bottom: 20px;
@@ -157,10 +145,18 @@ a:hover {
   color: black;
   background-color: yellow;
 }
+#tools ul a {
+  color: black;
+  background-color: yellow;
+}
 
  #community a {
    color: black;
    background-color: yellow;
+ }
+
+ #community img {
+   border: solid 10px white;
  }
 
   #advisory-board a {
@@ -177,7 +173,7 @@ a:hover {
   }
 
 #tools  ul li:before {
-    content: '✓  ';
+    content: '✓   ';
   }
   a img:hover {
     opacity: 50%;
