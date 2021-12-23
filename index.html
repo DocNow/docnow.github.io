@@ -17,7 +17,7 @@ extra_js:
                     <br>
                   </div>
                   <figcaption>
-                    Photos of community spaces from <i>Activist Workshop Series</i>
+                    Photos of community spaces from activist workshops
                   </figcaption>
               </div>
           </div>
@@ -60,19 +60,7 @@ extra_js:
                     </figcaption>
                 </div>
             </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('{{ site.baseurl }}/img/slider/portland.jpg');"></div>
-                <div class="carousel-caption">
-                    <div class="desc" style="color: ffd964;">
-                      <img alt="DocNow" src="{{ site.baseurl }}/img/docnow.png">
-                      <br>
-                    </div>
-                    <figcaption>
-                      <i>Don't Shoot Portland</i> Activist Workshop Group
-                    </figcaption>
-                </div>
-            </div>
-        </div>
+
         <a class="left carousel-control" href="#carousel" data-slide="prev">
             <span class="icon-prev">&nbsp;</span>
         </a>
@@ -105,6 +93,101 @@ extra_js:
       </section>
 
       <div class="container">
+        <section id="tools" class="row text-center">
+          <br><br><br>
+          <h2>Tools</h2>
+          <br>
+          <div class="col-lg-12 text-left">
+            <p class="bigp">We build open source tools to help archivists, activists and researchers work with social media data. Follow us on <a href="/">GitHub</a>.</p>
+              <br>
+          </div>
+          <div class="row">
+            <div class="col-offset-lg-1 col-lg-3">
+              <a href="https://github.com/DocNow/docnow" target="_blank">
+                <img src="{{ site.baseurl }}/img/DN320x460.png" alt="docnow app" width="60%" style="vertical-align:middle"/></a>
+                <br><br>
+                <div>
+                   <a href="/docnow-app"><button class="btn">Try it!</button></a>
+                 </div>
+            </div>
+            <div class="col-lg-8 col-md-9 col-sm-8 text-left">
+              <p><b>Docnow</b> is a tool for appraising, collecting, and gathering consent for Twitter content.
+              Features include:
+            <ul>
+              <li>View trending topics across the globe in real time</li>
+              <li>Live test and refine collecting parameters on recent tweets</li>
+              <li>Explore content by users, media, URLs, and related hashtags</li>
+              <li>Collect back in time via Search API and forwards with Stream API</li>
+              <li>Share information about your collection with the public</li>
+              <li>Gather consent from content creators</li>
+              <li>Download Tweet ID archive for sharing following Twitter's terms of service</li>
+            </p>
+            </div>
+          </div>
+
+          <hr>
+          <div class="row">
+            <div class="col-offset-lg-1  scol-lg-3 col-md-3 col-sm-4">
+              <a href="https://github.com/DocNow/twarc" target="_blank">
+              <img src="{{ site.baseurl }}/img/twarc.png" alt="twarc" width="30%"/></a>
+              <br>
+              <div>
+                  <button class="btn">Install</button>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-9 col-sm-6 text-left">
+              <p><b>Twarc</b> is a community-developed command line program for collection Twitter JSON data. Ask Ed to write another secntence, perhaps
+              about the new API, or thanking folks who have contributed. </p>
+            </div>
+          </div>
+
+          <hr>
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <a href="https://github.com/DocNow/hydrator" target="_blank">
+              <img src="{{ site.baseurl }}/img/hydrator.png" alt="hydrator" width="30%"/></a>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-6 text-left">
+              <p><b>Hydrator</b> is the desktop tool to use for taking Tweet IDs and rehydrating them into full tweets.
+                This tool follows Twitter's privacy rules by only rehydrating tweets that are still published on Twitter.</p>
+            </div>
+          </div>
+          <div>
+            <button class="btn">Download</button>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-4">
+              <a href="https://www.docnow.io/social-humans" target="_blank">
+              <img src="{{ site.baseurl }}/img/socialhumans_wlabel.png" alt="slack" width="30%"/></a>
+              <br>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-6 text-left">
+              <p><b>Social Humans</b> is a set of labels...</p>
+            </div>
+          </div>
+          <div>
+            <button class="btn">Learn More</button>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-4">
+              <a href="http://catalog.docnow.io" target="_blank">
+              <img src="{{ site.baseurl }}/img/cat.png" alt="catalog" width="30%"/><br></a>
+              <br>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-8 text-left">
+              <p><b>The Catalog</b> is a participatory, crowd-sourced set of records about social media collections.
+              Someone who is not me should write this text. We can talk about how easy it is to share your own dataset!</p>
+              </div>
+          </div>
+          <div>
+            <button class="btn">Visit</button>
+          </div>
+          <br><br>
+          </section>
+
+__________
       <section id="tools" class="row text-center">
         <br><br><br>
         <h2>Tools</h2>
@@ -193,66 +276,81 @@ extra_js:
             <h2>Community</h2>
             <br>
               <div class="col-lg-12">
-                <p class="bigp">Building and maintaining a community of practice is a core tenet of the Documenting the Now project. Our community engagement
-                includes activist workshops, symposia, online and in-person meetings, conferences, and Twitter chats.</p>
+                <p class="bigp">Building and maintaining a community of practice is a core tenet of the Documenting the Now project.</p>
               </div>
             <br>
           <div class="row">
-            <div class="col-lg-offset-1 col-lg-10">
+            <br>
+            <div class="col-lg-offset-1 col-lg-3">
               <br>
-              <a href="https://twitter.com/BergisJules/status/1188094344143785984">October 26, 2019</a> Petty Propolis Workshop (Detroit, MI)<br>
-              <a href="https://twitter.com/documentnow/status/1157674841195069440">August 3, 2019</a> Texas After Violence Workshop (Austin, TX)<br>
-              <a href="https://twitter.com/BergisJules/status/1128309861412851713">May 11, 2019</a> Don't Shoot PDX Workshop (Portland, OR)<br>
-              <a href="https://twitter.com/documentnow/status/1112049272000663552">March 30, 2019</a> Southern California Library Workshop (Los Angeles, CA)<br>
-              <a href="http://eaw.rhizome.org">March 22-24, 2018</a> Ethics in Archiving the Web Symposium (New York, NY)<br>
-              <a href="/meetings/stl-2017/">December 11-12, 2017</a> Digital Blackness in the Archive: A Documenting the Now Symposium (Ferguson/St. Louis, MO)<br>
-              <a href="https://wakelet.com/wake/cc199e4a-f872-43c2-865f-33d49f43eb4c">February 15, 2017</a> #DocNowCommunity and #SNAPRT Twitter Chat: Ethics and Archiving Social Media: Perspectives from Students and New Archives Professionals<br>
-              <a href="/meetings/stl-2016/">August 21-23, 2016</a> Advisory Board Meeting at Washington University in St. Louis, St. Louis, Missouri<br>
-              <a href="/storify/docnowcommunity-chat-2.html">August 11, 2016</a> #DocNowCommunity Twitter Chat 2: Social Media Research<br>
-              <a href="/storify/docnowcommunity-chat.html">July 14, 2016</a> #DocNowCommunity Twitter Chat 1: Project Introduction
+              <img src="../img/workshop.jpg">
             </div>
-          </div><br>
+            <div class="col-lg-6">
+              <h3>Conversation</h3>
+              <p>Our <b>online community</b> has more than 600 active members, discussing topics around archiving social media:
+                ethics, technical approaches, research, and practice in the field. <a href"/">Join us</a> on Slack. Follow us at <a href="/">@documentnow</a> on Twitter to follow
+                our work and participate in hosted conversations by following <a href="https://twitter.com/search?q=%23docnowcommunity&src=typed_query">#docnowcommunity</a>.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-offset-1 col-lg-6"><br>
+              <h3>Workshops</h3>
+              <p>Documenting the Now runs workshops with activist groups around the country, co-learning and training on activist needs and concerns
+                in documenting their work and controlling their narrative. Past workshops have included partners Pettypropolis in Detroit, MI, Texas
+                After Violence in Austin, TX, Don't Shoot PDX in Portland, OR, and the Southern California Library in Los Angeles, CA. If you are interested
+                in conducting a workshop, contact us at <a href="mailto:info@docnow.io">info@docnow.io</a>.</p>
+            </div>
+            <div class="col-lg-3">
+              <br><br>
+              <img src="../img/community.jpeg">
+            </div>
+          </div>
+          <div class="row">
+            <br>
+            <div class="col-lg-offset-1 col-lg-3">
+              <br>
+              <img src="../img/ASA.png" width="80%">
+            </div>
+            <div class="col-lg-6">
+              <h3>Support</h3>
+              <p>Through our community outreach, we have learned that a primary need of activist communitities is support in archiving their work. <b>
+              Archivists Supporting Activists (ASA)</b> is a peer-matching network designed to help activists find archivists willing to assist them and hold themselves to a standard
+            of non-extractive archival practice. <a href="/">Find an archivist</a> who can help you achieve your goals, or <a href="/">sign up</a> to volunteer your skills.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-offset-1 col-lg-6"><br>
+              <h3>Conferences</h3>
+              <p>Documenting the Now has organized three meetings convening multidisciplinary researchers and practitioners to discuss the most pressing issues around
+              social media and web archiving. Most sessions were recorded and are available online:
+              <ul>
+                <li><a href="https://eaw.rhizome.org/">2018 Ethics in Archiving the Web, New York, NY</a></li>
+                <li><a href="https://www.docnow.io/meetings/stl-2017/">2017 Digital Blackness in the Archive, Ferguson, MO</a></li>
+                <li><a href="https://www.docnow.io/meetings/stl-2016/">2016 Advisory Board Meeting, St. Louis, MO</a></li>
+                </ul>
+            </p>
+            </div>
+            <div class="col-lg-3">
+              <br><br>
+              <img src="../img/eaw.jpg">
+            </div>
+          </div>
         </section>
       <div class="container">
-        <section id="get-involved" class="row text-center">
+        <section id="news" class="row">
+            <br><br><br>
+            <h2>News</h2>
             <br>
-            <br>
-            <br>
-            <h2>Get Involved</h2><br><br>
-            <div class="row">
-              <div class="col-lg-2 col-md-2 col-sm-2">
-                  <a href="https://docs.google.com/forms/d/1Wk0JdF2Cty2VHMqpf_QlJXVKQdUtfeeFhaYRben3qaM/viewform" target="_blank">
-                      <img src="{{ site.baseurl }}/img/slack.png" alt="slack" width="50%"/><br>
-                      <h4>Slack</h4></a>
-                      <small>Join the conversation</small>
-              </div>
-                <div class="col-lg-2 col-md-2 col-sm-2">
-                    <a href="http://twitter.com/documentnow" target="_blank">
-                        <img src="{{ site.baseurl }}/img/twitter.png" alt="twitter" width="50%"/><br>
-                        <h4>Twitter</h4></a>
-                        <small>Follow us</small>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2">
-                    <a href="http://news.docnow.io" target="_blank">
-                      <img src="{{ site.baseurl }}/img/Medium_new.png" alt="medium" width="50%"/><br>
-                        <h4>Blog</h4></a>
-                        <small>Read and respond</small>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2">
-                    <a href="http://github.com/docnow" target="_blank">
-                      <img src="{{ site.baseurl }}/img/github.png" alt="github" width="50%"/><br>
-                        <h4>GitHub</h4></a>
-                        <small>Participate in our code</small>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2">
-                    <a href="archivists-supporting-activists/index.html" target="_blank">
-                      <img src="{{ site.baseurl }}/img/ASA.png" alt="ASA" width="50%"/><br>
-                        <h4>ASA</h4></a>
-                        <small>Volunteer/find support</small>
-                </div>
-            </div><br><br>
+              <div class="col-lg-12 news-items">
+                  06/2021 <a href="https://news.docnow.io/counting-tweets-8070b255a864">"Counting Tweets"</a> blog post by Ed Summers<br>
+                  06/2020 <a href="https://datasociety.net/announcements/2020/06/11/introducing-the-2020-21-data-society-faculty-fellows/">Introducing the 2020-21 Data &amp; Society Faculty Fellows</a>: Documenting the Now Co-PI Meredith Clark to work with Data &amp; Society.<br>
+                  06/2020 <a href="/archivists-supporting-activists/">Archivists Supporting Activists</a> launched by Documenting the Now in the wake of the murder of George Floyd to help coordinate memory work in activist groups who are demanding racial justice.<br>
+<br>
+                <div class="text-center">
+                  <a href="/news/">  <button class="btn"> More News</button></a>
+              </div><br><br>
         </section>
-        </div>
+      </div>
         <section id="the-team" class="bluesection">
           <br><br><br>
           <h2>The Team</h2><br>
@@ -320,20 +418,6 @@ extra_js:
           </div>
         </section>
         <div class="container">
-        <section id="news" class="row">
-            <br><br><br>
-            <h2>News</h2>
-            <br>
-              <div class="col-lg-12 news-items">
-                  06/2020 <a href="https://datasociety.net/announcements/2020/06/11/introducing-the-2020-21-data-society-faculty-fellows/">Introducing the 2020-21 Data &amp; Society Faculty Fellows</a>: Documenting the Now Co-PI Meredith Clark to work with Data &amp; Society.<br>
-                  06/2020 <a href="/archivists-supporting-activists/">Archivists Supporting Activists</a> launched by Documenting the Now in the wake of the murder of George Floyd to help coordinate memory work in activist groups who are demanding racial justice.<br>
-                  05/2020 <a href="https://www.chronicle.com/article/Historical-Archives-Once/248693">Historical Archives Once Silenced Marginalized Voices. Now Pandemic Archivists Want Them to Be Heard</a> by Marc Parry, The Chronicle of Higher Education.<br>
-                  05/2020 <a href="https://www.motherjones.com/coronavirus-updates/2020/05/how-are-we-going-to-look-back-on-this-time-oral-historians-record-daily-life-during-covid-19/">“How Are We Going to Look Back on This Time?” Oral Historians Record Daily Life During COVID-19</a> by Molly Schwartz, Mother Jones.<br>
-                  04/2020 <a href="https://bit.ly/doc-covid19">Documenting COVID-19</a>: a crowd sourced guide to Coronavirus documentation efforts initiated by Documenting the Now.<br>
-                <div class="text-center">
-                    <button class="btn" a href="{{ site.baseurl }}/news/index.html"> More News</button>
-              </div>
-              </div>
-          </section>
+<h2>Contact Us</h2>
           </div>
     </div>

@@ -43,8 +43,7 @@ body {
 }
 
 .navbar {
-    background-color: transparent;
-    background: transparent;
+    background-color: 000;
     border-color: transparent;
 }
 
@@ -131,17 +130,14 @@ a:hover {
 .btn {
   margin-top: 20px;
   margin-bottom: 10px;
-  border: 2px solid black;
-  border-radius: none;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   text-transform: uppercase;
   font-weight: 600;
-  min-width: 100px;
 }
 .btn:hover {
   background-color: black;
-  color: white;
+  color: yellow;
 }
 .bigp {
   font-size: 22pt;
@@ -171,13 +167,17 @@ a:hover {
     color: black;
     background-color: yellow;
   }
-  ul {
-    list-style: none;
-  }
 
-  ul li:before {
-    content: '✓  ';
+  .local {
+    border-right: 2px solid #000;
   }
-  a img:hover {
-    opacity: 50%;
-  }
+.border img {
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  max-width: 75%;
+}
+
+.padding {
+  padding: 10px;
+}
