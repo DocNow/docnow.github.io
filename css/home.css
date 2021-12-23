@@ -28,7 +28,7 @@ body {
 
 .desc {
     position: fixed;
-    left: 150px;
+    left: 140px;
     font-size: 22pt;
     font-weight: 600;
     top: 100px;
@@ -171,11 +171,12 @@ a:hover {
     color: black;
     background-color: yellow;
   }
-  ul {
+
+#tools ul {
     list-style: none;
   }
 
-  ul li:before {
+#tools  ul li:before {
     content: '✓  ';
   }
   a img:hover {

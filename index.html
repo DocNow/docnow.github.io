@@ -9,11 +9,11 @@ extra_js:
 
     <header id="carousel" class="carousel slide">
         <div class="carousel-inner">
-          <div class="item active">
+          <div class="item">
               <div class="fill" style="background-image:url('{{ site.baseurl }}/img/slider/workshop_collage.png');"></div>
               <div class="carousel-caption">
                   <div class="desc">
-                    <img alt="DocNow" src="{{ site.baseurl }}/img/docnow.png">
+                    <p class="bigp">Documenting the Now</p>
                     <br>
                   </div>
                   <figcaption>
@@ -21,11 +21,11 @@ extra_js:
                   </figcaption>
               </div>
           </div>
-            <div class="item">
+            <div class="item active">
                 <div class="fill" style="background-image:url('{{ site.baseurl }}/img/slider/ferguson3.jpg');"></div>
                 <div class="carousel-caption">
                     <div class="desc">
-                      <img alt="DocNow" src="{{ site.baseurl }}/img/docnow.png">
+                      <p class="bigp">Documenting the Now</p>
                       <br>
                     </div>
                     <br>
@@ -38,8 +38,8 @@ extra_js:
                 <div class="fill" style="background-image:url('{{ site.baseurl }}/img/slider/digitalblackness2017.jpg');"></div>
                 <div class="carousel-caption">
                   <div class="desc">
-                    <img alt="DocNow" src="{{ site.baseurl }}/img/docnow.png">
-                    <br>
+                    <p class="bigp">Documenting the Now</p>
+                     <br>
                   </div>
                   <br>
                     <figcaption>
@@ -52,7 +52,8 @@ extra_js:
                 <div class="fill" style="background-image:url('{{ site.baseurl }}/img/slider/ferguson1.jpg');"></div>
                 <div class="carousel-caption">
                     <div class="desc" style="color: 666666;">
-                      <img alt="DocNow" src="{{ site.baseurl }}/img/docnow.png">
+                    <!--  <img alt="DocNow" src="{{ site.baseurl }}/img/docnow.png"> -->
+                    <p class="bigp">Documenting the Now</p>
                       <br>
                     </div>
                     <figcaption>
@@ -130,14 +131,15 @@ extra_js:
             <div class="col-offset-lg-1  scol-lg-3 col-md-3 col-sm-4">
               <a href="https://github.com/DocNow/twarc" target="_blank">
               <img src="{{ site.baseurl }}/img/twarc.png" alt="twarc" width="30%"/></a>
-              <br>
+              <br><br>
               <div>
                   <button class="btn">Install</button>
               </div>
             </div>
             <div class="col-lg-8 col-md-9 col-sm-6 text-left">
-              <p><b>Twarc</b> is a community-developed command line program for collection Twitter JSON data. Ask Ed to write another secntence, perhaps
-              about the new API, or thanking folks who have contributed. </p>
+              <p><b>twarc</b> is a command line tool and Python library for collecting and archiving Twitter JSON data via the Twitter API.
+                The <i>twarc</i> command is for working with the older v1.1 API and <i>twarc2</i> is for the newer v2 API and Academic Access.</p>
+                <p>twarc has been the beneficiary of community development, and we thank the maintainer community for pitching in!</p>
             </div>
           </div>
 
@@ -146,130 +148,54 @@ extra_js:
             <div class="col-lg-3 col-md-3 col-sm-3">
               <a href="https://github.com/DocNow/hydrator" target="_blank">
               <img src="{{ site.baseurl }}/img/hydrator.png" alt="hydrator" width="30%"/></a>
+              <br><br>
+              <div>
+                <button class="btn">Download</button>
+              </div>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-6 text-left">
-              <p><b>Hydrator</b> is the desktop tool to use for taking Tweet IDs and rehydrating them into full tweets.
-                This tool follows Twitter's privacy rules by only rehydrating tweets that are still published on Twitter.</p>
+              <p><b>Hydrator</b> is our desktop tool to use for taking Tweet IDs and rehydrating them into full tweets.</p>
+              <ul>
+                <li>Compliant with Twitter's <a href="/">user intent</a> policy</li>
+                <li>Shows rehydration rate for collections</li>
+                <li>Exports to either JSON or CSV format</li>
+              </ul>
             </div>
-          </div>
-          <div>
-            <button class="btn">Download</button>
           </div>
           <hr>
           <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-4">
               <a href="https://www.docnow.io/social-humans" target="_blank">
-              <img src="{{ site.baseurl }}/img/socialhumans_wlabel.png" alt="slack" width="30%"/></a>
+              <img src="{{ site.baseurl }}/img/socialhumans.png" alt="slack" width="50%"/></a>
               <br>
+              <div>
+                <button class="btn">Learn More</button>
+              </div>
             </div>
-            <div class="col-lg-9 col-md-9 col-sm-6 text-left">
-              <p><b>Social Humans</b> is a set of labels...</p>
+            <div class="col-lg-8 col-md-9 col-sm-6 text-left">
+              <p><b>Social Humans</b> is a label system created to address ethical issues in social media
+                use by archives and academia. The legal constraints of social media platforms for data reuse
+                have proven insufficient for expressing the intent and wishes of content creators or protecting
+                vulnerable and marginalized communities in these spaces. These labels seek to address that gap. </p>
             </div>
-          </div>
-          <div>
-            <button class="btn">Learn More</button>
           </div>
           <hr>
           <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-4">
               <a href="http://catalog.docnow.io" target="_blank">
-              <img src="{{ site.baseurl }}/img/cat.png" alt="catalog" width="30%"/><br></a>
-              <br>
+              <img src="{{ site.baseurl }}/img/cat.png" alt="catalog" width="30%"/></a>
+              <br><br>
+              <div>
+                <button class="btn">Visit</button>
+              </div>
             </div>
-            <div class="col-lg-9 col-md-9 col-sm-8 text-left">
+            <div class="col-lg-8 col-md-9 col-sm-8 text-left">
               <p><b>The Catalog</b> is a participatory, crowd-sourced set of records about social media collections.
               Someone who is not me should write this text. We can talk about how easy it is to share your own dataset!</p>
               </div>
           </div>
-          <div>
-            <button class="btn">Visit</button>
-          </div>
           <br><br>
           </section>
-
-__________
-      <section id="tools" class="row text-center">
-        <br><br><br>
-        <h2>Tools</h2>
-        <br>
-        <div class="col-lg-12 text-left">
-          <p class="bigp">We build tools to help archivists, activists and researchers work with social media data. Please reach out with questions or feedback: <a href="mailto:info@docnow.io">info@docnow.io</a></p>
-            <br>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-4">
-            <a href="https://github.com/DocNow/docnow" target="_blank">
-              <img src="{{ site.baseurl }}/img/DN320x460.png" alt="docnow app" width="40%"/></a>
-              <br>
-          </div>
-          <div class="col-lg-9 col-md-9 col-sm-8 text-left">
-            <p><b>Docnow</b> is a tool for appraising, collecting, and gathering donor consent for Twitter data.
-            We should write a few sentences here about how and why the tool was built, that we are still developing it,
-            and a link to installation page.</p>
-          </div>
-        </div>
-        <div>
-           <button class="btn">Try it!</button>
-         </div>
-        <hr>
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-4">
-            <a href="https://github.com/DocNow/twarc" target="_blank">
-            <img src="{{ site.baseurl }}/img/twarc.png" alt="twarc" width="30%"/></a>
-          </div>
-          <div class="col-lg-9 col-md-9 col-sm-6 text-left">
-            <p><b>Twarc</b> is a community-developed command line program for collection Twitter JSON data. Ask Ed to write another secntence, perhaps
-            about the new API, or thanking folks who have contributed. </p>
-          </div>
-        </div>
-        <div>
-            <button class="btn">Install</button>
-        </div>
-        <hr>
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-3">
-            <a href="https://github.com/DocNow/hydrator" target="_blank">
-            <img src="{{ site.baseurl }}/img/hydrator.png" alt="hydrator" width="30%"/></a>
-          </div>
-          <div class="col-lg-8 col-md-8 col-sm-6 text-left">
-            <p><b>Hydrator</b> is the desktop tool to use for taking Tweet IDs and rehydrating them into full tweets.
-              This tool follows Twitter's privacy rules by only rehydrating tweets that are still published on Twitter.</p>
-          </div>
-        </div>
-        <div>
-          <button class="btn">Download</button>
-        </div>
-        <hr>
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-4">
-            <a href="https://www.docnow.io/social-humans" target="_blank">
-            <img src="{{ site.baseurl }}/img/socialhumans_wlabel.png" alt="slack" width="30%"/></a>
-            <br>
-          </div>
-          <div class="col-lg-9 col-md-9 col-sm-6 text-left">
-            <p><b>Social Humans</b> is a set of labels...</p>
-          </div>
-        </div>
-        <div>
-          <button class="btn">Learn More</button>
-        </div>
-        <hr>
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-4">
-            <a href="http://catalog.docnow.io" target="_blank">
-            <img src="{{ site.baseurl }}/img/cat.png" alt="catalog" width="30%"/><br></a>
-            <br>
-          </div>
-          <div class="col-lg-9 col-md-9 col-sm-8 text-left">
-            <p><b>The Catalog</b> is a participatory, crowd-sourced set of records about social media collections.
-            Someone who is not me should write this text. We can talk about how easy it is to share your own dataset!</p>
-            </div>
-        </div>
-        <div>
-          <button class="btn">Visit</button>
-        </div>
-        <br><br>
-        </section>
         </div>
         <section id="community" class="row bluesection">
             <br><br><br>
@@ -319,7 +245,7 @@ __________
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-offset-1 col-lg-6"><br>
+            <div class="col-lg-offset-1 col-lg-6 meet"><br>
               <h3>Conferences</h3>
               <p>Documenting the Now has organized three meetings convening multidisciplinary researchers and practitioners to discuss the most pressing issues around
               social media and web archiving. Most sessions were recorded and are available online:
