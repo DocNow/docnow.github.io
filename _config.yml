@@ -5,7 +5,7 @@ description: >
   support the ethical collection, use, and preservation of social media
   content.
 baseurl: ""
-url: "http://alexandradm.github.io/docnow.github.io"
+url: "http://alexandradm.github.io"
 markdown: kramdown
 
 include:
