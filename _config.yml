@@ -4,8 +4,8 @@ description: >
   Documenting the Now develops tools and builds community practices that
   support the ethical collection, use, and preservation of social media
   content.
-baseurl: ""
-url: "http://alexandradm.github.io"
+baseurl: "https://alexandradm.github.io/docnow.github.io"
+url: ""
 markdown: kramdown
 
 include:
