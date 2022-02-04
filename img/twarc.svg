@@ -81,19 +81,18 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-size:41.1029px;line-height:1.25;font-family:Monaco;-inkscape-font-specification:Monaco;letter-spacing:0px;fill:#1da1f2;fill-opacity:1;stroke:#1da1f2;stroke-width:0.642233;stroke-opacity:1"
-       x="44.612381"
-       y="184.35861"
+       style="font-size:34.938px;line-height:1.25;font-family:Monaco;-inkscape-font-specification:Monaco;letter-spacing:0px;fill:#1da1f2;fill-opacity:1;stroke:#1da1f2;stroke-width:0.545906;stroke-opacity:1"
+       x="52.199306"
+       y="180.63614"
        id="text2641"
        inkscape:export-filename="/Users/edsummers/bitmap.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan2639"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Inconsolata Nerd Font';-inkscape-font-specification:'Inconsolata Nerd Font Bold';fill:#1da1f2;fill-opacity:1;stroke:#1da1f2;stroke-width:0.642233;stroke-opacity:1"
-         x="44.612381"
-         y="184.35861"
-         dx="0">tw</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Inconsolata Nerd Font';-inkscape-font-specification:'Inconsolata Nerd Font Bold';fill:#1da1f2;fill-opacity:1;stroke:#1da1f2;stroke-width:0.545906;stroke-opacity:1"
+         x="52.199306"
+         y="180.63614" /></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
@@ -112,18 +111,18 @@
          y="113.18379" /></text>
     <text
        xml:space="preserve"
-       style="font-size:41.1029px;line-height:1.25;font-family:'Inconsolata Nerd Font Mono';-inkscape-font-specification:'Inconsolata Nerd Font Mono';fill:#1da1f2;fill-opacity:1;stroke:#1da1f2;stroke-width:0.642233;stroke-opacity:1"
-       x="86.095856"
-       y="184.07928"
+       style="font-size:34.938px;line-height:1.25;font-family:'Inconsolata Nerd Font Mono';-inkscape-font-specification:'Inconsolata Nerd Font Mono';fill:#1da1f2;fill-opacity:1;stroke:#1da1f2;stroke-width:0.545906;stroke-opacity:1"
+       x="53.578632"
+       y="180.98288"
        id="text16587"
        inkscape:export-filename="/Users/edsummers/bitmap.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan16585"
-         style="font-weight:bold;fill:#1da1f2;fill-opacity:1;stroke:#1da1f2;stroke-width:0.642233;stroke-opacity:1"
-         x="86.095856"
-         y="184.07928">arc</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Seravek;-inkscape-font-specification:'Seravek Bold';fill:#1da1f2;fill-opacity:1;stroke:#1da1f2;stroke-width:0.545906;stroke-opacity:1"
+         x="53.578632"
+         y="180.98288">twarc</tspan></text>
     <path
        id="path2"
        style="stroke-width:0.0952373;fill:#1da1f2;fill-opacity:1;stroke:#1da1f2;stroke-opacity:1"
