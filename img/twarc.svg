@@ -10,7 +10,7 @@
    inkscape:export-filename="/Users/edsummers/bitmap.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
-   sodipodi:docname="twarc.png.svg"
+   sodipodi:docname="twarc.svg"
    inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -28,7 +28,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.90583672"
-     inkscape:cx="209.19885"
+     inkscape:cx="208.64687"
      inkscape:cy="421.15758"
      inkscape:window-width="1312"
      inkscape:window-height="969"
@@ -82,8 +82,8 @@
     <text
        xml:space="preserve"
        style="font-size:41.1029px;line-height:1.25;font-family:Monaco;-inkscape-font-specification:Monaco;letter-spacing:0px;fill:#1da1f2;fill-opacity:1;stroke:#1da1f2;stroke-width:0.642233;stroke-opacity:1"
-       x="45.780731"
-       y="184.06653"
+       x="44.612381"
+       y="184.35861"
        id="text2641"
        inkscape:export-filename="/Users/edsummers/bitmap.png"
        inkscape:export-xdpi="96"
@@ -91,8 +91,8 @@
          sodipodi:role="line"
          id="tspan2639"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Inconsolata Nerd Font';-inkscape-font-specification:'Inconsolata Nerd Font Bold';fill:#1da1f2;fill-opacity:1;stroke:#1da1f2;stroke-width:0.642233;stroke-opacity:1"
-         x="45.780731"
-         y="184.06653"
+         x="44.612381"
+         y="184.35861"
          dx="0">tw</tspan></text>
     <text
        xml:space="preserve"
@@ -113,8 +113,8 @@
     <text
        xml:space="preserve"
        style="font-size:41.1029px;line-height:1.25;font-family:'Inconsolata Nerd Font Mono';-inkscape-font-specification:'Inconsolata Nerd Font Mono';fill:#1da1f2;fill-opacity:1;stroke:#1da1f2;stroke-width:0.642233;stroke-opacity:1"
-       x="87.264206"
-       y="183.7872"
+       x="86.095856"
+       y="184.07928"
        id="text16587"
        inkscape:export-filename="/Users/edsummers/bitmap.png"
        inkscape:export-xdpi="96"
@@ -122,8 +122,8 @@
          sodipodi:role="line"
          id="tspan16585"
          style="font-weight:bold;fill:#1da1f2;fill-opacity:1;stroke:#1da1f2;stroke-width:0.642233;stroke-opacity:1"
-         x="87.264206"
-         y="183.7872">arc</tspan></text>
+         x="86.095856"
+         y="184.07928">arc</tspan></text>
     <path
        id="path2"
        style="stroke-width:0.0952373;fill:#1da1f2;fill-opacity:1;stroke:#1da1f2;stroke-opacity:1"
