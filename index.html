@@ -129,36 +129,53 @@ extra_js:
           <hr>
           <div class="row">
             <div class="col-offset-lg-1  scol-lg-3 col-md-3 col-sm-4">
-              <a href="https://github.com/DocNow/twarc" target="_blank">
+              <a href="https://twarc-project.readthedocs.io" target="_blank">
               <img src="{{ site.baseurl }}/img/twarc.png" alt="twarc" width="50%"/></a>
               <br><br>
               <div>
-                  <button class="btn">Install</button>
+                <a href="https://twarc-project.readthedocs.io"><button class="btn">Install</button></a>
               </div>
             </div>
             <div class="col-lg-8 col-md-9 col-sm-6 text-left">
-              <p><b>twarc</b> is a command line tool and Python library for collecting and archiving Twitter JSON data via the Twitter API.
-                The <i>twarc</i> command is for working with the older v1.1 API and <i>twarc2</i> is for the newer v2 API and Academic Access.</p>
-                <p>twarc has been the beneficiary of community development, and we thank the maintainer community for pitching in!</p>
+              <p><b>twarc</b> is a command line tool and Python library for
+              collecting tweet data from Twitter's official API. It is designed
+              for reliably collecting historical as well as realtime data, and
+              can be used as a software library in your own tools and
+              applications.
+              <ul>
+                <li>&nbsp; Supports Twitter's v1 and v2 API endpoints</li>
+                <li>&nbsp; Handles quota and API rate limiting</li>
+                <li>&nbsp; Saves data using Twitter's official JSON representation for tweets</li>
+                <li>&nbsp; Allows academic users to search back to the founding of Twitter in 2006</li>
+                <li>&nbsp; Can be used for long running queries to collect
+                  millions of tweets.</li>
+                <li>&nbsp; Includes plugins for converting tweet data to CSV,
+                  network visualizations, and more.</li>
+              </ul>
             </div>
           </div>
 
           <hr>
           <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3">
-              <a href="https://github.com/DocNow/hydrator" target="_blank">
+              <a href="https://github.com/DocNow/hydrator#readme" target="_blank">
               <img src="{{ site.baseurl }}/img/hydrator.png" alt="hydrator" width="50%"/></a>
               <br>
               <div>
-                <button class="btn">Download</button>
+                <a href="https://github.com/DocNow/hydrator/releases"><button class="btn">Download</button></a>
               </div>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-6 text-left">
-              <p><b>Hydrator</b> is our desktop tool to use for taking Tweet IDs and rehydrating them into full tweet content.</p>
+              <p><b>Hydrator</b> is a desktop application for turning Tweet ID
+              datasets back into tweet data to use in your research. It has been
+              designed to be a reliable option for researchers who want to use
+              their workstation for long running hydration jobs.</p>
               <ul>
-                <li>&nbsp;Compliant with Twitter's <a href="/">user intent</a> policy</li>
-                <li>&nbsp;Shows rehydration rate for collections</li>
-                <li>&nbsp;Exports to either JSON or CSV format</li>
+                <li>&nbsp;Compliant with Twitter's <a href="https://developer.twitter.com/en/docs/twitter-api/enterprise/compliance-firehose-api/guides/honoring-user-intent">user intent</a> policy</li>
+                <li>&nbsp;Cross-platform install (MacOS, Windows, Linux)
+                <li>&nbsp;Displays rehydration rate for collections</li>
+                <li>&nbsp;Exports to JSON and CSV formats</li>
+                <li>&nbsp;Resilient for long running hydration jobs</li>
                 <li>&nbsp;Organizes datasets with extra metadata</li>
               </ul>
             </div>
@@ -187,13 +204,27 @@ extra_js:
               <img src="{{ site.baseurl }}/img/cat.png" alt="catalog" width="40%"/></a>
               <br>
               <div>
-                <button class="btn">Visit</button>
+                <a href="https://catalog.docnow.io"><button class="btn">Visit</button></a>
               </div>
             </div>
             <div class="col-lg-8 col-md-9 col-sm-8 text-left">
-              <p><b>The Catalog</b> is a participatory, crowd-sourced set of records about social media collections.
-              Someone who is not me should write this text. We can talk about how easy it is to share your own dataset!</p>
-              </div>
+              <p><b>The Catalog</b> is a clearinghouse for tweet identifier
+              datasets. Sharing tweet ids is a practice that is encouraged by 
+              Twitter as a way to share research data without negatively
+              affecting users ability to have their data deleted or hidden from
+              the web.</p>
+              <ul>
+                <li>&nbsp;Displays essential metadata needed for understanding
+                  how datasets were assembled, who did the collecting, and when
+                  they did it</li>
+                <li>&nbsp;Links to institutional repositories around
+                  the world where datasets are stored</li>
+                <li>&nbsp;Allows users to easily upload their own dataset
+                  descriptions</li>
+                <li>&nbsp;Datasets can be "hydrated" into Twitter data using
+                  twarc, Hydrator or other Twitter API tools</li>
+              </ul>
+            </div>
           </div>
           <br><br>
           </section>
