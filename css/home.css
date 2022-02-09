@@ -138,10 +138,10 @@ a:hover {
 
 #the-team a {
   color: black;
-  background-color: none;
+  background-color: none !important;
 }
 #the-team a:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 #workshops a, #tools p a {
