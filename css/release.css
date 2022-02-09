@@ -112,7 +112,7 @@ body {
 a:hover {
   font-weight: 600;
 }
-a {
+.container a {
   color: black;
   background-color: yellow;
 }
