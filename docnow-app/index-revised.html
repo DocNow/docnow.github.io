@@ -7,90 +7,23 @@ extra_js:
   - home.js
 ---
 
-    <header id="carousel" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="item">
-              <div class="fill" style="background-image:url('{{ site.baseurl }}/img/slider/workshop_collage.png');"></div>
-              <div class="carousel-caption">
-                  <div class="desc">
-                    <p class="bigp">Documenting the Now</p>
-                    <br>
-                  </div>
-                  <figcaption>
-                    Photos of community spaces from activist workshops
-                  </figcaption>
-              </div>
-          </div>
-            <div class="item active">
-                <div class="fill" style="background-image:url('{{ site.baseurl }}/img/slider/ferguson3.jpg');"></div>
-                <div class="carousel-caption">
-                    <div class="desc">
-                      <p class="bigp">Documenting the Now</p>
-                      <br>
-                    </div>
-                    <br>
-                    <figcaption>
-                    <a href="https://www.vice.com/en_us/article/vbv9wj/three-years-after-ferguson-one-protester-still-faces-the-aftermath">Josh Williams</a> - <a href="https://www.flickr.com/photos/jbouie/14743501267">photographed</a> by <a href="https://twitter.com/jbouie">Jamelle Bouie</a>
-                    </figcaption>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('{{ site.baseurl }}/img/slider/digitalblackness2017.jpg');"></div>
-                <div class="carousel-caption">
-                  <div class="desc">
-                    <p class="bigp">Documenting the Now</p>
-                     <br>
-                  </div>
-                  <br>
-                    <figcaption>
-                    <i>Digital Blackness in the Archive</i> Symposium
-                    </figcaption>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="fill" style="background-image:url('{{ site.baseurl }}/img/slider/ferguson1.jpg');"></div>
-                <div class="carousel-caption">
-                    <div class="desc" style="color: 666666;">
-                    <!--  <img alt="DocNow" src="{{ site.baseurl }}/img/docnow.png"> -->
-                    <p class="bigp">Documenting the Now</p>
-                      <br>
-                    </div>
-                    <figcaption>
-                    <a href="http://www.stltoday.com/news/multimedia/special/ferguson-in-pictures/html_24b2b105-90e3-5ef0-9c65-769e848c0d31.html">Photo</a> by <a href="https://twitter.com/PDPJ">David Carson</a>
-                    </figcaption>
-                </div>
-            </div>
-
-        <a class="left carousel-control" href="#carousel" data-slide="prev">
-            <span class="icon-prev">&nbsp;</span>
-        </a>
-        <a class="right carousel-control" href="#carousel" data-slide="next">
-            <span class="icon-next">&nbsp;</span>
-        </a>
+    <header>
     </header>
-      <section id="about" class="row text-center bluesection">
+      <section class="row text-center bluesection">
           <br>
           <br>
           <br>
 
-          <h2>About</h2>
+          <h2>Docnow Release 1.0</h2>
           <br>
-          <div class="col-lg-10 text-left">
-            <p class="bigp">Documenting the Now develops tools and builds
-            community practices that support the ethical
-            collection, use, and preservation of social media
-            content.</p>
+          <p class="bigp">We are happy to announce the release of the DocNow V1.0, an application for appraising, collecting, and gathering consent for social media archives.</p>
+          <div class="col-lg-6 text-left">
+
             <p>Documenting the Now responds to the public's use of social media for chronicling historically significant events as well as demand from scholars, students, and archivists, among others, seeking a user-friendly means of collecting and preserving this type of digital content. Documenting the Now has a strong commitment to prioritizing ethical practices when working with social media content, especially in terms of collection and long-term preservation. This commitment extends to Twitter's notion of <a href="https://developer.twitter.com/en/docs/twitter-api/enterprise/compliance-firehose-api/guides/honoring-user-intent" target="_blank">honoring user intent</a> and the rights of content creators. Shift Collective is the home base for Documenting the Now. We are extremely grateful for funding from the Andrew W. Mellon Foundation.</p>
           </div>
-          <div class="col-lg-2 col-md-3 col-sm-6">
-            <div><br>
-              <img class="img-responsive" src="{{ site.baseurl }}/img/shiftcollective.png" alt="shift collective" width="70%" />
-            </div>
-            <div style="padding-top:5px">
-               <img class="img-responsive" style="border: thin solid #ddd" src="{{ site.baseurl }}/img/mellon.jpg" alt="mellon foundation" width="70%" />
-            </div>
-        </div>
+          <div class="col-lg-6 col-md-3 col-sm-6">
+            <div class="border text-center"><img src="{{ site.baseurl }}/img/docnow_apphome.png"></div><br>
+         </div>
       </section>
 
       <div class="container">
@@ -125,36 +58,6 @@ extra_js:
             </p>
             </div>
           </div>
-
-          <hr>
-          <div class="row">
-            <div class="col-offset-lg-1  scol-lg-3 col-md-3 col-sm-4">
-              <a href="https://twarc-project.readthedocs.io" target="_blank">
-              <img src="{{ site.baseurl }}/img/twarc.png" alt="twarc" width="50%"/></a>
-              <br><br>
-              <div>
-                <a href="https://twarc-project.readthedocs.io"><button class="btn">Install</button></a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-md-9 col-sm-6 text-left">
-              <p><b>twarc</b> is a command line tool and Python library for
-              collecting tweet data from Twitter's official API. It is designed
-              for reliably collecting historical as well as realtime data, and
-              can be used as a software library in your own tools and
-              applications.
-              <ul>
-                <li>&nbsp; Supports Twitter's v1 and v2 API endpoints</li>
-                <li>&nbsp; Handles quota and API rate limiting</li>
-                <li>&nbsp; Saves data using Twitter's official JSON representation for tweets</li>
-                <li>&nbsp; Allows academic users to search back to the founding of Twitter in 2006</li>
-                <li>&nbsp; Can be used for long running queries to collect
-                  millions of tweets.</li>
-                <li>&nbsp; Includes plugins for converting tweet data to CSV,
-                  network visualizations, and more.</li>
-              </ul>
-            </div>
-          </div>
-
           <hr>
           <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3">
@@ -292,90 +195,5 @@ extra_js:
             </div>
           </div>
         </section>
-      <div class="container">
-        <section id="news" class="row">
-            <br><br><br>
-            <h2>News</h2>
-            <br>
-            <div id="retainable-rss-embed"
-data-rss="https://medium.com/feed/@username"
-data-maxcols="3"
-data-layout="grid"
-data-poststyle="inline"
-data-readmore="Read the rest"
-data-buttonclass="btn btn-primary"
-data-offset="-100"></div>
-              <div class="col-lg-12 news-items">
-                  06/2021 <a href="https://news.docnow.io/counting-tweets-8070b255a864">"Counting Tweets"</a> blog post by Ed Summers<br>
-                  06/2021 <a href="https://news.docnow.io/documenting-events-13369d471608">"Documenting Events"</a> blog post by Ed Summers<br>
-                  04/2021 <a href="https://news.docnow.io/twarc2-779278e66ea0">"twarc2"</a> blog post by Ed Summers<br>
-                  01/2021 <a href="https://news.docnow.io/trumps-tweets-2d3f348ccd24">"Trump's Tweets"</a> blog post by Ed Summers<br>
-                  09/2020 <a href="https://news.docnow.io/disinformation-metadata-25b123bdd993">"Disinformation Metadata"</a> blog post by Ed Summers<br>
-                  06/2020 <a href="https://datasociety.net/announcements/2020/06/11/introducing-the-2020-21-data-society-faculty-fellows/">Introducing the 2020-21 Data &amp; Society Faculty Fellows</a>: Documenting the Now Co-PI Meredith Clark to work with Data &amp; Society.<br>
-                  06/2020 <a href="/archivists-supporting-activists/">Archivists Supporting Activists</a> launched by Documenting the Now in the wake of the murder of George Floyd to help coordinate memory work in activist groups who are demanding racial justice.<br>
-<br>
-                <div class="text-center">
-                  <a href="{{ site.baseurl }}/news">  <button class="btn"> More News</button></a>
-              </div><br><br>
-        </section>
-      </div>
-        <section id="the-team" class="bluesection">
-          <br><br><br>
-          <h2>The Team</h2><br>
-          <div class="row text-center">
-            <div class="col-lg-4 col-md-4 col-sm-6">
-             <div class="person">
-              <img class="img-responsive center-block" src="{{ site.baseurl }}/img/meredith.jpg" alt="Doctor Meredith Clark" /><br>
-              <a href="mailto:mdc6j@virginia.edu">Dr. Meredith Clark</a><br>
-              Academic Lead, Co-Principal Investigator
-             </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-6">
-            <div class="person">
-               <img class="img-responsive center-block" src="{{ site.baseurl }}/img/bergis.jpg" alt="Bergis Jules" /><br>
-               <a href="mailto:bergis.jules@shiftdesign.org">Bergis Jules</a><br>
-               Project Director, Co-Principal Investigator
-            </div>
-          </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="person">
-                       <img class="img-responsive center-block" src="{{ site.baseurl }}/img/ed.jpg" alt="Ed Summers" /><br>
-                       <a href="mailto:ehs@pobox.com">Ed Summers</a><br>
-                       Technical Lead, Co-Principal Investigator
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center">
-              <div class="col-lg-4 col-md-4 col-sm-6">
-                  <div class="person">
-                      <img class="img-responsive center-block" src="{{ site.baseurl }}/img/collier.jpg" alt="Zakiya Collier" /><br>
-                      <a href="mailto:zakiya@docnow.io">Zakiya Collier</a><br>
-                      Community Manager<br>
-                  </div>
-              </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="person">
-                        <img class="img-responsive center-block" src="{{ site.baseurl }}/img/alex.jpg" alt="Alexandra Dolan-Mescal" /><br>
-                        <a href="mailto:alex@docnow.io">Alexandra Dolan-Mescal</a><br>
-                        UX and Web Designer<br>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="person">
-                        <img class="img-responsive center-block" src="{{ site.baseurl }}/img/francis.jpg" alt="Francis Kayiwa" /><br>
-                        <a href="mailto:francis@docnow.io">Francis Kayiwa</a><br>
-                        DevOps Engineer
-                    </div>
-                </div>
-              </div>
-              <div class="row">
-                <p>Thanks to our former team members:</p>
-                <p class="small"><b>Trevor Muñoz</b>, Administrative Lead 2018-2020, <b>Micha Broadnax</b>, Community Trainer 2018-2020, <b>Jarrett Drake</b>, Community Trainer 2018-2020, <b>Jes Neal</b>, Community Trainer 2018-2020, <b>T'Sey-Haye Preaster</b>, Project Manager 2018-2020, <b>Vernon Mitchell</b>, Administrative Lead 2017, <b>Timothy Cole</b>, Project Manager 2017,
-                  <b>Chris Freeland</b>, Administrative Lead 2016, <b>Desiree Smith-Jones</b>, Project Manager 2016, <b>Dan Chudnov</b>, Data Engineer 2016-2017.</p>
-                </div>
-        </section>
-        <div class="container">
-<h2>Contact Us</h2>
-<p class="bigp text-center">info@docnow.io</p>
-          </div>
+
     </div>
