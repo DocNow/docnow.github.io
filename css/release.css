@@ -91,17 +91,7 @@ body {
       }
     }
 
-#get-involved img {
-    padding-bottom: 10px;
-}
 
-#get-involved a:hover {
-    text-decoration: none;
-}
-
-#get-involved a {
-  color: black;
-}
 
 .bluesection {
   background-color: #aeecfd;
@@ -122,8 +112,7 @@ body {
 a:hover {
   font-weight: 600;
 }
-
-#about a {
+ a {
   color: black;
   background-color: yellow;
 }
