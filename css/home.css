@@ -138,7 +138,10 @@ a:hover {
 
 #the-team a {
   color: black;
-  background-color: yellow;
+  background-color: none;
+}
+#the-team a:hover {
+  text-decoration: underline;
 }
 
 #workshops a, #tools p a {
