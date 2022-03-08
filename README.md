@@ -4,10 +4,10 @@ for development purposes you'll need to:
 * install [Ruby]
 * install [rvm]
 * install [Jekyll]
-* rvm install 2.7
-* rvm use 2.7
+* `rvm install 2.7`
+* `rvm use 2.7`
 * `rvm gemset create docnow`
-* rvm gemset use docnow
+* `rvm gemset use docnow`
 * `gem install bundler`
 * `bundle install`
 * `jekyll serve`

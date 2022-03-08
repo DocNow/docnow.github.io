@@ -91,17 +91,7 @@ body {
       }
     }
 
-#get-involved img {
-    padding-bottom: 10px;
-}
 
-#get-involved a:hover {
-    text-decoration: none;
-}
-
-#get-involved a {
-  color: black;
-}
 
 .bluesection {
   background-color: #aeecfd;
@@ -122,8 +112,7 @@ body {
 a:hover {
   font-weight: 600;
 }
-
-#about a {
+.container a {
   color: black;
   background-color: yellow;
 }
@@ -144,29 +133,7 @@ a:hover {
   font-weight: 600;
 }
 
-#the-team a {
-  color: black;
-  background-color: yellow;
-}
 
-#workshops a, #tools p a {
-  color: black;
-  background-color: yellow;
-}
-
- #community a {
-   color: black;
-   background-color: yellow;
- }
-
-  #advisory-board a {
-    color: black;
-    background-color: yellow;
-  }
-  #news a {
-    color: black;
-    background-color: yellow;
-  }
 
   .local {
     border-right: 2px solid #000;
