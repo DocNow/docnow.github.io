@@ -9,18 +9,6 @@ extra_js:
 
     <header id="carousel" class="carousel slide">
         <div class="carousel-inner">
-          <div class="item">
-              <div class="fill" style="background-image:url('{{ site.baseurl }}/img/slider/workshop_collage.png');"></div>
-              <div class="carousel-caption">
-                  <div class="desc">
-                    <p class="bigp">Documenting the Now</p>
-                    <br>
-                  </div>
-                  <figcaption>
-                    Photos of community spaces from activist workshops
-                  </figcaption>
-              </div>
-          </div>
             <div class="item active">
                 <div class="fill" style="background-image:url('{{ site.baseurl }}/img/slider/ferguson3.jpg');"></div>
                 <div class="carousel-caption">
@@ -77,17 +65,17 @@ extra_js:
           <h2>About</h2>
           <br>
           <div class="col-lg-10 text-left">
-            <p class="bigp">Documenting the Now develops tools and builds
-            community practices that support the ethical
-            collection, use, and preservation of social media
-            content.</p>
-            <p>Documenting the Now responds to the public's use of social media for chronicling historically significant events as well as demand from scholars, students, and archivists, among others, seeking a user-friendly means of collecting and preserving this type of digital content. Documenting the Now has a strong commitment to prioritizing ethical practices when working with social media content, especially in terms of collection and long-term preservation. This commitment extends to Twitter's notion of <a href="https://developer.twitter.com/en/docs/twitter-api/enterprise/compliance-firehose-api/guides/honoring-user-intent" target="_blank">honoring user intent</a> and the rights of content creators. Shift Collective is the home base for Documenting the Now. We are extremely grateful for funding from the Andrew W. Mellon Foundation.</p>
+            <p class="bigp">Documenting the Now develops open source tools and community-centered practices that support the ethical collection, use, and preservation of publicly available content shared on web and social media.</p>
+            <p>Documenting the Now responds to the public's use of social media for chronicling historically significant events as well as demand from scholars, students, and archivists, among others, seeking a user-friendly means of collecting and preserving this type of digital content. Documenting the Now has a strong commitment to prioritizing ethical practices when working with social media content, especially in terms of collection and long-term preservation. This commitment extends to Twitter's notion of <a href="https://developer.twitter.com/en/docs/twitter-api/enterprise/compliance-firehose-api/guides/honoring-user-intent" target="_blank">honoring user intent</a> and the rights of content creators. Documenting the Now is a core program of Shift Collective. We are extremely grateful for funding from the Andrew W. Mellon Foundation and technical support from the Princeton University Library.</p>
           </div>
           <div class="col-lg-2 col-md-3 col-sm-6">
             <div><br>
               <img class="img-responsive" src="{{ site.baseurl }}/img/shiftcollective.png" alt="shift collective" width="70%" />
             </div>
-            <div style="padding-top:5px">
+            <div><br>
+              <img class="img-responsive" src="{{ site.baseurl }}/img/PUL_logo_bl.png" alt="Princeton University Library" width="70%" />
+            </div>
+            <div style="padding-top:5px"><br>
                <img class="img-responsive" style="border: thin solid #ddd" src="{{ site.baseurl }}/img/mellon.jpg" alt="mellon foundation" width="70%" />
             </div>
         </div>
@@ -99,12 +87,12 @@ extra_js:
           <h2>Tools</h2>
           <br>
           <div class="col-lg-12 text-left">
-            <p class="bigp">We build open source tools to help archivists, activists and researchers work with social media data. Follow us on <a href="/">GitHub</a>.</p>
+            <p class="bigp">We build open source tools to help archivists, activists and researchers work with social media data. Follow us on <a href="https://github.com/DocNow">GitHub</a>.</p>
               <br>
           </div>
           <div class="row">
             <div class="col-offset-lg-1 col-lg-3">
-              <a href="https://github.com/DocNow/docnow" target="_blank">
+              <a href="{{ site.baseurl }}/docnow-app" target="_blank">
                 <img src="{{ site.baseurl }}/img/DN320x460.png" alt="docnow app" width="60%" style="vertical-align:middle"/></a>
                 <br><br>
                 <div>
@@ -148,9 +136,9 @@ extra_js:
                 <li>&nbsp; Saves data using Twitter's official JSON representation for tweets</li>
                 <li>&nbsp; Allows academic users to search back to the founding of Twitter in 2006</li>
                 <li>&nbsp; Can be used for long running queries to collect
-                  millions of tweets.</li>
+                  millions of tweets</li>
                 <li>&nbsp; Includes plugins for converting tweet data to CSV,
-                  network visualizations, and more.</li>
+                  network visualizations, and more</li>
               </ul>
             </div>
           </div>
@@ -187,14 +175,14 @@ extra_js:
               <img src="{{ site.baseurl }}/img/socialhumans.png" alt="slack" width="55%"/></a>
               <br>
               <div>
-                <button class="btn">Learn More</button>
+                <a href="https://www.docnow.io/social-humans" target="_blank"><button class="btn">Learn More</button></a>
               </div>
             </div>
             <div class="col-lg-8 col-md-9 col-sm-6 text-left">
-              <p><b>Social Humans</b> is a label system created to address ethical issues in social media
-                use by archives and academia. The legal constraints of social media platforms for data reuse
-                have proven insufficient for expressing the intent and wishes of content creators or protecting
-                vulnerable and marginalized communities in these spaces. These labels seek to address that gap. </p>
+              <p><br><b>Social Humans</b> is a label system for social media content. SH-C labels are for content creators
+              to share their terms of consent for collection and re-use of their content, beyond Twitter's Terms of Service. SH-A labels
+              are for academics and archivists who are collecting content to share contextual information about the collections. These labels
+              are implemented in the DocNow application (and soon the Catalog), but can be used in any social media archiving program or project, including donor forms.</p>
             </div>
           </div>
           <hr>
@@ -208,21 +196,19 @@ extra_js:
               </div>
             </div>
             <div class="col-lg-8 col-md-9 col-sm-8 text-left">
-              <p><b>The Catalog</b> is a clearinghouse for tweet identifier
-              datasets. Sharing tweet ids is a practice that is encouraged by 
+              <p><b>The Catalog</b> is a community-sourced clearinghouse for tweet identifier
+              datasets. Sharing tweet ids is a practice that is encouraged by
               Twitter as a way to share research data without negatively
               affecting users ability to have their data deleted or hidden from
-              the web.</p>
+              the web. We welcome your contributions!</p>
               <ul>
-                <li>&nbsp;Displays essential metadata needed for understanding
-                  how datasets were assembled, who did the collecting, and when
-                  they did it</li>
+                <li>&nbsp;Describes how datasets were assembled, who collected them, and when</li>
                 <li>&nbsp;Links to institutional repositories around
                   the world where datasets are stored</li>
                 <li>&nbsp;Allows users to easily upload their own dataset
                   descriptions</li>
                 <li>&nbsp;Datasets can be "hydrated" into Twitter data using
-                  twarc, Hydrator or other Twitter API tools</li>
+                  twarc, Hydrator or other tools</li>
               </ul>
             </div>
           </div>
@@ -246,15 +232,14 @@ extra_js:
             <div class="col-lg-6">
               <h3>Conversation</h3>
               <p>Our <b>online community</b> has more than 600 active members, discussing topics around archiving social media:
-                ethics, technical approaches, research, and practice in the field. <a href"/">Join us</a> on Slack. Follow us at <a href="/">@documentnow</a> on Twitter to follow
+                ethics, technical approaches, research, and practice in the field. <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3E7PAXPoT-XoedpEy9UCTpDPS8kPj5JkMwpaWbuqVP0bTrQ/viewform">Join us</a> on Slack. Follow us at <a href="https://twitter.com/documentnow">@documentnow</a> on Twitter to follow
                 our work and participate in hosted conversations by following <a href="https://twitter.com/search?q=%23docnowcommunity&src=typed_query">#docnowcommunity</a>.</p>
             </div>
           </div>
           <div class="row">
             <div class="col-lg-offset-1 col-lg-6"><br>
               <h3>Workshops</h3>
-              <p>Documenting the Now runs workshops with activist groups around the country, co-learning and training on activist needs and concerns
-                in documenting their work and controlling their narrative. Past workshops have included partners Pettypropolis in Detroit, MI, Texas
+              <p>Documenting the Now runs workshops with activist groups around the country, co-learning and providing training to address activists’ needs and concerns in documenting their work and controlling their narrative. Past workshops have included partners Pettypropolis in Detroit, MI, Texas
                 After Violence in Austin, TX, Don't Shoot PDX in Portland, OR, and the Southern California Library in Los Angeles, CA. If you are interested
                 in conducting a workshop, contact us at <a href="mailto:info@docnow.io">info@docnow.io</a>.</p>
             </div>
@@ -271,9 +256,8 @@ extra_js:
             </div>
             <div class="col-lg-6">
               <h3>Support</h3>
-              <p>Through our community outreach, we have learned that a primary need of activist communitities is support in archiving their work. <b>
-              Archivists Supporting Activists (ASA)</b> is a peer-matching network designed to help activists find archivists willing to assist them and hold themselves to a standard
-            of non-extractive archival practice. <a href="/">Find an archivist</a> who can help you achieve your goals, or <a href="/">sign up</a> to volunteer your skills.</p>
+              <p>Through our community outreach, we have learned that a primary need of activist communities is support in archiving their work. <b>
+              Archivists Supporting Activists (ASA)</b> is a peer-matching network designed to help activists find archivists that hold themselves to a standard of non-extractive archival practice to support their archival needs. <a href="/archivists-supporting-activists/">Find an archivist</a> who can help you achieve your goals, or <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5EDqQg45NB2ZrUk42_GOghUPhcyqMJor8BSXj-p1Q4FK7ng/viewform">sign up</a> to volunteer your skills.</p>
             </div>
           </div>
           <div class="row">
@@ -299,17 +283,20 @@ extra_js:
             <br><br><br>
             <h2>News</h2>
             <br>
+            <div class="col-lg-12 text-left">
+              <p class="bigp">The best way to follow Documenting the Now news is to follow our <a href="https://news.docnow.io">Medium blog</a>.</p>
+                <br>
+            </div>
+            <h3>Press</h3>
               <div class="col-lg-12 news-items">
-                  06/2021 <a href="https://news.docnow.io/counting-tweets-8070b255a864">"Counting Tweets"</a> blog post by Ed Summers<br>
-                  06/2021 <a href="https://news.docnow.io/documenting-events-13369d471608">"Documenting Events"</a> blog post by Ed Summers<br>
-                  04/2021 <a href="https://news.docnow.io/twarc2-779278e66ea0">"twarc2"</a> blog post by Ed Summers<br>
-                  01/2021 <a href="https://news.docnow.io/trumps-tweets-2d3f348ccd24">"Trump's Tweets"</a> blog post by Ed Summers<br>
-                  09/2020 <a href="https://news.docnow.io/disinformation-metadata-25b123bdd993">"Disinformation Metadata"</a> blog post by Ed Summers<br>
                   06/2020 <a href="https://datasociety.net/announcements/2020/06/11/introducing-the-2020-21-data-society-faculty-fellows/">Introducing the 2020-21 Data &amp; Society Faculty Fellows</a>: Documenting the Now Co-PI Meredith Clark to work with Data &amp; Society.<br>
                   06/2020 <a href="/archivists-supporting-activists/">Archivists Supporting Activists</a> launched by Documenting the Now in the wake of the murder of George Floyd to help coordinate memory work in activist groups who are demanding racial justice.<br>
+                  05/2020 <a href="https://www.chronicle.com/article/Historical-Archives-Once/248693">Historical Archives Once Silenced Marginalized Voices. Now Pandemic Archivists Want Them to Be Heard</a> by Marc Parry, The Chronicle of Higher Education.<br>
+                  05/2020 <a href="https://www.motherjones.com/coronavirus-updates/2020/05/how-are-we-going-to-look-back-on-this-time-oral-historians-record-daily-life-during-covid-19/">“How Are We Going to Look Back on This Time?” Oral Historians Record Daily Life During COVID-19</a> by Molly Schwartz, Mother Jones.<br>
+                  04/2020 <a href="https://bit.ly/doc-covid19">Documenting COVID-19</a>: a crowd sourced guide to Coronavirus documentation efforts initiated by Documenting the Now.<br>
 <br>
                 <div class="text-center">
-                  <a href="{{ site.baseurl }}/news">  <button class="btn"> More News</button></a>
+                  <a href="{{ site.baseurl }}/news">  <button class="btn"> More Press</button></a>
               </div><br><br>
         </section>
       </div>
@@ -320,14 +307,14 @@ extra_js:
             <div class="col-lg-4 col-md-4 col-sm-6">
              <div class="person">
               <img class="img-responsive center-block" src="{{ site.baseurl }}/img/meredith.jpg" alt="Doctor Meredith Clark" /><br>
-              <a href="mailto:mdc6j@virginia.edu">Dr. Meredith Clark</a><br>
+              <a href="mailto:clark.meredithd@gmail.com">Dr. Meredith Clark</a><br>
               Academic Lead, Co-Principal Investigator
              </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6">
             <div class="person">
                <img class="img-responsive center-block" src="{{ site.baseurl }}/img/bergis.jpg" alt="Bergis Jules" /><br>
-               <a href="mailto:bergis.jules@shiftdesign.org">Bergis Jules</a><br>
+               <a href="mailto:bergis.jules@shiftcollective.us">Bergis Jules</a><br>
                Project Director, Co-Principal Investigator
             </div>
           </div>
@@ -342,49 +329,31 @@ extra_js:
             <div class="row text-center">
               <div class="col-lg-4 col-md-4 col-sm-6">
                   <div class="person">
-                      <img class="img-responsive center-block" src="{{ site.baseurl }}/img/micha.jpg" alt="Micha Broadnax" /><br>
-                      Micha Broadnax<br>
-                      Community Workshop Trainer<br>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6">
-                  <div class="person">
                       <img class="img-responsive center-block" src="{{ site.baseurl }}/img/collier.jpg" alt="Zakiya Collier" /><br>
-                      Zakiya Collier<br>
+                      <a href="mailto:Zakiya.collier@shiftcollective.us">Zakiya Collier</a><br>
                       Community Manager<br>
                   </div>
               </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="person">
                         <img class="img-responsive center-block" src="{{ site.baseurl }}/img/alex.jpg" alt="Alexandra Dolan-Mescal" /><br>
-                        Alexandra Dolan-Mescal<br>
+                        <a href="mailto:alex@docnow.io">Alexandra Dolan-Mescal</a><br>
                         UX and Web Designer<br>
-                    </div>
-                </div>
-              </div>
-              <div class="row text-center">
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="person">
-                        <img class="img-responsive center-block" src="{{ site.baseurl }}/img/jmdrake.jpg" alt="Jarrett Drake" /><br>
-                        Jarrett Drake<br>
-                        Community Workshop Trainer<br>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="person">
                         <img class="img-responsive center-block" src="{{ site.baseurl }}/img/francis.jpg" alt="Francis Kayiwa" /><br>
-                        Francis Kayiwa<br>
+                        <a href="mailto:francis@docnow.io">Francis Kayiwa</a><br>
                         DevOps Engineer
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="person">
-                        <img class="img-responsive center-block" src="{{ site.baseurl }}/img/jes.jpg" alt="Jes Neal" /><br>
-                        Jes Neal<br>
-                        Community Workshop Trainer
-                    </div>
+              </div>
+              <div class="row">
+                <p>Thanks to our former team members:</p>
+                <p class="small"><b>Trevor Muñoz</b>, Administrative Lead 2018-2021, <b>Raff Viglianti</b>, Developer 2019-2021, <b>Micha Broadnax</b>, Community Trainer 2018-2020, <b>Jarrett Drake</b>, Community Trainer 2018-2020, <b>Jes Neal</b>, Community Trainer 2018-2020, <b>T'Sey-Haye Preaster</b>, Project Manager 2018-2020, <b>Vernon Mitchell</b>, Administrative Lead 2017, <b>Timothy Cole</b>, Project Manager 2017,
+                  <b>Chris Freeland</b>, Administrative Lead 2016, <b>Desiree Smith-Jones</b>, Project Manager 2016, <b>Dan Chudnov</b>, Data Engineer 2016-2017.</p>
                 </div>
-          </div>
         </section>
         <div class="container">
 <h2>Contact Us</h2>
