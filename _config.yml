@@ -4,7 +4,8 @@ description: >
   Documenting the Now develops tools and builds community practices that
   support the ethical collection, use, and preservation of social media
   content.
-baseurl: "/docnow.github.io"
+baseurl: ""
+url: "https://www.docnow.io"
 markdown: kramdown
 
 include:
