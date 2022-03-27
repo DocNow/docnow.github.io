@@ -1,11 +1,10 @@
 title: Documenting the Now
 email: info@docnow.io
-description: > 
-  Documenting the Now develops tools and builds community practices that  
-  support the ethical collection, use, and preservation of social media 
+description: >
+  Documenting the Now develops tools and builds community practices that
+  support the ethical collection, use, and preservation of social media
   content.
-baseurl: ""
-url: "http://www.docnow.io"
+baseurl: "/docnow.github.io"
 markdown: kramdown
 
 include:
@@ -17,4 +16,4 @@ ignore:
 keep_files:
   - .dat
   - dat.json
-  - videos  
+  - videos

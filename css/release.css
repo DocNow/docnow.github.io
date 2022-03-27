@@ -28,7 +28,7 @@ body {
 
 .desc {
     position: fixed;
-    left: 140px;
+    left: 150px;
     font-size: 22pt;
     font-weight: 600;
     top: 100px;
@@ -43,8 +43,7 @@ body {
 }
 
 .navbar {
-    background-color: transparent;
-    background: transparent;
+    background-color: 000;
     border-color: transparent;
 }
 
@@ -92,6 +91,8 @@ body {
       }
     }
 
+
+
 .bluesection {
   background-color: #aeecfd;
   padding-bottom: 20px;
@@ -111,73 +112,39 @@ body {
 a:hover {
   font-weight: 600;
 }
-
-#about a {
+.container a {
   color: black;
   background-color: yellow;
 }
 .btn {
   margin-top: 20px;
   margin-bottom: 10px;
-  border: 2px solid black;
-  border-radius: none;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   text-transform: uppercase;
   font-weight: 600;
-  min-width: 100px;
 }
 .btn:hover {
   background-color: black;
-  color: white;
+  color: yellow;
 }
 .bigp {
   font-size: 22pt;
   font-weight: 600;
 }
 
-#the-team a {
-  color: black;
-  background-color: none !important;
-}
-#the-team a:hover {
-  text-decoration: underline !important;
-}
 
-#workshops a, #tools p a {
-  color: black;
-  background-color: yellow;
-}
-#tools ul a {
-  color: black;
-  background-color: yellow;
+
+  .local {
+    border-right: 2px solid #000;
+  }
+.border img {
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  max-width: 75%;
 }
 
- #community a {
-   color: black;
-   background-color: yellow;
- }
-
- #community img {
-   border: solid 10px white;
- }
-
-  #advisory-board a {
-    color: black;
-    background-color: yellow;
-  }
-  #news a {
-    color: black;
-    background-color: yellow;
-  }
-
-#tools ul {
-    list-style: none;
-  }
-
-#tools  ul li:before {
-    content: '✓   ';
-  }
-  a img:hover {
-    opacity: 50%;
-  }
+.padding {
+  padding: 10px;
+}
